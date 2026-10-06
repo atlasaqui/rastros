@@ -2,7 +2,7 @@
 
 <p align="center"><strong>O que esperar de um recomeço?</strong></p>
 <p align="center">Investigação · Terror psicológico · Uma experiência narrativa para Windows</p>
-<p align="center"><a href="https://atlasaqui.itch.io/rastros"><strong>Baixar e jogar no itch.io</strong></a> · <a href="#como-executar-o-código">Executar o código</a> · <a href="docs/ARQUITETURA.md">Arquitetura</a></p>
+<p align="center"><a href="https://atlasaqui.itch.io/rastros"><strong>Baixar e jogar no itch.io</strong></a> · <a href="https://github.com/atlasaqui/rastros/releases/tag/v1.0.3">Windows no GitHub</a> · <a href="#como-executar-o-código">Executar o código</a> · <a href="docs/ARQUITETURA.md">Arquitetura</a></p>
 
 ## A viagem
 
