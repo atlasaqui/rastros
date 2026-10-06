@@ -39,7 +39,7 @@ O roteiro final mantém a pergunta da Sombra, a lembrança de Murilo sobre Renat
 ## Créditos
 
 - Narrativa — Amanda Queiroz
-- Arte 2D — Luana Meneguin
+- Arte 2D — Luana Meneghini
 - Game Design e Sound Design — Matheus Medeiros
 - Programação e UX Design — Victor Monteiro
 

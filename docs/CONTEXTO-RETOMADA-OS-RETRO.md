@@ -12,6 +12,6 @@ Conta Pedrosa: 04/06/2000. Arquivos: 415. Relógio: 00:14. Não recolocar FIXO n
 
 O caderno físico é recolhido, desaparece da mesa e conserva a anotação original 04/06/2000 - motivação?. Argolas no topo. Objetivos indiretos e histórico persistente.
 
-Preservar áudio e cronologia. Fuga em cinco vagões top-down, mãos laterais e vulto após dois segundos. Final automático com música contínua de 137 segundos. Créditos Amanda Queiroz, Luana Meneguin, Matheus Medeiros e Victor Monteiro.
+Preservar áudio e cronologia. Fuga em cinco vagões top-down, mãos laterais e vulto após dois segundos. Final automático com música contínua de 137 segundos. Créditos Amanda Queiroz, Luana Meneghini, Matheus Medeiros e Victor Monteiro.
 
 Para futuras mudanças, usar os fontes desta entrega e consultar ATUALIZACAO-OS-RETRO.md e os relatórios novos. O histórico disponível não inclui todos os anexos privados nem alguns blocos de prompt, portanto os arquivos de roteiro e a versão .91 são a referência material, além das instruções explícitas do usuário no histórico.

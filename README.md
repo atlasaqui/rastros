@@ -92,6 +92,8 @@ flowchart LR
 
 A WebView carrega os arquivos compilados da interface **localmente**. A ponte `window.bridge` permite que JavaScript solicite ao Java operações como salvar progresso e tocar áudio. O código da interface pode ser desenvolvido com ferramentas web, mas a distribuição do jogo é um aplicativo desktop.
 
+Versões declaradas: React 18.3.1, JavaFX 21.0.2, Gson 2.11.0 e esbuild 0.21.5. O frontend também inclui Framer Motion e scripts alternativos com Vite.
+
 ### Processo de construção
 
 1. **Roteiro e dados:** cenas, diálogos, documentos e objetivos foram organizados em dados separados dos componentes.
@@ -154,7 +156,7 @@ npm test
 
 Há testes para progressão, save, puzzles, colisões e dados compartilhados. Testes de integração na WebView estão em `frontend/tests/*smoke.js` e exigem um cenário de teste apropriado; alguns scripts manipulam partidas de teste e podem conter spoilers.
 
-Na preparação desta publicação, os testes de regras e os builds são conferidos localmente. Isso não substitui testes manuais em outras máquinas, de desempenho ou de acessibilidade. Os relatórios históricos em `docs/` registram verificações de versões específicas.
+Na preparação desta publicação, **70 testes passaram**, a interface foi compilada e o Maven compilou os nove arquivos Java. Isso não substitui testes manuais em outras máquinas, de desempenho ou de acessibilidade. Os relatórios históricos em `docs/` registram verificações de versões específicas.
 
 ## Estrutura e extensão
 
