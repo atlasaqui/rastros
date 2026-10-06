@@ -1,0 +1,1 @@
+JAVA_FX_SMOKE PASS: PASS: returning to notebook with previously read Tata already selected records scoreReviewedAfterPiano without selecting gallery.

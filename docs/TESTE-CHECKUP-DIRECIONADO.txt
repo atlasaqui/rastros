@@ -1,0 +1,1 @@
+JAVA_FX_SMOKE PASS: PASS: clock open/close/reopen, 60 rapid edits, wrong/correct answer, legacy native arrow key and completed transition; native cursor data URL without moving overlay; 15 supplied piano sounds; guide at two resolutions; numeric JavaFX keys solve from focused button.

@@ -1,0 +1,1 @@
+JAVA_FX_SMOKE PASS: PASS: red collected-table patch rendered in native WebView; all 119000 pixels use black/red palette, table lines remain and no CSS color filter is used and outside edges are transparent.

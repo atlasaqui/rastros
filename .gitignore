@@ -1,0 +1,16 @@
+node_modules/
+target/
+frontend/.portable/
+src/main/resources/web/
+.chatgame-webview/
+.chatgame-smoke/
+test-results/
+test-save/
+dist/
+*.log
+.env
+.env.*
+!.env.example
+__pycache__/
+.DS_Store
+Thumbs.db

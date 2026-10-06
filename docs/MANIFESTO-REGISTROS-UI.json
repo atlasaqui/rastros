@@ -1,0 +1,33 @@
+{
+  "base": "Rastros-OS-Retro-Fontes.zip",
+  "alterados": [
+    "frontend/src/App.jsx",
+    "frontend/src/components/ContinuationApps.jsx",
+    "frontend/src/components/EscapeGame.jsx",
+    "frontend/src/main.jsx",
+    "frontend/src/systems/continuationSystem.js",
+    "frontend/src/systems/messengerSystem.js",
+    "frontend/src/systems/thoughtSystem.js",
+    "frontend/tests/continuation.test.mjs",
+    "frontend/tests/review2026.test.mjs",
+    "frontend/tests/revision.test.mjs",
+    "frontend/tests/webview-smoke.js",
+    "src/main/resources/web/index.html"
+  ],
+  "criados": [
+    "docs/ATUALIZACAO-REGISTROS-UI.md",
+    "docs/DIAGNOSTICO-TECLADO-ANTES.txt",
+    "docs/MANIFESTO-REGISTROS-UI.json",
+    "docs/TESTE-REGISTROS-FLUXO.txt",
+    "docs/TESTE-REGISTROS-REABERTURA.txt",
+    "docs/TESTE-REGISTROS-TECLADO-WEBVIEW.txt",
+    "docs/TESTES-REGISTROS-UNITARIOS.txt",
+    "frontend/src/styles/worldUnified.css",
+    "frontend/src/systems/keyboardSystem.js",
+    "frontend/tests/ending-registros-fixture.json",
+    "frontend/tests/keyboard-fixture.json",
+    "frontend/tests/keyboard-webview-smoke.js",
+    "frontend/tests/native-keyboard-smoke.js"
+  ],
+  "removidos": []
+}

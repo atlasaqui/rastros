@@ -1,0 +1,1 @@
+JAVA_FX_SMOKE PASS: PASS: final evidence labels avoid the central aisle at 1280x720, 820x900, 1920x1080; target corners use opposite scene tone; original black cursor on white at 46px; latest source build rendered in native Windows.

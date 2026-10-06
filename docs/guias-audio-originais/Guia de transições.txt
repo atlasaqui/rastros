@@ -1,0 +1,11 @@
+Notas para músicas
+
+Ao iniciar o jogo no menu principal, o EFEITO "4 - BUZINA TREM INÍCIO" tocará, com duração de 4 segundos em uma tela preta sem nada escrito, após esse tempo, a escrita "O que esperar de um recomeço?" aparecerá no centro da tela em um fade-in de 1 segundo. No momento que o fade-in começa, a música "33 - ABERTURA" deve iniciar ao mesmo tempo. Essa música tem o total de 8 segundos, e aos 5 segundos, a tela preta deve começar um fade-out de 1 segundo para o ESTÁGIO 1, com a música "34 - ESTÁGIO 1" começando a tocar aos 5.5 segundos.
+
+A MÚSICA "24 - ESTÁGIO 2" deve começar 2.5 segundos após a "20 - TRANSIÇÃO 1-2"
+
+A MÚSICA "25 - ESTÁGIO 3" deve começar 1.5 segundos após a "20 - TRANSIÇÃO 2-3"
+
+A MÚSICA "26 - ESTÁGIO 4" deve começar 4 segundos após a "20 - TRANSIÇÃO 3-4"
+
+A MÚSICA "27 - ESTÁGIO 5" deve começar 0.5 segundos após a "20 - TRANSIÇÃO 4-5"

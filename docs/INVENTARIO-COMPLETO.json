@@ -1,0 +1,537 @@
+[
+  {
+    "arquivo": "frontend/src/assets/vagao-notebook.png",
+    "bytes": 1620499,
+    "sha256": "fdf120453b45ebce8e279235f79509930259e7f8ecadc4eefb1e42691be071df"
+  },
+  {
+    "arquivo": "frontend/src/assets/vagao1.png",
+    "bytes": 80333,
+    "sha256": "50a29ea163ba5aacddf4ebd0b18486eb33dd4f941b2c5661b7cc822c8158821c"
+  },
+  {
+    "arquivo": "frontend/src/assets/os/OS  - Icons.jpg",
+    "bytes": 2052507,
+    "sha256": "339ca19ea062c87ce6f2d99442fbc5a26b1873810e3990349b43574b0d2e938b"
+  },
+  {
+    "arquivo": "frontend/src/assets/os/OS - Cursor.jpg",
+    "bytes": 1963305,
+    "sha256": "9e0eb746b21c308b833516495759586bda46b5ebc5e36898d2dfa5d9731816fb"
+  },
+  {
+    "arquivo": "frontend/src/assets/os/OS - Icons Complete Library.jpg",
+    "bytes": 2621437,
+    "sha256": "88e22a637dbb31053326608da51d414b5812ed643fabe427d5131061cc863f03"
+  },
+  {
+    "arquivo": "frontend/src/assets/os/OS - LOGIN.jpg",
+    "bytes": 2499963,
+    "sha256": "12c385eae707e55243fc3a96daabb7a8e2bbc025fc8f7c44f8dbf4c5b2920214"
+  },
+  {
+    "arquivo": "frontend/src/assets/os/OS - MSN.jpg",
+    "bytes": 2023806,
+    "sha256": "c46fcf282d99b5cb78c6649cb5d003fdbcd7e88fde2c4d0e79ceab2c62a82202"
+  },
+  {
+    "arquivo": "frontend/src/assets/os/OS - My Computer.jpg",
+    "bytes": 2096065,
+    "sha256": "dc5af254f1d65cebc74802fe9e3d03e118c5cd111bbfe2982fbae69673401fef"
+  },
+  {
+    "arquivo": "frontend/src/assets/os/OS - Popups.jpg",
+    "bytes": 2194302,
+    "sha256": "bee683249fcb040fd58529e30233ad9a9d192180ffb312b89ba72a4543fe753f"
+  },
+  {
+    "arquivo": "frontend/src/assets/os/OS - UI Control.jpg",
+    "bytes": 1928625,
+    "sha256": "b19e9733cbe150c8b40e86665db79cf1d38e4079e07d544a843446853a531742"
+  },
+  {
+    "arquivo": "frontend/src/assets/os/OS - Window Library.jpg",
+    "bytes": 2203923,
+    "sha256": "966830b31065c649e14ba5538d4e211f49c0a2945b59b8fc968fa794703b2819"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/cortina fechada objeto branco.jpg",
+    "bytes": 1978801,
+    "sha256": "4311f6c811dc5f0c2677aa98df7625ed152910a837cfadb19dc0d0c1b43826ad"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/cortina fechada objeto preto.jpg",
+    "bytes": 1962012,
+    "sha256": "61e37356ad4314213e3739c3215b71f1370bcf109f68d53b1137d5a0613c8b1a"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/relógio vagão dois branco.jpg",
+    "bytes": 490075,
+    "sha256": "3c7be32200bf0e3461e3e3f65e60d9d24ca23174b7cf6475b0c8571b861c48a0"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/relógio vagão dois preto.jpg",
+    "bytes": 491922,
+    "sha256": "cb43af3705a8598c210556c99558f02cf70737ec156af7e98968bd4486c2a11a"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/relógio vagão dois vermelho.jpg",
+    "bytes": 551429,
+    "sha256": "540bb1b7e3159532480ea04932deb7553aa605f5a804168cc0d4eed4254ebf13"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/relógio vagão três branco.jpg",
+    "bytes": 490075,
+    "sha256": "3c7be32200bf0e3461e3e3f65e60d9d24ca23174b7cf6475b0c8571b861c48a0"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/relógio vagão três preto.jpg",
+    "bytes": 491922,
+    "sha256": "cb43af3705a8598c210556c99558f02cf70737ec156af7e98968bd4486c2a11a"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/relógio vagão três vermelho.jpg",
+    "bytes": 551429,
+    "sha256": "540bb1b7e3159532480ea04932deb7553aa605f5a804168cc0d4eed4254ebf13"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/relógio zoom branco.jpg",
+    "bytes": 458448,
+    "sha256": "a919e35a22b5f80581b7da373280ec8a2df61cbf26ffd33d2f49a6287572199b"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/relógio zoom preto.jpg",
+    "bytes": 440945,
+    "sha256": "5f8f0735fcc0b023571dfe005d652d0e70848db9a050a590e06bc559cb998fa1"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/relógio zoom vermelho.jpg",
+    "bytes": 535561,
+    "sha256": "b6afde2f27d89174eb369abac1d147f225cfd7e2a70e5a663b5dcd54348fe4e6"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/tela branca vagão.jpg",
+    "bytes": 568013,
+    "sha256": "93a6c765e9b2eda3f285584ae502581602a20893d12dcc30f8089559bee0d2cd"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/tela preta vagão.jpg",
+    "bytes": 545181,
+    "sha256": "30a5ecfe4580cd01eb425d3dc8cf15d734181b23eaa1592077c0f790b2e8678c"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/tela vermelha vagão.jpg",
+    "bytes": 667112,
+    "sha256": "13d0f84a7ccb68bd1082a59198c1fe6dc73820914ce824371a32ecb76bc82ea9"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/vagão branco.jpg",
+    "bytes": 1677496,
+    "sha256": "fe75b3c2b381f83b5f5afd010a7e3ec027ed7a9f8318915315595b200811f21e"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/vagão dois branco relógio.jpg",
+    "bytes": 1986952,
+    "sha256": "495c15eb657d190c75d8938731ce08d446943cc50280fe1973d5e03aa5b2fcee"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/vagão dois branco.jpg",
+    "bytes": 1989143,
+    "sha256": "0919cb1e98123d9603fbfa4a9231ccb813c8b7980d1b2b400718a90144ba6ccd"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/vagão dois preto relógio.jpg",
+    "bytes": 1969805,
+    "sha256": "5b92b86ab5a96dcbdb106fb0f9a0f818e4900be03e4e24663490a174b64533a8"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/vagão dois preto.jpg",
+    "bytes": 1963038,
+    "sha256": "b2c8ffb03dd213a073fc2f940bd661f63e0c5ea52a336df22d821d64f5dc6ab7"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/vagão dois vermelho.jpg",
+    "bytes": 2218701,
+    "sha256": "57a9bd9721ceb77980b21f5ab24caeca2318e62e0631e77b36c1a828a349be0c"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/vagão preto.jpg",
+    "bytes": 1872644,
+    "sha256": "dae52834cbd763191f8302519c437d2fa39f4ac436e3df03f75df54a2e78c721"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/vagão quatro alucinação.jpg",
+    "bytes": 2135446,
+    "sha256": "5e6c766081879ea61a382377ee605f1f6bef21d8b032f052cc9fda5f4a28461c"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/vagão três branco.jpg",
+    "bytes": 1795872,
+    "sha256": "676f4e7541dc858ded1d61044c8881c63af19f895aba9b73a50b4aeac93e5fa3"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/vagão três preto.jpg",
+    "bytes": 1982565,
+    "sha256": "170ded14cc2b9a07b4e2911e118058c089a3d36b92ae8fb401af4e66d3e059d1"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/vagão três vermelho.jpg",
+    "bytes": 2195429,
+    "sha256": "a5f658028bdb7f40ef859b27c3a59d7b07f3ebeb6809cfcf5ea5d4c5aec22084"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/vagão um branco.jpg",
+    "bytes": 1726446,
+    "sha256": "5aa02eec74644377ca4d362fe103407bdb60f9b8c976732cfed2324e6fe6ac0c"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/vagão um preto.jpg",
+    "bytes": 1935787,
+    "sha256": "adfd2d5840e34fe27508defd74e5e94158d9ccc8897516c87d66d2a911149e9b"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/vagão um vermelho.jpg",
+    "bytes": 2145054,
+    "sha256": "d303a459ad7c2e12630e57c7368488ce3b6ab7127c588ced1bc2f0c55bc43c70"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/vagão-1 branco.jpg",
+    "bytes": 1978801,
+    "sha256": "4311f6c811dc5f0c2677aa98df7625ed152910a837cfadb19dc0d0c1b43826ad"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cenários/vagão-1 preto.jpg",
+    "bytes": 1962012,
+    "sha256": "61e37356ad4314213e3739c3215b71f1370bcf109f68d53b1137d5a0613c8b1a"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cursor/cursor branco.png",
+    "bytes": 592800,
+    "sha256": "5e560ba001774fe1882225d045143d3537ca7a65789c5733210d3f2d157186a9"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cursor/cursor preto.png",
+    "bytes": 455003,
+    "sha256": "acedb9b2b2ddfae35086a8bd6bccfad0124342baf35c33fccb1312ac8a39ba79"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cursor/cursor vermelho.png",
+    "bytes": 456012,
+    "sha256": "8e00bfc0e60e3a93914e1b75b60b23d0bafaf0d16f2c1c6489e1148387e07fbe"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cursor/pegar branco.png",
+    "bytes": 609917,
+    "sha256": "1ca8ca9cec91cbe679319079203b2a1a0f0f386e9b5351858362736f1e6c44d7"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cursor/pegar preto.png",
+    "bytes": 454574,
+    "sha256": "27487592beec667aaba35e8ff7153ae18f144c1d5ce4cb06cca810616f9bc955"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/cursor/pegar vermelho.png",
+    "bytes": 453583,
+    "sha256": "adb1129bd4e246d127410e55b2d38825c8c179fca290cc623972635af80c84b8"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc cinco branco.png",
+    "bytes": 158299,
+    "sha256": "eff08b16b13df2e6eba187cf8c5da593c081eb3b9e7467a35a861198085d5891"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc cinco preto.png",
+    "bytes": 153690,
+    "sha256": "fee1e718d8eabd2902959665a036470200cd624e4eae601a7ae39e1f7171c71f"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc cinco vermelho.png",
+    "bytes": 155716,
+    "sha256": "63bd4052eb3fee51beda60612a251308863db916f62f5562dd3933954b0149cf"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc dez branco.png",
+    "bytes": 258458,
+    "sha256": "e6caa474e37762b95e3afbac2c23032b2667b5bcc303ae95db957cfcb91aaf3a"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc dez preto.png",
+    "bytes": 197697,
+    "sha256": "45dd4576750a70c2d5d223d769f594f38eab50b9e87d24fc2dab4c955e2ae1b7"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc dez vermelho.png",
+    "bytes": 196802,
+    "sha256": "df2c8fae4b2089343c634ca4534e8cbb8f3290526bb015ad8d9baee21be8a769"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc dois branco.png",
+    "bytes": 162109,
+    "sha256": "32d4112eac6045e0896d22dc172dcabb7ee82ccb419591f9b74b2a9b27779468"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc dois preto.png",
+    "bytes": 155314,
+    "sha256": "7e2bf6267628696c43b9b4a1daf19093eb44c755340e69a76806304e831e6dfe"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc dois vermelho.png",
+    "bytes": 156090,
+    "sha256": "b222c86ef1a823dd11fa743c0e89269118e989318968aea4f3a6948ce7d31067"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc nove branco.png",
+    "bytes": 175305,
+    "sha256": "183fa6eff336dbcc553eb9a7925665b2ca4cfe8c7ec3ea8a820e5d0bbd1028b0"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc nove preto.png",
+    "bytes": 207023,
+    "sha256": "93044d139043c5ec7c4d9b000916386e14e3c554af2413fd6c1b98496834b83e"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc nove vermelho.png",
+    "bytes": 176679,
+    "sha256": "d558828b9897ad610223d489b76bd3dcaff430bd54ec48f1386fa8c49d409f16"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc oito branco.png",
+    "bytes": 246451,
+    "sha256": "bc69d69bbc28329dc634e1f89e4012a6095e95bb806e4cd7218bdfbcabaa745e"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc oito preto.png",
+    "bytes": 185317,
+    "sha256": "4a41c0b6ab6de2b6babd5f57e003953ea44ed6d5864a67e6283d96f4d0902dc3"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc oito vermelho.png",
+    "bytes": 189153,
+    "sha256": "f293c4b65d7a35a00ecc16b9dd83fa456e8c87bd2fe1a2d253a1074b526ffda2"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc quatro branco.png",
+    "bytes": 157317,
+    "sha256": "539778c4115ecdc7592ffa652b9515fa372f89e8b217f94074598c911a8207e1"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc quatro preto.png",
+    "bytes": 153076,
+    "sha256": "3af5745c25f63e379f729263d6a38503ef2b89f284e48f4822523a9ee4dd8b9f"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc quatro vermelho.png",
+    "bytes": 155444,
+    "sha256": "1996d8795b3983b320ce4cccb28aab3386cf1e84941385393b3cf91931960679"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc seis branco.png",
+    "bytes": 168414,
+    "sha256": "f1c54a6138f90fc686c2d119be46dbf6f4fca50abada603dd1e6e8f1c5e95997"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc seis preto.png",
+    "bytes": 157466,
+    "sha256": "763afa5cc813e4ddcb0574ea7ef6b37c277983c11c9dc5ee2874580df7dbc47a"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc seis vermelho.png",
+    "bytes": 159783,
+    "sha256": "a0561a8c6b931a8bbe916e4f01e52a1d133d87727628bf0e2b6863570bf8830a"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc sete branco.png",
+    "bytes": 167602,
+    "sha256": "c24e5b30982966e937113b308f6b0bb91b5569350e7454de15a3bc9c92e284fb"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc sete preto.png",
+    "bytes": 156532,
+    "sha256": "6f9c672929390b072933be30285129f200d7f614c41bb84a8439061dc43e56da"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc sete vermelho.png",
+    "bytes": 159355,
+    "sha256": "c08e567084bdba82fdb668ec4dea39f96ba2b9fad0b262e4ed5f1fe9a2c1a657"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc três branco.png",
+    "bytes": 185685,
+    "sha256": "e038142f4149a21a456fe4ba82ac380e40d8caf72bfd48641dff25d8a375b910"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc três preto.png",
+    "bytes": 163962,
+    "sha256": "c437d9b74c062d09223c86cf9b079648b1968e014ed6d508c617cfda60f45961"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc três vermelho.png",
+    "bytes": 166928,
+    "sha256": "af9c0f426c67e4fc3a1a82a8830afb6969a2e16d5294e29213f323443333f3c9"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc um branco.png",
+    "bytes": 190690,
+    "sha256": "12f9e726db38b8660bb8e0f818de7919aa369b30f7439607ba4f277f388bf163"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc um preto.png",
+    "bytes": 165990,
+    "sha256": "3b4403b57e3b37669b560766e650252f36a4e2dd61dfc7b70e51305a9cf8422a"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/npc um vermelho.png",
+    "bytes": 168953,
+    "sha256": "19a0878ddd3b6204c8b56d6fec12f0664a82a6f1306b057c3a8ada82b862a0a8"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/NPCs/sombra.png",
+    "bytes": 173610,
+    "sha256": "74cc6ee66a702b8e5d0d8f43e6b47380992dc853d89ad65f378ac0a626e288f3"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/bloco de notas branco.png",
+    "bytes": 1281082,
+    "sha256": "be5913fb3abac6406038d1d13f34112e1d3fac85fd795276fda2e5dadd29df27"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/bloco de notas preto.png",
+    "bytes": 648191,
+    "sha256": "8c760bcf060d9bbb3553462b464c6f45f1f32ad2a491916c57883aef2786dfbc"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/bloco de notas vermelho.png",
+    "bytes": 623161,
+    "sha256": "00d3ab20ed50a4ec14e76c7f3f054b34140b27669527492f17e9dbc92424aeec"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/caneta branca.png",
+    "bytes": 519659,
+    "sha256": "4ff3df49f1c2f6c3b41765e4fa5be3004b532a831257941253c28d8784718451"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/caneta preta.png",
+    "bytes": 416411,
+    "sha256": "e18990a31c8a3083d742e83c170b2381057d9fb2144f81d913b40a15094eaf42"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/caneta vermelha.png",
+    "bytes": 389886,
+    "sha256": "4d2f3bd98af7e8d94e835593aef62e012fbe49ae840c465dd5ad609be94a583c"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/jornal amassado branco.png",
+    "bytes": 1395483,
+    "sha256": "45eb7cb42e600888e3dd730c7b572549adbbd38bb76c05c9578de677791c1432"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/jornal amassado preto.png",
+    "bytes": 740343,
+    "sha256": "9d4f5ff71214b9b5166bc9463c4a52229aed1dbad61b02fada4b7a9c4ee4af4d"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/jornal amassado vermelho.png",
+    "bytes": 287691,
+    "sha256": "81ae0f322c7bf6dc2ba4d8bfa275b6d78a164598750f617a7fbb1e23ae6e8c6b"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/notebook branco.png",
+    "bytes": 1094440,
+    "sha256": "a996a3b10af191a807ab4bdec23f714900cf432841ec33839417dedaf1c2b80d"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/notebook preto.png",
+    "bytes": 499507,
+    "sha256": "e4b2113e8a8a30aed47f20024f98a757cedcdf2edd3f2a6533b6cea90b2a0f73"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/notebook vermelho.png",
+    "bytes": 293704,
+    "sha256": "c083f28ee1bf70ec1567d7bb0dc760f01788c4dfde748602b9d891f31ae1b663"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/piano branco.png",
+    "bytes": 725416,
+    "sha256": "a914fcec2ba091d3cad253f90374c6921c54e37523e67e84a93b702f67443c84"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/piano preto.png",
+    "bytes": 415777,
+    "sha256": "b64b52c7b3fd82b3fdd4a82811aca72920881dc561f6efa91dc0c1a07c96806b"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/piano vermelho.png",
+    "bytes": 400254,
+    "sha256": "aa87e28cf4c94362e04ff791efd04639fe01692ee05087c481fe8f46fdf77931"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/ponteiro grande branco.png",
+    "bytes": 313363,
+    "sha256": "68b152ca2f6a742966e818357ef6c8d4d5459d7a85c4ee369f587285197509ba"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/ponteiro grande preto.png",
+    "bytes": 322417,
+    "sha256": "d599f7d47c6a80b06341f52a0f995a7e7844d8833f2b1b9dd2398b0e0f09a5e8"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/ponteiro grande vermelho.png",
+    "bytes": 310238,
+    "sha256": "056e01abad7dafe410bf71429d1b784722f544ee1c495567bf9ea1714a9fb108"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/ponteiro pequeno branco.png",
+    "bytes": 320305,
+    "sha256": "3c7ce729e9ef78e33908f594105d45ff13885f1970b4e4aa90fee01d366c89db"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/ponteiro pequeno preto.png",
+    "bytes": 326069,
+    "sha256": "59f3ffbb5efbad2d5fad3d2135ed20ac1743549c6fb459ee9461397d36ddf97b"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/ponteiro pequeno vermelho.png",
+    "bytes": 321465,
+    "sha256": "25eb32d9fa8e4205d825eca8ace195fe0a74e91b51bf4aa71f807118d2a56a9c"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/relógio branco.png",
+    "bytes": 751175,
+    "sha256": "3d125d1273b4a3cb1b736a8d1c93b82f5046b954b9970cd53c3a6dff440f4731"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/relógio preto.png",
+    "bytes": 480566,
+    "sha256": "7474ee8e5eae4d91666f9c6a642eb04a91ef87b6903cc136492f2d739ada6f41"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/relógio vermelho.png",
+    "bytes": 497654,
+    "sha256": "e3e73e0e1d203ba29ce944119da77ef335b52075edc38c66985fd8386c4b66d6"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/tela branca.png",
+    "bytes": 286256,
+    "sha256": "0bd1a683b2a7792fb4ba9e66a7af19e84ac776747622f4f198db1230dd5c6eff"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/tela preta.png",
+    "bytes": 190009,
+    "sha256": "ce9a7449d849f6c8a17fb832364c8ec17eb08a6ef942eae624f68e2a64b62435"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/objetos/tela vermelha.png",
+    "bytes": 193002,
+    "sha256": "ec06294430923ae8293a94ce0284aacbe33faceeac3ba76e2b4633f2f08c7b2b"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/personagem/mão com sangue.png",
+    "bytes": 223447,
+    "sha256": "dcbd951241e2fee649eab07c395ae1b370e505b7ca5b55fdf72080fee0618cac"
+  },
+  {
+    "arquivo": "frontend/src/assets/gamejam/personagem/mão sem sangue.png",
+    "bytes": 1374067,
+    "sha256": "39c8aa620401c42943d246be6753ff1a8516c42bb2cd8fb6f2ec1df10bf1044b"
+  }
+]

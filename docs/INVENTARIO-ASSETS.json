@@ -1,0 +1,594 @@
+[
+  {
+    "path": "cenários\\vagão branco.jpg",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "bbox": null,
+    "sha256": "fe75b3c2b381f83b5f5afd010a7e3ec027ed7a9f8318915315595b200811f21e"
+  },
+  {
+    "path": "cenários\\vagão dois branco.jpg",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "bbox": null,
+    "sha256": "b29fefa9dc48d90524437d0993236a39b4d419cf124bc03170398fa208193c8e"
+  },
+  {
+    "path": "cenários\\vagão dois preto.jpg",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "bbox": null,
+    "sha256": "b2c8ffb03dd213a073fc2f940bd661f63e0c5ea52a336df22d821d64f5dc6ab7"
+  },
+  {
+    "path": "cenários\\vagão preto.jpg",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "bbox": null,
+    "sha256": "dae52834cbd763191f8302519c437d2fa39f4ac436e3df03f75df54a2e78c721"
+  },
+  {
+    "path": "cenários\\vagão três branco.jpg",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "bbox": null,
+    "sha256": "0a068eef779efd9f6537349e3f73a86d3ae6c4af53d744fd6a265574f965bc9e"
+  },
+  {
+    "path": "cenários\\vagão três preto.jpg",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "bbox": null,
+    "sha256": "4d5e44a05839a2d1e4964d382d5dd5e231d53eb4ae85b534ee26216c9492171c"
+  },
+  {
+    "path": "cenários\\vagão um branco.jpg",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "bbox": null,
+    "sha256": "971085cba7bf8e3122d1162f5d89c5e2f97a2014f9803df767918269bcc36cf6"
+  },
+  {
+    "path": "cenários\\vagão um preto.jpg",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "bbox": null,
+    "sha256": "b1da506b1152e176d062f47cbd7c4ec7534978eb1a12c268880025924bc91fbe"
+  },
+  {
+    "path": "cenários\\vagão-1 branco.jpg",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "bbox": null,
+    "sha256": "4311f6c811dc5f0c2677aa98df7625ed152910a837cfadb19dc0d0c1b43826ad"
+  },
+  {
+    "path": "cenários\\vagão-1 preto.jpg",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "bbox": null,
+    "sha256": "61e37356ad4314213e3739c3215b71f1370bcf109f68d53b1137d5a0613c8b1a"
+  },
+  {
+    "path": "NPCs\\npc cinco branco.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      2118,
+      778,
+      2220,
+      837
+    ],
+    "sha256": "eff08b16b13df2e6eba187cf8c5da593c081eb3b9e7467a35a861198085d5891"
+  },
+  {
+    "path": "NPCs\\npc cinco preto.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      2116,
+      776,
+      2221,
+      839
+    ],
+    "sha256": "fee1e718d8eabd2902959665a036470200cd624e4eae601a7ae39e1f7171c71f"
+  },
+  {
+    "path": "NPCs\\npc dois branco.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      272,
+      667,
+      439,
+      830
+    ],
+    "sha256": "32d4112eac6045e0896d22dc172dcabb7ee82ccb419591f9b74b2a9b27779468"
+  },
+  {
+    "path": "NPCs\\npc dois preto.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      270,
+      666,
+      440,
+      831
+    ],
+    "sha256": "7e2bf6267628696c43b9b4a1daf19093eb44c755340e69a76806304e831e6dfe"
+  },
+  {
+    "path": "NPCs\\npc oito branco.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      1994,
+      920,
+      2952,
+      2160
+    ],
+    "sha256": "bc69d69bbc28329dc634e1f89e4012a6095e95bb806e4cd7218bdfbcabaa745e"
+  },
+  {
+    "path": "NPCs\\npc oito preto.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      1992,
+      919,
+      2954,
+      2160
+    ],
+    "sha256": "4a41c0b6ab6de2b6babd5f57e003953ea44ed6d5864a67e6283d96f4d0902dc3"
+  },
+  {
+    "path": "NPCs\\npc quatro branco.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      840,
+      789,
+      931,
+      849
+    ],
+    "sha256": "539778c4115ecdc7592ffa652b9515fa372f89e8b217f94074598c911a8207e1"
+  },
+  {
+    "path": "NPCs\\npc quatro preto.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      838,
+      787,
+      932,
+      850
+    ],
+    "sha256": "3af5745c25f63e379f729263d6a38503ef2b89f284e48f4822523a9ee4dd8b9f"
+  },
+  {
+    "path": "NPCs\\npc seis branco.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      992,
+      758,
+      1210,
+      1106
+    ],
+    "sha256": "f1c54a6138f90fc686c2d119be46dbf6f4fca50abada603dd1e6e8f1c5e95997"
+  },
+  {
+    "path": "NPCs\\npc seis preto.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      991,
+      757,
+      1212,
+      1108
+    ],
+    "sha256": "763afa5cc813e4ddcb0574ea7ef6b37c277983c11c9dc5ee2874580df7dbc47a"
+  },
+  {
+    "path": "NPCs\\npc sete branco.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      2570,
+      589,
+      2848,
+      857
+    ],
+    "sha256": "c24e5b30982966e937113b308f6b0bb91b5569350e7454de15a3bc9c92e284fb"
+  },
+  {
+    "path": "NPCs\\npc sete preto.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      2569,
+      588,
+      2850,
+      859
+    ],
+    "sha256": "6f9c672929390b072933be30285129f200d7f614c41bb84a8439061dc43e56da"
+  },
+  {
+    "path": "NPCs\\npc três branco.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      1399,
+      655,
+      1563,
+      1192
+    ],
+    "sha256": "e038142f4149a21a456fe4ba82ac380e40d8caf72bfd48641dff25d8a375b910"
+  },
+  {
+    "path": "NPCs\\npc três preto.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      1397,
+      653,
+      1565,
+      1193
+    ],
+    "sha256": "c437d9b74c062d09223c86cf9b079648b1968e014ed6d508c617cfda60f45961"
+  },
+  {
+    "path": "NPCs\\npc um branco.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      774,
+      743,
+      1050,
+      1522
+    ],
+    "sha256": "12f9e726db38b8660bb8e0f818de7919aa369b30f7439607ba4f277f388bf163"
+  },
+  {
+    "path": "NPCs\\npc um preto.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      773,
+      741,
+      1052,
+      1524
+    ],
+    "sha256": "3b4403b57e3b37669b560766e650252f36a4e2dd61dfc7b70e51305a9cf8422a"
+  },
+  {
+    "path": "objetos\\bloco de notas branco.png",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      62,
+      917,
+      2805,
+      3567
+    ],
+    "sha256": "be5913fb3abac6406038d1d13f34112e1d3fac85fd795276fda2e5dadd29df27"
+  },
+  {
+    "path": "objetos\\bloco de notas preto.png",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      60,
+      915,
+      2807,
+      3569
+    ],
+    "sha256": "8c760bcf060d9bbb3553462b464c6f45f1f32ad2a491916c57883aef2786dfbc"
+  },
+  {
+    "path": "objetos\\caneta branca.png",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      2851,
+      1091,
+      4074,
+      3482
+    ],
+    "sha256": "4ff3df49f1c2f6c3b41765e4fa5be3004b532a831257941253c28d8784718451"
+  },
+  {
+    "path": "objetos\\caneta preta.png",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      2850,
+      1090,
+      4075,
+      3483
+    ],
+    "sha256": "e18990a31c8a3083d742e83c170b2381057d9fb2144f81d913b40a15094eaf42"
+  },
+  {
+    "path": "objetos\\jornal amassado branco.png",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      89,
+      825,
+      4015,
+      3536
+    ],
+    "sha256": "45eb7cb42e600888e3dd730c7b572549adbbd38bb76c05c9578de677791c1432"
+  },
+  {
+    "path": "objetos\\jornal amassado preto.png",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      87,
+      823,
+      4017,
+      3538
+    ],
+    "sha256": "9d4f5ff71214b9b5166bc9463c4a52229aed1dbad61b02fada4b7a9c4ee4af4d"
+  },
+  {
+    "path": "objetos\\notebook branco.png",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      472,
+      144,
+      3769,
+      2990
+    ],
+    "sha256": "a996a3b10af191a807ab4bdec23f714900cf432841ec33839417dedaf1c2b80d"
+  },
+  {
+    "path": "objetos\\notebook preto.png",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "bbox": [
+      471,
+      143,
+      3770,
+      2991
+    ],
+    "sha256": "e4b2113e8a8a30aed47f20024f98a757cedcdf2edd3f2a6533b6cea90b2a0f73"
+  },
+  {
+    "path": "objetos/tela branca.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "0bd1a683b2a7792fb4ba9e66a7af19e84ac776747622f4f198db1230dd5c6eff"
+  },
+  {
+    "path": "objetos/tela preta.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "ce9a7449d849f6c8a17fb832364c8ec17eb08a6ef942eae624f68e2a64b62435"
+  }
+]

@@ -1,0 +1,76 @@
+/* Iwakura OS / 2000 — supplied monochrome library. World dialogues and targets are untouched. */
+:root{--os-ink:#000;--os-title:#000;--os-shadow:#000;--os-surface:#fff;--os-paper:#fff;--os-desktop:#000}
+.game[data-theme] .scene-view .scene-caption,.game[data-theme] .scene-view .scene-location{
+ color:#f7f5eb;background:linear-gradient(100deg,rgba(12,13,12,.97),rgba(12,13,12,.88) 72%,rgba(12,13,12,.45));
+ border:0;border-left:3px solid #d4b653;box-shadow:0 1px 0 #ffffff18,0 5px 18px #0002;
+ font-family:var(--world-mono);backdrop-filter:none;
+}
+.game[data-theme] .scene-view .scene-caption{padding:12px 20px 14px;max-width:min(410px,48vw)}
+.game[data-theme] .scene-view .scene-caption small{color:#d4b653;border:0;margin:0 0 7px;padding:0;font-size:10px;letter-spacing:.2em}
+.game[data-theme] .scene-view .scene-caption span{color:#f7f5eb;font:14px/1.6 var(--world-mono)}
+.game[data-theme] .scene-view .scene-location{font-size:11px;letter-spacing:.16em;padding:11px 19px}
+.desktop,.login-screen{background:#000;background-image:none;color:#000;font-family:Tahoma,Arial,sans-serif}
+.lcd{color-scheme:light;--os-ink:#000;--os-title:#000;--os-shadow:#000;--os-surface:#fff;--os-paper:#fff;--os-desktop:#000}
+.os-sprite{image-rendering:pixelated;filter:none}
+.desktop-watermark{font:clamp(24px,3vw,44px)/1 'Courier New',monospace;color:#fff;opacity:.22;font-style:normal}
+.desktop-watermark span{color:inherit;letter-spacing:2px}
+.desktop-icon{color:#fff;text-shadow:none}
+.desktop-icon-glyph{filter:none}
+.desktop-icon:hover,.desktop-icon:focus{background:#000;border-color:#fff;outline:1px dotted #fff;outline-offset:-4px}
+.desktop button:focus-visible,.login-screen button:focus-visible,.login-screen input:focus-visible{outline:2px dotted currentColor;outline-offset:2px}
+.win-window{background:#fff;color:#000;border:2px solid #000;outline:1px solid #fff;box-shadow:4px 4px #000;padding:2px}
+.win-titlebar{background:#000;color:#fff;border-color:#000;min-height:29px}
+.win-titlebar>span{font:700 12px 'Courier New',monospace}
+.win-titlebar button{background:#fff!important;border:1px solid #000!important;width:23px;height:23px;display:grid;place-items:center}
+.win-titlebar button .os-sprite{width:15px!important;height:15px!important}
+.win-titlebar button:hover{filter:invert(1)}
+.win-menubar,.win-status,.taskbar,.document-tabs,.document-controls,.notes-app label,.explorer-address,.explorer-body aside,.password-dialog,.msn-toolbar,.msn-account,.msn-contact-profile,.msn-compose,.msn-status,.msn-app,.school-folder-header,.pdf-toolbar,.pdf-reading-footer{background:#fff;color:#000;border-color:#000;background-image:none}
+.win-content,.script-text,.notes-app textarea,.explorer-address span,.msn-contacts,.msn-conversation,.msn-history,.msn-compose textarea,.message-history,.message-compose{background:#fff;color:#000;border-color:#000;box-shadow:none}
+.taskbar{border-top:2px solid #fff;background:#fff;color:#000;box-shadow:0 -2px #000;gap:5px}
+.taskbar button,.win-window button,.start-menu button,.login-screen button{background:#fff;color:#000;border:1px solid #000;box-shadow:2px 2px #000;padding:5px 10px;border-radius:0}
+.taskbar button:hover,.win-content button:hover:not(:disabled),.login-screen button:hover,.start-menu button:hover{background:#000!important;color:#fff!important}
+.taskbar button:active,.win-content button:active,.login-screen button:active{box-shadow:none;transform:translate(1px,1px)}
+.desktop button:disabled{opacity:.5}
+.start-menu{background:#fff;color:#000;border:2px solid #000;outline:1px solid #fff;box-shadow:none}
+.start-menu button{box-shadow:none;border:0}
+.session-status{border:1px solid #000;color:#000}
+.login-brand{color:#fff;font:clamp(18px,2.3vw,30px) 'Courier New',monospace;font-style:normal;top:5%;left:5%}
+.login-brand span{font-size:9px;letter-spacing:1.5px}
+.login-screen form{background:#fff;color:#000;border:2px solid #000;outline:2px solid #fff;box-shadow:5px 5px #000;width:min(400px,90%)}
+.login-screen header{background:#000;color:#fff;border-color:#000;font:14px 'Courier New',monospace}
+.login-account{border:0;margin-bottom:8px}.login-account .os-sprite{border:1px solid #000;padding:3px}
+.login-account small,.login-submit span{color:#000}
+.login-screen input,.login-screen input[readonly],.password-dialog input{background:#fff;color:#000;border:1px solid #000;box-shadow:inset 1px 1px #000}
+.login-footer{color:#fff;opacity:1}.login-feedback{color:#000}
+.boot-screen{background:#000;color:#fff}.boot-bar-track{border-color:#fff}.boot-bar-track div{background:repeating-linear-gradient(90deg,#fff 0 8px,transparent 8px 11px)}
+.document-tabs [aria-pressed=true]{background:#000!important;color:#fff!important;box-shadow:none}
+.script-text{border-color:#000}.drive-grid small,.explorer-body aside p,.file-row small,.file-read-mark,.school-folder-header p{color:#000}
+.file-row{background:#fff!important;color:#000!important;border-color:#000}
+.file-row:hover{background:#000!important;color:#fff!important}.file-row:hover :is(small,.file-read-mark){color:inherit}
+.protected-heading{border-color:#000}.password-dialog{border:2px solid #000;box-shadow:3px 3px #000}
+.os-popup-shade{background:#0007}.os-popup{background:#fff;color:#000;border:2px solid #000;outline:1px solid #fff;box-shadow:4px 4px #000}.os-popup header{background:#000;color:#fff}.os-popup header button{background:#fff!important}
+.lcd :is(input,textarea,select){color:#000;background:#fff;border-color:#000;border-radius:0}
+.msn-toolbar button.active{background:#000!important;color:#fff!important}
+.msn-contacts>button.selected{background:#000!important;color:#fff!important;box-shadow:none!important}
+.msn-contacts>button.selected :is(small,.msn-read){color:#fff}
+.msn-contacts>button{border-bottom:1px dotted #000!important}
+.msn-group,.msn-archive,.msn-date,.msn-status,.msn-message,.msn-message.sent,.msn-contact-profile,.msn-compose,.msn-contacts,.msn-conversation,.msn-account{border-color:#000}
+.msn-group,.msn-archive small,.msn-contacts button small,.msn-read,.msn-contact-profile small,.msn-date,.msn-message strong,.msn-message.sent strong,.msn-message time,.msn-compose-tools span{color:#000}
+.msn-message{padding-left:9px;border-left:1px dotted #000}.msn-message.sent{border-left:3px solid #000}.msn-message time{opacity:.65}
+.msn-account .os-sprite,.msn-contact-profile .os-sprite{border:1px solid #000;background:#fff;padding:2px}
+.msn-compose-row>.os-sprite{border:1px solid #000;background:#fff}
+.msn-history{scrollbar-color:#000 #fff}
+.pdf-toolbar select{background:#fff;color:#000;border-color:#000}.pdf-viewport{background:#000}.pdf-paper{background:#fff;color:#000;box-shadow:none}
+.pdf-paper :is(h2,h3,p,span,small,dt,dd,em,strong){color:#000}
+.pdf-paper :is(header,footer,.document-heading,.student-record,.student-photo,.document-fields,.document-margin-note,.disciplinary-note,.school-notice,.school-timetable th,.school-timetable td,.school-stamp){background:#fff;color:#000;border-color:#000}
+.student-photo,.school-timetable,.school-timetable th,.school-timetable td,.school-register,.document-signatures>div{border-color:#000}.school-timetable thead th,.school-break{background:#000!important;color:#fff!important}
+.gallery-grid,.gallery-grid button,.gallery-placeholder,.score-sheet,.identity-puzzle,.memory-grid button,.chat-exit-note{background:#fff;color:#000;border-color:#000}
+.score-sheet svg :is(path,ellipse){stroke:#000}.score-sheet svg ellipse{fill:#000}.score-sheet svg text{fill:#000}
+.gallery-placeholder{display:grid;place-items:center}.chat-exit-note{border-top:1px solid #000}
+.lcd ::-webkit-scrollbar{width:12px;height:12px;background:#fff}.lcd ::-webkit-scrollbar-thumb{background:#000;border:2px solid #fff}.lcd ::-webkit-scrollbar-corner{background:#fff}
+@media(max-width:850px){.game[data-theme] .scene-view .scene-caption{max-width:55vw;left:12px;top:12px;padding:10px 12px}.game[data-theme] .scene-view .scene-caption span{font-size:12px}.game[data-theme] .scene-view .scene-location{bottom:65px}.login-brand{top:3%}}
+@media(max-height:650px){.login-brand{font-size:18px}.login-screen form{margin-top:20px}.login-screen header{margin-bottom:8px}.login-account .os-sprite{width:34px!important;height:34px!important}.login-footer{display:none}}
+
+.lcd .msn-compose button{background:#000!important;color:#fff!important}
+.lcd .msn-compose button:disabled{background:#fff!important;color:#000!important;opacity:.45}
+.lcd .msn-compose button:hover:not(:disabled){background:#fff!important;color:#000!important;outline:1px solid #000}

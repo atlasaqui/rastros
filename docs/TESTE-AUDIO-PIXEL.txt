@@ -1,0 +1,1 @@
+JAVA_FX_SMOKE PASS: PASS: supplied audio plays in JavaFX, music starts 4019 ms after transition, native loop verified by seeking near end, music stops after all five pixel-art wagons and stage 5 starts.

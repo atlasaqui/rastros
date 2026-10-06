@@ -1,0 +1,1 @@
+JAVA_FX_SMOKE PASS: PASS: ordinary MouseEvent click detail=1, no pointer events/capture/held keys; one click produces exactly one correct note. Old melody rejected, both phrases required, nine sequential mouse clicks solve and persist completion, ending starts once; visible labels are musical notes only.

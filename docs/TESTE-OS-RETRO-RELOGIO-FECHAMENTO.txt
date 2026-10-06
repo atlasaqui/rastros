@@ -1,0 +1,1 @@
+JAVA_FX_SMOKE PASS: PASS: close flush persists the pending clock draft before the 500 ms debounce.

@@ -1,0 +1,1253 @@
+[
+  {
+    "source": "cenários/relógio vagão três branco.jpg",
+    "bytes": 490075,
+    "sha256": "3c7be32200bf0e3461e3e3f65e60d9d24ca23174b7cf6475b0c8571b861c48a0",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/relógio vagão três preto.jpg",
+    "bytes": 491922,
+    "sha256": "cb43af3705a8598c210556c99558f02cf70737ec156af7e98968bd4486c2a11a",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/relógio vagão três vermelho.jpg",
+    "bytes": 551429,
+    "sha256": "540bb1b7e3159532480ea04932deb7553aa605f5a804168cc0d4eed4254ebf13",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/relógio zoom branco.jpg",
+    "bytes": 458448,
+    "sha256": "a919e35a22b5f80581b7da373280ec8a2df61cbf26ffd33d2f49a6287572199b",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/relógio zoom preto.jpg",
+    "bytes": 440945,
+    "sha256": "5f8f0735fcc0b023571dfe005d652d0e70848db9a050a590e06bc559cb998fa1",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/relógio zoom vermelho.jpg",
+    "bytes": 535561,
+    "sha256": "b6afde2f27d89174eb369abac1d147f225cfd7e2a70e5a663b5dcd54348fe4e6",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/tela branca vagão.jpg",
+    "bytes": 568013,
+    "sha256": "93a6c765e9b2eda3f285584ae502581602a20893d12dcc30f8089559bee0d2cd",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/tela preta vagão.jpg",
+    "bytes": 545181,
+    "sha256": "30a5ecfe4580cd01eb425d3dc8cf15d734181b23eaa1592077c0f790b2e8678c",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/tela vermelha vagão.jpg",
+    "bytes": 667112,
+    "sha256": "13d0f84a7ccb68bd1082a59198c1fe6dc73820914ce824371a32ecb76bc82ea9",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/vagão dois branco.jpg",
+    "bytes": 1989143,
+    "sha256": "0919cb1e98123d9603fbfa4a9231ccb813c8b7980d1b2b400718a90144ba6ccd",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/vagão dois preto.jpg",
+    "bytes": 1963038,
+    "sha256": "b2c8ffb03dd213a073fc2f940bd661f63e0c5ea52a336df22d821d64f5dc6ab7",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/vagão dois vermelho.jpg",
+    "bytes": 2218701,
+    "sha256": "57a9bd9721ceb77980b21f5ab24caeca2318e62e0631e77b36c1a828a349be0c",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/vagão quatro alucinação.jpg",
+    "bytes": 2135446,
+    "sha256": "5e6c766081879ea61a382377ee605f1f6bef21d8b032f052cc9fda5f4a28461c",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/vagão três branco.jpg",
+    "bytes": 1795872,
+    "sha256": "676f4e7541dc858ded1d61044c8881c63af19f895aba9b73a50b4aeac93e5fa3",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/vagão três preto.jpg",
+    "bytes": 1982565,
+    "sha256": "170ded14cc2b9a07b4e2911e118058c089a3d36b92ae8fb401af4e66d3e059d1",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/vagão três vermelho.jpg",
+    "bytes": 2195429,
+    "sha256": "a5f658028bdb7f40ef859b27c3a59d7b07f3ebeb6809cfcf5ea5d4c5aec22084",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/vagão um branco.jpg",
+    "bytes": 1726446,
+    "sha256": "5aa02eec74644377ca4d362fe103407bdb60f9b8c976732cfed2324e6fe6ac0c",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/vagão um preto.jpg",
+    "bytes": 1935787,
+    "sha256": "adfd2d5840e34fe27508defd74e5e94158d9ccc8897516c87d66d2a911149e9b",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cenários/vagão um vermelho.jpg",
+    "bytes": 2145054,
+    "sha256": "d303a459ad7c2e12630e57c7368488ce3b6ab7127c588ced1bc2f0c55bc43c70",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": "cursor/cursor branco.png",
+    "bytes": 592800,
+    "sha256": "5e560ba001774fe1882225d045143d3537ca7a65789c5733210d3f2d157186a9",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "cursor/cursor preto.png",
+    "bytes": 455003,
+    "sha256": "acedb9b2b2ddfae35086a8bd6bccfad0124342baf35c33fccb1312ac8a39ba79",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "cursor/cursor vermelho.png",
+    "bytes": 456012,
+    "sha256": "8e00bfc0e60e3a93914e1b75b60b23d0bafaf0d16f2c1c6489e1148387e07fbe",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "cursor/pegar branco.png",
+    "bytes": 609917,
+    "sha256": "1ca8ca9cec91cbe679319079203b2a1a0f0f386e9b5351858362736f1e6c44d7",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "cursor/pegar preto.png",
+    "bytes": 454574,
+    "sha256": "27487592beec667aaba35e8ff7153ae18f144c1d5ce4cb06cca810616f9bc955",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "cursor/pegar vermelho.png",
+    "bytes": 453583,
+    "sha256": "adb1129bd4e246d127410e55b2d38825c8c179fca290cc623972635af80c84b8",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/bloco de notas branco.png",
+    "bytes": 1281082,
+    "sha256": "be5913fb3abac6406038d1d13f34112e1d3fac85fd795276fda2e5dadd29df27",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/bloco de notas preto.png",
+    "bytes": 648191,
+    "sha256": "8c760bcf060d9bbb3553462b464c6f45f1f32ad2a491916c57883aef2786dfbc",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/bloco de notas vermelho.png",
+    "bytes": 623161,
+    "sha256": "00d3ab20ed50a4ec14e76c7f3f054b34140b27669527492f17e9dbc92424aeec",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/caneta branca.png",
+    "bytes": 519659,
+    "sha256": "4ff3df49f1c2f6c3b41765e4fa5be3004b532a831257941253c28d8784718451",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/caneta preta.png",
+    "bytes": 416411,
+    "sha256": "e18990a31c8a3083d742e83c170b2381057d9fb2144f81d913b40a15094eaf42",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/caneta vermelha.png",
+    "bytes": 389886,
+    "sha256": "4d2f3bd98af7e8d94e835593aef62e012fbe49ae840c465dd5ad609be94a583c",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/jornal amassado branco.png",
+    "bytes": 1395483,
+    "sha256": "45eb7cb42e600888e3dd730c7b572549adbbd38bb76c05c9578de677791c1432",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/jornal amassado preto.png",
+    "bytes": 740343,
+    "sha256": "9d4f5ff71214b9b5166bc9463c4a52229aed1dbad61b02fada4b7a9c4ee4af4d",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/jornal amassado vermelho.png",
+    "bytes": 287691,
+    "sha256": "81ae0f322c7bf6dc2ba4d8bfa275b6d78a164598750f617a7fbb1e23ae6e8c6b",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/notebook branco.png",
+    "bytes": 1094440,
+    "sha256": "a996a3b10af191a807ab4bdec23f714900cf432841ec33839417dedaf1c2b80d",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/notebook preto.png",
+    "bytes": 499507,
+    "sha256": "e4b2113e8a8a30aed47f20024f98a757cedcdf2edd3f2a6533b6cea90b2a0f73",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/notebook vermelho.png",
+    "bytes": 293704,
+    "sha256": "c083f28ee1bf70ec1567d7bb0dc760f01788c4dfde748602b9d891f31ae1b663",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/piano branco.png",
+    "bytes": 725416,
+    "sha256": "a914fcec2ba091d3cad253f90374c6921c54e37523e67e84a93b702f67443c84",
+    "size": [
+      3072,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/piano preto.png",
+    "bytes": 415777,
+    "sha256": "b64b52c7b3fd82b3fdd4a82811aca72920881dc561f6efa91dc0c1a07c96806b",
+    "size": [
+      3072,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/piano vermelho.png",
+    "bytes": 400254,
+    "sha256": "aa87e28cf4c94362e04ff791efd04639fe01692ee05087c481fe8f46fdf77931",
+    "size": [
+      3072,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/ponteiro grande branco.png",
+    "bytes": 313363,
+    "sha256": "68b152ca2f6a742966e818357ef6c8d4d5459d7a85c4ee369f587285197509ba",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/ponteiro grande preto.png",
+    "bytes": 322417,
+    "sha256": "d599f7d47c6a80b06341f52a0f995a7e7844d8833f2b1b9dd2398b0e0f09a5e8",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/ponteiro grande vermelho.png",
+    "bytes": 310238,
+    "sha256": "056e01abad7dafe410bf71429d1b784722f544ee1c495567bf9ea1714a9fb108",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/ponteiro pequeno branco.png",
+    "bytes": 320305,
+    "sha256": "3c7ce729e9ef78e33908f594105d45ff13885f1970b4e4aa90fee01d366c89db",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/ponteiro pequeno preto.png",
+    "bytes": 326069,
+    "sha256": "59f3ffbb5efbad2d5fad3d2135ed20ac1743549c6fb459ee9461397d36ddf97b",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/ponteiro pequeno vermelho.png",
+    "bytes": 321465,
+    "sha256": "25eb32d9fa8e4205d825eca8ace195fe0a74e91b51bf4aa71f807118d2a56a9c",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/relógio branco.png",
+    "bytes": 751175,
+    "sha256": "3d125d1273b4a3cb1b736a8d1c93b82f5046b954b9970cd53c3a6dff440f4731",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/relógio preto.png",
+    "bytes": 480566,
+    "sha256": "7474ee8e5eae4d91666f9c6a642eb04a91ef87b6903cc136492f2d739ada6f41",
+    "size": [
+      4096,
+      4096
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/relógio vermelho.png",
+    "bytes": 497654,
+    "sha256": "e3e73e0e1d203ba29ce944119da77ef335b52075edc38c66985fd8386c4b66d6",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/tela branca.png",
+    "bytes": 286256,
+    "sha256": "0bd1a683b2a7792fb4ba9e66a7af19e84ac776747622f4f198db1230dd5c6eff",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/tela preta.png",
+    "bytes": 190009,
+    "sha256": "ce9a7449d849f6c8a17fb832364c8ec17eb08a6ef942eae624f68e2a64b62435",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "objetos/tela vermelha.png",
+    "bytes": 193002,
+    "sha256": "ec06294430923ae8293a94ce0284aacbe33faceeac3ba76e2b4633f2f08c7b2b",
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "piano/piano.png",
+    "bytes": 352214,
+    "sha256": "1c81190145d3bb2e6b6950fcd65881c12dffcbac10637ee7a53e463a28fc1672",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "piano/tecla apertada cinco.png",
+    "bytes": 356570,
+    "sha256": "ed8eadec3b1250b6ac6b4e591f4e0467965dd7bf9a4f80d3a2937703586ef794",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "piano/tecla apertada dois.png",
+    "bytes": 365357,
+    "sha256": "ae15cc2320ca53ae7bd15063b215c736e3379e621123798cf94ae30d5618289e",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "piano/tecla apertada oito.png",
+    "bytes": 361265,
+    "sha256": "547f55299ad2c9c1e7868fde9b0f376262c58f67ac5c5a1be421945c533a81a7",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "piano/tecla apertada quatro.png",
+    "bytes": 358627,
+    "sha256": "91a8d532f77ec48224ff44f907f9b4ec65996f9758fe75fcb0d8bf281d8d093b",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "piano/tecla apertada seis.png",
+    "bytes": 361986,
+    "sha256": "58f2e8b48edd126f1c662a70d6d8a44563f4c381cd9523b2ac262b1061022def",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "piano/tecla apertada sete.png",
+    "bytes": 359440,
+    "sha256": "e54da3ad3bbda71e556866bd9479925ef0c56156421f1dee6b4dc92856af9a50",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "piano/tecla apertada três.png",
+    "bytes": 363331,
+    "sha256": "e414643d02ebd234c74d40399a9f17ead004a2d68f699e29ba48da3fa59705a9",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "piano/tecla apertada um.png",
+    "bytes": 364207,
+    "sha256": "99ce17622d921987bfcb2704384aaecb41c0b28c06c3411e0798c3fa166375aa",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "piano/tecla pressionada cinco.png",
+    "bytes": 360466,
+    "sha256": "5f60fba92936c042189687fceb3a5fbaa3ce45aae1ed75a59541736def3a9bd1",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "piano/tecla pressionada dois.png",
+    "bytes": 363059,
+    "sha256": "89752bd6b7dcc2b8513fb279da19e2238b1451792c43e5c9fbbbd78a3b453daf",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "piano/tecla pressionada quatro.png",
+    "bytes": 352982,
+    "sha256": "3405a729563f6733fd6eadd7fdb25efbac058df49648869d2a9386e88361ae32",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "piano/tecla pressionada seis.png",
+    "bytes": 362622,
+    "sha256": "e90dc6a6d846b532aa495b40526de501acd1cfe9cf86b2c3ecb8fa8053eb44d8",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "piano/tecla pressionada sete.png",
+    "bytes": 360165,
+    "sha256": "8346f436eb5891d387304ddeea492fb45b4bb6cbdd4187fddc076320fba7b026",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "piano/tecla pressionada três.png",
+    "bytes": 360909,
+    "sha256": "8dc264770c92373c3222ddd54d590b734885b62544571549056c371d8624ab61",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "piano/tecla pressionada um.png",
+    "bytes": 362095,
+    "sha256": "4a4644d75badf4e50c7c81a82b1efe9d5751bbcd4f6a1b2ce0ce3717139255f4",
+    "size": [
+      4096,
+      3072
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "Sons/1 - INTERFACE/1 - HOVER MOUSE.wav",
+    "bytes": 19932,
+    "sha256": "c1fb9aa1639cbb7f75bdf3417da9d0b29013cfeeedd7b49cbad8fb20f6ea8d0f",
+    "seconds": 0.07272108843537416,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/1.wav"
+  },
+  {
+    "source": "Sons/1 - INTERFACE/2 - CLICK.wav",
+    "bytes": 39630,
+    "sha256": "8ca81048b5eed279db862fb5c8bd0b15b44f6b89d574cd33f4347ccde53b68a8",
+    "seconds": 0.1471655328798186,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/2.wav"
+  },
+  {
+    "source": "Sons/1 - INTERFACE/3 - VOLTAR.wav",
+    "bytes": 73602,
+    "sha256": "1dcba07f937facc9616e8e58fbe830c664725661b7dc6d7f4dcc201a2ec6f64d",
+    "seconds": 0.27555555555555555,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/3.wav"
+  },
+  {
+    "source": "Sons/2 - EFEITOS/4 - BUZINA TREM INÍCIO.wav",
+    "bytes": 1202334,
+    "sha256": "bd4b0b226eacb9cb882aedf53eb66e7eb12b889b099d6cd1d2556f34f3b041c3",
+    "seconds": 4.541360544217687,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/4.wav"
+  },
+  {
+    "source": "Sons/2 - EFEITOS/5 - TROCA DE VAGÃO.wav",
+    "bytes": 672422,
+    "sha256": "d6aa68d9f16b859cbe41a7daf1379d8e2bd2e5ba7846bc17bc12db9e427e956b",
+    "seconds": 2.5409750566893425,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/5.wav"
+  },
+  {
+    "source": "Sons/2 - EFEITOS/6 - JUMPSCARE VULTO.wav",
+    "bytes": 612756,
+    "sha256": "900fa063b87de827987c37e0901203cc670b7b75b360fbe62e47a18d41f6207a",
+    "seconds": 2.313174603174603,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/6.wav"
+  },
+  {
+    "source": "Sons/2 - EFEITOS/7 - OLHAR MÃOS COM SANGUE.wav",
+    "bytes": 1057236,
+    "sha256": "00c87a588f7b29a29816e2a381d7ef276805b28cc3e7d2779dc204cc0fe59de1",
+    "seconds": 3.9929931972789117,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/7.wav"
+  },
+  {
+    "source": "Sons/3 -DIÁLOGO/10 - CLICK DIÁLOGO.wav",
+    "bytes": 86928,
+    "sha256": "9b8c4d6919cb2e05a9ce27ca9ba0a2229114882743a3fd9c0f3db5dd19c2aaea",
+    "seconds": 0.3259183673469388,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/10.wav"
+  },
+  {
+    "source": "Sons/3 -DIÁLOGO/11 - FECHAR DIÁLOGO.wav",
+    "bytes": 96672,
+    "sha256": "d6c025d6356f238729ffaa3c4d63b5e4639ad1a1b71eefb5f2ffe3ffc5b9a46b",
+    "seconds": 0.3627437641723356,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/11.wav"
+  },
+  {
+    "source": "Sons/3 -DIÁLOGO/8 - FALA NPC 1.wav",
+    "bytes": 323508,
+    "sha256": "0cbb442ad900883e3ac6937138239dc79056657f130540140a4dd95c343343a9",
+    "seconds": 1.2200226757369614,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/npc-1.wav"
+  },
+  {
+    "source": "Sons/3 -DIÁLOGO/8 - FALA NPC 2.wav",
+    "bytes": 602214,
+    "sha256": "39b735c380cb0f65bfb2eda7f097016c5ca4cf8341f33c594d087ce4fe9cd6d2",
+    "seconds": 2.2733333333333334,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/npc-2.wav"
+  },
+  {
+    "source": "Sons/3 -DIÁLOGO/8 - FALA NPC 3.wav",
+    "bytes": 330804,
+    "sha256": "5fb438ff5b9b25344bb0c7cbc5fc95bcaefc4db96288c37adde0eb21b6ba3f7b",
+    "seconds": 1.2475963718820862,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/npc-3.wav"
+  },
+  {
+    "source": "Sons/3 -DIÁLOGO/9 - PENSAMENTOS-FALAS DO MURILO.wav",
+    "bytes": 254382,
+    "sha256": "013bb3d3323948f20bef594bc7d8b55133c3ada121ee0e25d4618c6e2fdc27ab",
+    "seconds": 0.9587755102040816,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/9.wav"
+  },
+  {
+    "source": "Sons/4 - INTERAGIR COM ITENS/12 - INICIALIZAÇÃO COMPUTADOR.wav",
+    "bytes": 397590,
+    "sha256": "f406ac79dbe40282bb10204992505a16727c1b95cba0afc6e77e3aa39723c239",
+    "seconds": 1.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/12.wav"
+  },
+  {
+    "source": "Sons/4 - INTERAGIR COM ITENS/13 - BLOCO DE NOTAS.wav",
+    "bytes": 132990,
+    "sha256": "d778cf1d0fd3d321aab17219f510fed1d05a3e1dc3ff1488ab7c726e136292fc",
+    "seconds": 0.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/13.wav"
+  },
+  {
+    "source": "Sons/4 - INTERAGIR COM ITENS/14 - ANOTAR BLOCO DE NOTAS.wav",
+    "bytes": 342816,
+    "sha256": "30761aa437f5d8db3a66ea97b967423cf6dfc7280f3ef9f190ec9117d0c2489c",
+    "seconds": 1.2929931972789115,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/14.wav"
+  },
+  {
+    "source": "Sons/4 - INTERAGIR COM ITENS/15 - JORNAL.wav",
+    "bytes": 305538,
+    "sha256": "1d2d02fc1283696f134d5b7a1c204aeaa7e45f4099c35a87635048ad5368d2aa",
+    "seconds": 1.152108843537415,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/15.wav"
+  },
+  {
+    "source": "Sons/4 - INTERAGIR COM ITENS/16 - PARTITURA.wav",
+    "bytes": 212022,
+    "sha256": "bb8e05053793580a19db808e26550a5dfcd7b3a212f43e7cbb90359e0d8ba253",
+    "seconds": 0.7986848072562358,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/16.wav"
+  },
+  {
+    "source": "Sons/5 - COMPUTADOR/17 - TECLAR ESTÁGIO 1.wav",
+    "bytes": 13950,
+    "sha256": "7ca3ff7ddbe386a6ffa885855b8426877816e6728efde3c8cd4f1b14047b4593",
+    "seconds": 0.05011337868480726,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/typing-1.wav"
+  },
+  {
+    "source": "Sons/5 - COMPUTADOR/17 - TECLAR ESTÁGIO 2.wav",
+    "bytes": 19968,
+    "sha256": "efe1172623406ff0ba6a822650eabeb0419ec73d7f6cead61a61bc6d1c599c98",
+    "seconds": 0.07285714285714286,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/typing-2.wav"
+  },
+  {
+    "source": "Sons/5 - COMPUTADOR/17 - TECLAR ESTÁGIO 3.wav",
+    "bytes": 57834,
+    "sha256": "79ee27cd4d8c1257cf458f478e96ef99cfe49cab5a47d5daad3a8a562d88f383",
+    "seconds": 0.21596371882086168,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/typing-3.wav"
+  },
+  {
+    "source": "Sons/5 - COMPUTADOR/18 - SENHA CORRETA.wav",
+    "bytes": 73440,
+    "sha256": "3d73c4e3cafee575bb821b7f41610a6761ba4804c4132decaf46f4daebf066d4",
+    "seconds": 0.27494331065759636,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/18.wav"
+  },
+  {
+    "source": "Sons/5 - COMPUTADOR/19 - SENHA INCORRETA.wav",
+    "bytes": 68136,
+    "sha256": "3fc55186f6c232dc902719e24119a20922a4edba0d31871987d7ad0eb825300b",
+    "seconds": 0.2548979591836735,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/19.wav"
+  },
+  {
+    "source": "Sons/6 - TRANSIÇÕES GLITCH/20 - TRANSIÇÃO 1-2.wav",
+    "bytes": 486628,
+    "sha256": "f60ae0d74d4671607f80c7a62bb1cfb8b610bb62439361bf19df945ac5423e19",
+    "seconds": 2.758412698412698,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 16,
+    "runtime": "src/main/resources/audio/runtime/glitch-1-2.wav"
+  },
+  {
+    "source": "Sons/6 - TRANSIÇÕES GLITCH/20 - TRANSIÇÃO 2-3.wav",
+    "bytes": 271838,
+    "sha256": "8be6649f86b9ec8167ea9e3c7650bed9963b6833b71db745c521af8d36da85e1",
+    "seconds": 1.54,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 16,
+    "runtime": "src/main/resources/audio/runtime/glitch-2-3.wav"
+  },
+  {
+    "source": "Sons/6 - TRANSIÇÕES GLITCH/20 - TRANSIÇÃO 3-4.wav",
+    "bytes": 1291620,
+    "sha256": "935fa54c6735ef87578baecb3f256ccc42481cfd63506d5bb2855979ddf2c452",
+    "seconds": 7.321859410430839,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 16,
+    "runtime": "src/main/resources/audio/runtime/glitch-3-4.wav"
+  },
+  {
+    "source": "Sons/6 - TRANSIÇÕES GLITCH/20 - TRANSIÇÃO 4-5.wav",
+    "bytes": 192546,
+    "sha256": "6426508dee03087fa4a251768f4ec850eecc4157ffec38f9b77f66660dea158d",
+    "seconds": 0.7250793650793651,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/glitch-4-5.wav"
+  },
+  {
+    "source": "Sons/7 - MÚSICAS/21 - MENU PRINCIPAL (anemoia - Hehehehe).mp3",
+    "bytes": 6458902,
+    "sha256": "4e4fa71bf2357a9767bf6f07388ca32200ba7c5f0730f8243cdfcbc28361c60e",
+    "runtime": "src/main/resources/audio/runtime/21.mp3"
+  },
+  {
+    "source": "Sons/7 - MÚSICAS/22 - ABERTURA (R U OK - ROCK BURWELL).wav",
+    "bytes": 2117490,
+    "sha256": "729ffa4209125d656de15a9c6dc219797fe75e16788b615796f9868b0f53fd73",
+    "seconds": 8.0,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/22.wav"
+  },
+  {
+    "source": "Sons/7 - MÚSICAS/23 - ESTÁGIO 1 (lost forever - hallow).wav",
+    "bytes": 29635890,
+    "sha256": "48ef0e790143a58b11e4bdb13f8582ac9327b1f6044de58a8719c95a2d10de0c",
+    "seconds": 112.0,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/23.wav"
+  },
+  {
+    "source": "Sons/7 - MÚSICAS/24 - ESTÁGIO 2 (Mist of a Different Dimension - Reichi Nakaido).wav",
+    "bytes": 53846790,
+    "sha256": "7e701beed566a871264ca9d5a5bf0256adb8cd9bd182845ca9fe594bfc3c1800",
+    "seconds": 203.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/24.wav"
+  },
+  {
+    "source": "Sons/7 - MÚSICAS/25 - ESTÁGIO 3 (Mindtrap - fortaliax).wav",
+    "bytes": 44850390,
+    "sha256": "70fa3c6db16c628bf5ced85c8303336a7dd5d850bf92b67ca4e9674576a649c1",
+    "seconds": 169.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/25.wav"
+  },
+  {
+    "source": "Sons/7 - MÚSICAS/26 - ESTÁGIO 4 (untitled2 - iwakura).wav",
+    "bytes": 51597690,
+    "sha256": "942301ecc8d0768ac3f7719f3ac72313512f18c61b429d27e0e7a5385af48c5a",
+    "seconds": 195.0,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/26.wav"
+  },
+  {
+    "source": "Sons/7 - MÚSICAS/27 - ESTÁGIO 5 (Living Nightmare - Drackfreeee).wav",
+    "bytes": 31752690,
+    "sha256": "1d66c6483000d15eb937ea22825451f1938210bbc8888b979ee2d221280b76f7",
+    "seconds": 120.0,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/27.wav"
+  },
+  {
+    "source": "Sons/7 - MÚSICAS/28 - ENCERRAMENTO (Chamber Of Reflection - Your Anxiety Buddy).wav",
+    "bytes": 36250890,
+    "sha256": "8b9e8825222796b3e42e64a8f98ff21f63f45370d7aa92399154176fcd8b3ced",
+    "seconds": 137.0,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/28.wav"
+  },
+  {
+    "source": "Sons/7 - MÚSICAS/28 - ENCERRAMENTO 2 (Chamber Of Reflection - Your Anxiety Buddy).wav",
+    "bytes": 21055794,
+    "sha256": "e03b227fcfd00c8e0f4d9d876e67eba6752aac7b80559e4d706cf54b62978b58",
+    "seconds": 79.57333333333334,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/28b.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/29 - RELÓGIO MEXER PONTEIRO HORA.wav",
+    "bytes": 224720,
+    "sha256": "9cf60400ce57ee568213e09d76b31308113b1e29a41f10bde790394e86b61d63",
+    "seconds": 0.8489795918367347,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/29.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/30 - RELÓGIO MEXER PONTEIRO MINUTO.wav",
+    "bytes": 195350,
+    "sha256": "678a95776f950a6285871779b5f70d070ef5a815507a4f53b7a54270189309a9",
+    "seconds": 0.7379818594104308,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/30.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/31 - HORA CERTA RELÓGIO.wav",
+    "bytes": 1323690,
+    "sha256": "d8f0d535aebf88a0641d89c3ca398f6e7b205d47bb267ee225abde875aee6634",
+    "seconds": 5.0,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/31.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/32 - TECLAS PIANO/A1.wav",
+    "bytes": 1455990,
+    "sha256": "8884cbc35411e267e1778e0aad32df3d8e6a9ba2e4e76689bbe8dfd981040361",
+    "seconds": 5.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/note-A1.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/32 - TECLAS PIANO/A2.wav",
+    "bytes": 1455990,
+    "sha256": "82caa82455cc2a6af0d65943a7a0ad588366dbb7040fad00633b0348ecd84845",
+    "seconds": 5.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/note-A2.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/32 - TECLAS PIANO/A3.wav",
+    "bytes": 1455990,
+    "sha256": "bf189782608212151b25d78f8078793ce0641a8395b452acff6ff00c51e21429",
+    "seconds": 5.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/note-A3.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/32 - TECLAS PIANO/A4.wav",
+    "bytes": 1455990,
+    "sha256": "4ca06b88fdb260664d9e3809909d959615ed1bced79e1b44043064d4ed49c575",
+    "seconds": 5.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/note-A4.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/32 - TECLAS PIANO/A5.wav",
+    "bytes": 1455990,
+    "sha256": "4bdbc83d48f262a59df5d1552fb2bf4114488103695a436f99be5a9d8da0c26e",
+    "seconds": 5.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/note-A5.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/32 - TECLAS PIANO/A6.wav",
+    "bytes": 1455990,
+    "sha256": "63172d1f8a4d96576d9bd12f2544d55f1920683f054de72434105eabc09d04a1",
+    "seconds": 5.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/note-A6.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/32 - TECLAS PIANO/A7.wav",
+    "bytes": 1455990,
+    "sha256": "9235fafccc51223918e9b0610c824d5f3ece8e5e03dee67daa89e5cde88a117e",
+    "seconds": 5.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/note-A7.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/32 - TECLAS PIANO/A8.wav",
+    "bytes": 1455990,
+    "sha256": "01ae70e343d5f0c824e914830554b935fc58f5843b48cdd15a69d6da0498a0ee",
+    "seconds": 5.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/note-A8.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/32 - TECLAS PIANO/B1.wav",
+    "bytes": 1455990,
+    "sha256": "55e58ea9857e312451afacbe5182cfb8e02ed12e4a1ed8e2f1abad3156a1accd",
+    "seconds": 5.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/note-B1.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/32 - TECLAS PIANO/B2.wav",
+    "bytes": 1455990,
+    "sha256": "f028d9e03c135ae5c1a2bc792d473a3aeffff1b24d6229fb7b49986086ad7e51",
+    "seconds": 5.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/note-B2.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/32 - TECLAS PIANO/B3.wav",
+    "bytes": 1455990,
+    "sha256": "18496203fa23bd5f95d00e5959ed5c71a3bccc873a285335424c649f6420c65e",
+    "seconds": 5.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/note-B3.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/32 - TECLAS PIANO/B4.wav",
+    "bytes": 1455990,
+    "sha256": "e6e812b53e02404275bdcefb36bd3e10de7bdf1f5f83d8b5521bb1e9f62f64f0",
+    "seconds": 5.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/note-B4.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/32 - TECLAS PIANO/B5.wav",
+    "bytes": 1455990,
+    "sha256": "d211df9cfde72bf1327e5aba574c88902a3c48df14b566d8bbc908b480304afa",
+    "seconds": 5.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/note-B5.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/32 - TECLAS PIANO/B6.wav",
+    "bytes": 1455990,
+    "sha256": "26366901176ba22d601d60c06c992521839d1e38d44887fb43a598502f7e5319",
+    "seconds": 5.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/note-B6.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/32 - TECLAS PIANO/B7.wav",
+    "bytes": 1455990,
+    "sha256": "1ad5bf84eb510aa414e2f7ae880bcee634c8c83bcc381deeca78b72e354a647f",
+    "seconds": 5.5,
+    "sampleRate": 44100,
+    "channels": 2,
+    "bits": 24,
+    "runtime": "src/main/resources/audio/runtime/note-B7.wav"
+  },
+  {
+    "source": "Sons/8 - PUZZLES/32 - TECLAS PIANO/GUIA PIANO.png",
+    "bytes": 63530,
+    "sha256": "ab164aa9285c9e3eee7931fe294625734cb01ea681d36227241b59389f7b5143",
+    "size": [
+      928,
+      394
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "Sons/Guia de transição inicial.mov",
+    "bytes": 8418829,
+    "sha256": "d361b2de4cb3f671dcca18f6a00aefe08b066ffa736a33e0c7afd73ca8db9515"
+  },
+  {
+    "source": "Sons/Guia de transições.txt",
+    "bytes": 926,
+    "sha256": "3d2cededf36c0f0cdc0b1792ea4494e0bf42ef634bf08d666b264b0929c0ef6c"
+  },
+  {
+    "source": "Sons/GUIA PIANO.png",
+    "bytes": 63530,
+    "sha256": "ab164aa9285c9e3eee7931fe294625734cb01ea681d36227241b59389f7b5143",
+    "size": [
+      928,
+      394
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": "Sons/Lista de sons.txt",
+    "bytes": 979,
+    "sha256": "ea1216282f83231b37dd29622ff27cd4725a0a79a0be3c8a083217f463640231"
+  }
+]

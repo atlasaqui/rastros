@@ -1,0 +1,3 @@
+43 testes de lógica passaram em 02/10/2026.
+Incluem sequência narrativa de cinco estágios, save/migração, diário, senhas, memória, chats, catálogo de áudio/arquivos, quinze regiões de piano e tempos do guia.
+Compilação Java offline e build frontend concluídos.

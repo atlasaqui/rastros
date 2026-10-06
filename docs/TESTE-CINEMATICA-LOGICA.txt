@@ -1,0 +1,3 @@
+PASS: 49 testes de lógica passaram.
+Cobertura nova: linha do tempo, fade de 1,5 s, seis falas com 2 s legíveis, quatro créditos, bloqueio de Continuar, checkpoint, migração e objetivos sincronizados.
+Compilação frontend e Java concluídas; percurso completo e retomadas validados no executável JavaFX.

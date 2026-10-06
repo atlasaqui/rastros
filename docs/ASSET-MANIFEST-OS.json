@@ -1,0 +1,342 @@
+{
+  "coordinateSystem": {
+    "sprites": [
+      1824,
+      1361
+    ],
+    "originalSheets": [
+      2400,
+      1792
+    ]
+  },
+  "implementation": "SVG viewBox crops reference original JPGs; no raster rewriting. All live text is DOM. Icon paper tiles intentional. Frame, controls and explorer composition rebuilt in CSS with supplied palette.",
+  "libraryUsage": {
+    "OS  - Icons.jpg": "live sprites for 8 apps and drives",
+    "OS - Window Library.jpg": "live title-control crops and CSS frame composition",
+    "OS - LOGIN.jpg": "live avatar/lock crops and login composition",
+    "OS - MSN.jpg": "live user badge and messenger composition; no invented contacts",
+    "OS - Popups.jpg": "live error/info/success crops and popup composition",
+    "OS - My Computer.jpg": "reference for functional explorer layout; original retained",
+    "OS - UI Control.jpg": "reference for scalable semantic controls and states; original retained",
+    "OS - Icons Complete Library.jpg": "Live protected-folder sprite; remaining library retained for future files/states",
+    "OS - Cursor.jpg": "catalogued; native pointer/text/resize fallbacks preserve accurate hotspot; JPG checkerboard is not a transparent cursor"
+  },
+  "scenePolicy": "white/black/red for all 3 wagons; first login activates black; red DEV preview only; clocks and curtain alternatives reserved without new puzzles",
+  "assets": [
+    {
+      "path": "frontend/src/assets/os/OS  - Icons.jpg",
+      "sha256": "339ca19ea062c87ce6f2d99442fbc5a26b1873810e3990349b43574b0d2e938b",
+      "originalPreserved": true,
+      "dimensions": [
+        2400,
+        1792
+      ]
+    },
+    {
+      "path": "frontend/src/assets/os/OS - Cursor.jpg",
+      "sha256": "9e0eb746b21c308b833516495759586bda46b5ebc5e36898d2dfa5d9731816fb",
+      "originalPreserved": true,
+      "dimensions": [
+        2400,
+        1792
+      ]
+    },
+    {
+      "path": "frontend/src/assets/os/OS - Icons Complete Library.jpg",
+      "sha256": "88e22a637dbb31053326608da51d414b5812ed643fabe427d5131061cc863f03",
+      "originalPreserved": true,
+      "dimensions": [
+        2400,
+        1792
+      ]
+    },
+    {
+      "path": "frontend/src/assets/os/OS - LOGIN.jpg",
+      "sha256": "12c385eae707e55243fc3a96daabb7a8e2bbc025fc8f7c44f8dbf4c5b2920214",
+      "originalPreserved": true,
+      "dimensions": [
+        2400,
+        1792
+      ]
+    },
+    {
+      "path": "frontend/src/assets/os/OS - MSN.jpg",
+      "sha256": "c46fcf282d99b5cb78c6649cb5d003fdbcd7e88fde2c4d0e79ceab2c62a82202",
+      "originalPreserved": true,
+      "dimensions": [
+        2400,
+        1792
+      ]
+    },
+    {
+      "path": "frontend/src/assets/os/OS - My Computer.jpg",
+      "sha256": "dc5af254f1d65cebc74802fe9e3d03e118c5cd111bbfe2982fbae69673401fef",
+      "originalPreserved": true,
+      "dimensions": [
+        2400,
+        1792
+      ]
+    },
+    {
+      "path": "frontend/src/assets/os/OS - Popups.jpg",
+      "sha256": "bee683249fcb040fd58529e30233ad9a9d192180ffb312b89ba72a4543fe753f",
+      "originalPreserved": true,
+      "dimensions": [
+        2400,
+        1792
+      ]
+    },
+    {
+      "path": "frontend/src/assets/os/OS - UI Control.jpg",
+      "sha256": "b19e9733cbe150c8b40e86665db79cf1d38e4079e07d544a843446853a531742",
+      "originalPreserved": true,
+      "dimensions": [
+        2400,
+        1792
+      ]
+    },
+    {
+      "path": "frontend/src/assets/os/OS - Window Library.jpg",
+      "sha256": "966830b31065c649e14ba5538d4e211f49c0a2945b59b8fc968fa794703b2819",
+      "originalPreserved": true,
+      "dimensions": [
+        2400,
+        1792
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/cortina fechada objeto branco.jpg",
+      "sha256": "4311f6c811dc5f0c2677aa98df7625ed152910a837cfadb19dc0d0c1b43826ad",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/cortina fechada objeto preto.jpg",
+      "sha256": "61e37356ad4314213e3739c3215b71f1370bcf109f68d53b1137d5a0613c8b1a",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/relógio vagão dois branco.jpg",
+      "sha256": "3c7be32200bf0e3461e3e3f65e60d9d24ca23174b7cf6475b0c8571b861c48a0",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/relógio vagão dois preto.jpg",
+      "sha256": "cb43af3705a8598c210556c99558f02cf70737ec156af7e98968bd4486c2a11a",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/relógio vagão dois vermelho.jpg",
+      "sha256": "540bb1b7e3159532480ea04932deb7553aa605f5a804168cc0d4eed4254ebf13",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/relógio zoom branco.jpg",
+      "sha256": "a919e35a22b5f80581b7da373280ec8a2df61cbf26ffd33d2f49a6287572199b",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/relógio zoom preto.jpg",
+      "sha256": "5f8f0735fcc0b023571dfe005d652d0e70848db9a050a590e06bc559cb998fa1",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/relógio zoom vermelho.jpg",
+      "sha256": "b6afde2f27d89174eb369abac1d147f225cfd7e2a70e5a663b5dcd54348fe4e6",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/tela branca vagão.jpg",
+      "sha256": "7b98a24e657e790539827b7348eb521610fd417f2ee8e30785337dfdebd2749e",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/tela preta vagão.jpg",
+      "sha256": "30a5ecfe4580cd01eb425d3dc8cf15d734181b23eaa1592077c0f790b2e8678c",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/tela vermelha vagão.jpg",
+      "sha256": "13d0f84a7ccb68bd1082a59198c1fe6dc73820914ce824371a32ecb76bc82ea9",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/vagão branco.jpg",
+      "sha256": "fe75b3c2b381f83b5f5afd010a7e3ec027ed7a9f8318915315595b200811f21e",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/vagão dois branco relógio.jpg",
+      "sha256": "495c15eb657d190c75d8938731ce08d446943cc50280fe1973d5e03aa5b2fcee",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/vagão dois branco.jpg",
+      "sha256": "b29fefa9dc48d90524437d0993236a39b4d419cf124bc03170398fa208193c8e",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/vagão dois preto relógio.jpg",
+      "sha256": "5b92b86ab5a96dcbdb106fb0f9a0f818e4900be03e4e24663490a174b64533a8",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/vagão dois preto.jpg",
+      "sha256": "b2c8ffb03dd213a073fc2f940bd661f63e0c5ea52a336df22d821d64f5dc6ab7",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/vagão dois vermelho.jpg",
+      "sha256": "53ec5399c7736e74ee12fb79684ef0d4a329b26c92bccddef8ec6d430c8ce696",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/vagão preto.jpg",
+      "sha256": "dae52834cbd763191f8302519c437d2fa39f4ac436e3df03f75df54a2e78c721",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/vagão três branco.jpg",
+      "sha256": "0a068eef779efd9f6537349e3f73a86d3ae6c4af53d744fd6a265574f965bc9e",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/vagão três preto.jpg",
+      "sha256": "4d5e44a05839a2d1e4964d382d5dd5e231d53eb4ae85b534ee26216c9492171c",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/vagão três vermelho.jpg",
+      "sha256": "6e02c81d9bed81ca3c7f2df1d30c0ae1d4e429de6c5ec0e5aedd1084d1498a8c",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/vagão um branco.jpg",
+      "sha256": "971085cba7bf8e3122d1162f5d89c5e2f97a2014f9803df767918269bcc36cf6",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/vagão um preto.jpg",
+      "sha256": "b1da506b1152e176d062f47cbd7c4ec7534978eb1a12c268880025924bc91fbe",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/vagão um vermelho.jpg",
+      "sha256": "a0a46dcad86d2ca32e91dcfd66282ee4beeeb917dc2983d620b8583ed5e55423",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/vagão-1 branco.jpg",
+      "sha256": "4311f6c811dc5f0c2677aa98df7625ed152910a837cfadb19dc0d0c1b43826ad",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "frontend/src/assets/gamejam/cenários/vagão-1 preto.jpg",
+      "sha256": "61e37356ad4314213e3739c3215b71f1370bcf109f68d53b1137d5a0613c8b1a",
+      "originalPreserved": true,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    }
+  ]
+}

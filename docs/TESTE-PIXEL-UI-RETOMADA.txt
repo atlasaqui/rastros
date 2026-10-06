@@ -1,0 +1,1 @@
+JAVA_FX_SMOKE PASS: PASS {"thought":4005.6090000000004,"music":9500.700700000001}: native context/reload key filters, actual page reload restores chase, safe paused process resume, pause freezes simulation, No/Yes menu confirmation preserves progress, white/black/red HUD and journal contrast, evidence labels within 820x900 and 1920x1080, canonical foreground Vagão 3 dialogue.

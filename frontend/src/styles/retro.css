@@ -1,0 +1,1251 @@
+/* Rastros: ink and paper outside; period desktop inside. All assets remain intact. */
+:root {
+  --world-ink: #121411;
+  --world-paper: #eeede5;
+  --world-muted: #b3b5aa;
+  --world-line: #62675d;
+  --world-accent: #c4c7ae;
+  --os-desktop: #3e698c;
+  --os-surface: #d4d0c8;
+  --os-title: #244e76;
+  --world-serif: Georgia, "Times New Roman", serif;
+  --world-mono: "Courier New", monospace;
+  --transition-fast: 160ms;
+}
+button {
+  transition:
+    background-color var(--transition-fast),
+    color var(--transition-fast);
+}
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #a3bacb;
+  outline-offset: 3px;
+}
+kbd {
+  font: 11px var(--world-mono);
+  border: 1px solid #777b70;
+  padding: 2px 4px;
+}
+.main-menu {
+  height: 100%;
+  position: relative;
+  isolation: isolate;
+  background: var(--world-ink);
+  color: var(--world-paper);
+  overflow: auto;
+}
+.menu-art {
+  position: absolute;
+  inset: 0 0 0 30%;
+  z-index: -1;
+  background:
+    linear-gradient(90deg, #121411 0%, #121411a8 25%, #12141118 65%),
+    linear-gradient(0deg, #121411 0%, transparent 30%, #12141170 100%),
+    url("../assets/gamejam/cenários/vagão um branco.jpg") 58% center/cover;
+  opacity: 0.65;
+}
+.menu-copy {
+  position: relative;
+  margin-left: 9%;
+  padding-top: clamp(105px, 19vh, 210px);
+  padding-bottom: 95px;
+  width: min(470px, 80vw);
+}
+.eyebrow {
+  color: var(--world-muted);
+  font: 10px var(--world-mono);
+  letter-spacing: 2.5px;
+}
+.menu-copy h1 {
+  font: 400 clamp(74px, 9vw, 150px)/1 var(--world-serif);
+  letter-spacing: -0.065em;
+  margin: 22px 0 24px;
+}
+.menu-copy h1 span {
+  color: #9b9e8b;
+}
+.menu-rule {
+  width: 54px;
+  height: 2px;
+  background: var(--world-accent);
+}
+.menu-subtitle {
+  font: italic 17px/1.6 var(--world-serif);
+  color: #caccc1;
+  margin: 20px 0 30px;
+}
+.menu-actions {
+  display: grid;
+  width: min(330px, 100%);
+}
+.menu-actions button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #1214119c;
+  border: 0;
+  border-bottom: 1px solid #6d72636b;
+  color: var(--world-paper);
+  padding: 16px 8px;
+  text-align: left;
+  font:
+    15px Tahoma,
+    sans-serif;
+}
+.menu-actions button span:last-child {
+  margin-left: auto;
+  font-size: 23px;
+}
+.action-index {
+  color: var(--world-muted);
+  font: 10px var(--world-mono);
+}
+.menu-actions button:hover:not(:disabled),
+.menu-actions button:focus-visible {
+  background: #eeede5;
+  color: #121411;
+}
+.menu-actions button:active:not(:disabled) {
+  background: #c4c7ae;
+}
+.menu-actions button:disabled {
+  opacity: 0.5;
+}
+.menu-save {
+  font: 10px/1.6 var(--world-mono);
+  color: #b3b5aa;
+  margin-top: 22px;
+}
+.menu-save span {
+  margin-right: 8px;
+}
+.menu-footer {
+  position: absolute;
+  bottom: 24px;
+  left: 5%;
+  right: 5%;
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  border-top: 1px solid #6d72636b;
+  padding-top: 16px;
+  color: #b3b5aa;
+  font: 10px/2 var(--world-mono);
+}
+.menu-footer i {
+  display: inline-block;
+  height: 10px;
+  border-left: 1px solid #62675d;
+  margin: 0 12px;
+}
+.legacy-notice {
+  font: 12px/1.6 var(--world-mono);
+}
+.confirm-overlay,
+.notice-overlay {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: #080a08cf;
+  z-index: 100;
+  padding: 24px;
+}
+.confirm-box {
+  width: min(510px, 100%);
+  padding: 32px;
+  border: 1px solid #7b8071;
+  background: var(--world-ink);
+  color: var(--world-paper);
+}
+.confirm-box h2 {
+  font: 30px var(--world-serif);
+  margin: 18px 0;
+}
+.confirm-box > p:not(.eyebrow) {
+  font:
+    15px/1.7 Tahoma,
+    sans-serif;
+  color: #c5c8be;
+}
+.confirm-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 28px;
+}
+.confirm-actions button,
+.intro button {
+  border: 1px solid #888d7b;
+  color: var(--world-paper);
+  background: transparent;
+  padding: 12px 16px;
+  font: 12px var(--world-mono);
+}
+.confirm-actions button:hover,
+.intro button:hover {
+  background: var(--world-paper);
+  color: var(--world-ink);
+}
+.scene-view {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: #111;
+  overflow: hidden;
+}
+.scene-image-wrap {
+  position: relative;
+  width: min(100vw, 177.777778vh);
+  aspect-ratio: 16/9;
+  transform-origin: 75% 65%;
+  transition:
+    transform 260ms ease,
+    opacity 260ms;
+}
+.scene-image-wrap.focus-notebook {
+  transform: scale(1.12);
+  opacity: 0.3;
+}
+/* During the close-up only, the same current-car artwork fills the backdrop.
+   World hotspots stay disabled; exploration retains its exact contained canvas. */
+.scene-view.notebook-background .scene-image-wrap {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+}
+.scene-view.notebook-background .scene-image {
+  object-fit: cover;
+}
+.scene-view.notebook-background .scene-caption {
+  display: none;
+}
+.scene-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.scene-hotspot {
+  position: absolute;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+.scene-hotspot:focus-visible {
+  outline: 2px dashed #888;
+  outline-offset: 3px;
+}
+.scene-hotspot.debug {
+  outline: 2px dashed red;
+  background: #ff000044;
+  color: red;
+}
+.hotspot-inspect {
+  cursor: zoom-in;
+}
+.hotspot-npc {
+  cursor: help;
+}
+.hotspot-door {
+  cursor: e-resize;
+}
+.scene-caption {
+  position: absolute;
+  top: 20px;
+  left: 22px;
+  max-width: min(440px, 80vw);
+  padding: 12px 18px;
+  background: #121411eb;
+  border-left: 2px solid #b3b5aa;
+  color: #eee;
+  font: 11px var(--world-mono);
+  letter-spacing: 2px;
+  pointer-events: none;
+}
+.scene-caption span {
+  display: block;
+  font:
+    12px/1.5 Tahoma,
+    sans-serif;
+  letter-spacing: 0;
+  color: #c5c8be;
+  margin-top: 6px;
+}
+.interaction-prompt {
+  position: absolute;
+  bottom: 72px;
+  padding: 10px 18px;
+  background: #121411ed;
+  color: #eee;
+  font: 12px var(--world-mono);
+  pointer-events: none;
+}
+.scene-back,
+.world-actions button,
+.notebook-exit {
+  background: #121411ed;
+  color: #eeede5;
+  border: 1px solid #777b70;
+  padding: 10px 16px;
+  font: 12px var(--world-mono);
+}
+.scene-back:hover,
+.world-actions button:hover,
+.notebook-exit:hover {
+  background: #eeede5;
+  color: #121411;
+}
+.scene-back {
+  position: fixed;
+  bottom: 20px;
+  left: 22px;
+  z-index: 5;
+}
+.world-actions {
+  position: fixed;
+  bottom: 20px;
+  right: 22px;
+  display: flex;
+  gap: 8px;
+  z-index: 5;
+}
+.npc-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 30px;
+  z-index: 20;
+  background: #0002;
+}
+.npc-overlay-box {
+  position: relative;
+  width: min(860px, 90vw);
+  max-height: 70vh;
+  overflow: auto;
+  background: #121411f5;
+  border: 1px solid #71786a;
+  border-top: 2px solid #bcc0af;
+  color: var(--world-paper);
+  padding: 18px 28px 16px;
+  z-index: 2;
+  box-shadow: 0 10px 40px #0004;
+}
+.npc-overlay-box header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  color: #c4c7b9;
+  font: 10px var(--world-mono);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.npc-overlay-box header button {
+  background: transparent;
+  border: 1px solid #71786a;
+  color: #eee;
+  font: 22px/1 Tahoma;
+  width: 30px;
+  height: 30px;
+}
+.npc-overlay-box p {
+  white-space: pre-wrap;
+  font: 20px/1.65 var(--world-serif);
+  margin: 14px 0 20px;
+}
+.npc-overlay-box.thought p {
+  font-style: italic;
+  color: #dddcd1;
+}
+.npc-overlay-box.object p {
+  font: 21px/1.7 var(--world-mono);
+}
+.npc-overlay-choices {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid #62675d80;
+  padding-top: 12px;
+}
+.npc-overlay-choices button {
+  background: transparent;
+  color: #eeede5;
+  border: 1px solid #7b8071;
+  padding: 9px 22px;
+  font: 12px var(--world-mono);
+}
+.npc-overlay-choices button:hover {
+  background: #eeede5;
+  color: #121411;
+}
+.dialogue-object-art {
+  position: absolute;
+  top: 2vh;
+  width: min(65vw, 580px);
+  height: 60vh;
+  object-fit: contain;
+}
+.notice-overlay section {
+  display: flex;
+  align-items: center;
+  width: min(960px, 94vw);
+  max-height: 90vh;
+  overflow: auto;
+  padding: 32px;
+  gap: 32px;
+  background: #eeede5;
+  color: #121411;
+  border: 1px solid #888;
+  font: 17px/1.7 var(--world-serif);
+}
+.notice-overlay section img {
+  width: 35%;
+  object-fit: contain;
+}
+.notice-overlay section > div {
+  flex: 1;
+  min-width: 0;
+}
+.notice-overlay p {
+  white-space: pre-line;
+}
+.notice-overlay h2 {
+  font: 12px/1.7 var(--world-mono);
+  letter-spacing: 1px;
+  border-bottom: 1px solid #999;
+  padding-bottom: 12px;
+}
+.notice-overlay button {
+  background: #121411;
+  color: #eee;
+  border: 1px solid #888;
+  padding: 10px 16px;
+  font: 12px var(--world-mono);
+}
+.notice-overlay.variant-black section {
+  background: #121411;
+  color: #eeede5;
+}
+.intro {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #080908;
+  color: #eeede5;
+  gap: 22px;
+  padding: 30px;
+  text-align: center;
+  font: 24px/1.8 var(--world-serif);
+}
+.intro small {
+  font: 11px var(--world-mono);
+  letter-spacing: 3px;
+  color: #b3b5aa;
+}
+.travel-fade {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  z-index: 90;
+  animation: travel 650ms ease-in-out;
+}
+@keyframes travel {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.chapter-checkpoint {
+  position: fixed;
+  bottom: 80px;
+  right: 22px;
+  max-width: 340px;
+  padding: 14px 18px;
+  background: #121411ef;
+  color: #eeede5;
+  border-left: 2px solid #b3b5aa;
+  font: 12px/1.7 var(--world-mono);
+}
+.notebook-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0;
+  overflow: hidden;
+  background: #111;
+  animation: approach 260ms ease-out;
+}
+.notebook-overlay.variant-white {
+  background: #00000020;
+}
+.notebook-overlay.variant-black {
+  background: #00000030;
+}
+.notebook-overlay.leaving {
+  animation: depart 260ms forwards;
+  pointer-events: none;
+}
+.notebook-art-shell {
+  position: relative;
+  flex: none;
+  width: min(107.5vw, calc((100vh - 12px) * 1.77777778));
+  aspect-ratio: 16/9;
+}
+.notebook-art {
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.frontal-lcd {
+  position: absolute;
+  overflow: hidden;
+  background: #000;
+  border: 0;
+}
+.notebook-exit {
+  position: absolute;
+  bottom: 10px;
+  right: 24px;
+  z-index: 50;
+}
+.notebook-exit kbd {
+  margin-left: 16px;
+}
+@keyframes approach {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes depart {
+  to {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+}
+.login-screen {
+  position: absolute;
+  inset: 0;
+  background: var(--os-desktop);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  padding: 24px;
+  font:
+    13px Tahoma,
+    Arial,
+    sans-serif;
+  color: #111;
+  overflow: auto;
+}
+.login-logo {
+  color: white;
+  font: italic 42px Georgia;
+  padding-right: 5%;
+  border-right: 1px solid #ffffff55;
+}
+.login-logo small {
+  display: block;
+  font: 10px Tahoma;
+  letter-spacing: 2px;
+  margin-top: 8px;
+}
+.login-screen form {
+  width: min(360px, 65%);
+  flex-shrink: 0;
+  background: var(--os-surface);
+  border: 2px outset #eee;
+  padding: 18px;
+}
+.login-screen header {
+  background: var(--os-title);
+  color: white;
+  font-weight: bold;
+  padding: 6px;
+  margin: -15px -15px 18px;
+}
+.login-screen label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.login-screen input {
+  width: 100%;
+  min-width: 0;
+  padding: 7px;
+  background: white;
+  color: #111;
+  border: 2px inset #eee;
+  font: 16px Tahoma;
+}
+.login-screen button {
+  background: var(--os-surface);
+  border: 2px outset #eee;
+  padding: 6px 25px;
+}
+.login-screen [role="status"] {
+  min-height: 28px;
+  font-size: 12px;
+  color: #8a2525;
+}
+.save-error {
+  position: fixed;
+  bottom: 0;
+  background: #852222;
+  color: #fff;
+  padding: 10px;
+  z-index: 500;
+}
+
+/* Digital applications */
+.desktop {
+  position: absolute;
+  inset: 0;
+  background: var(--os-desktop);
+  color: #111;
+  font:
+    13px Tahoma,
+    Arial,
+    sans-serif;
+  overflow: hidden;
+}
+.desktop button {
+  font: inherit;
+}
+.desktop-watermark {
+  position: absolute;
+  right: 5%;
+  bottom: 15%;
+  font: italic 48px Georgia;
+  color: #ffffff18;
+  pointer-events: none;
+}
+.desktop-watermark span {
+  display: block;
+  font: 11px Tahoma;
+  letter-spacing: 0.15em;
+}
+.desktop-icons {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-start;
+  gap: 1%;
+  padding: 2%;
+  height: calc(100% - 32px);
+  width: 220px;
+}
+.desktop-icon {
+  background: none;
+  border: 1px solid transparent;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3px;
+  width: 78px;
+  max-width: 90px;
+  min-height: 68px;
+  text-shadow: 1px 1px #222;
+  padding: 3px;
+}
+.desktop-icon:hover,
+.desktop-icon:focus {
+  background: #173c6a88;
+  border: 1px dotted #eee;
+}
+.desktop-icon-glyph {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  filter: drop-shadow(1px 1px #163952);
+}
+.taskbar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 32px;
+  min-height: 24px;
+  background: var(--os-surface);
+  border-top: 2px solid white;
+  display: flex;
+  gap: 4px;
+  padding: 3px;
+  z-index: 200;
+}
+.taskbar button,
+.win-window button,
+.start-menu button {
+  background: var(--os-surface);
+  border: 2px outset #f4f2eb;
+  color: #111;
+  padding: 3px 7px;
+}
+.taskbar button:active,
+.win-window button:active {
+  border-style: inset;
+}
+.start-button {
+  font-weight: bold !important;
+}
+.task-buttons {
+  display: flex;
+  gap: 3px;
+  flex: 1;
+  min-width: 0;
+  overflow: auto;
+}
+.task-buttons button {
+  max-width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.taskbar time {
+  border: 2px inset #eee;
+  padding: 2px 7px;
+  margin-left: auto;
+}
+.start-menu {
+  position: absolute;
+  bottom: 32px;
+  left: 0;
+  z-index: 201;
+  background: var(--os-surface);
+  border: 2px outset white;
+  display: grid;
+  width: 190px;
+  padding: 5px;
+}
+.start-menu button {
+  text-align: left;
+  border: 0;
+  padding: 8px;
+}
+.start-menu button:hover {
+  background: #204a78;
+  color: #fff;
+}
+.win-window {
+  position: absolute;
+  width: 78%;
+  height: 80%;
+  background: var(--os-surface);
+  border: 2px outset #eee;
+  box-shadow: 2px 3px #1118;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.win-window.maximized {
+  width: 100%;
+  height: calc(100% - 32px);
+}
+.win-titlebar {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: white;
+  background: linear-gradient(90deg, #244e76, #7798b3);
+  padding: 3px;
+  min-height: 24px;
+  cursor: move;
+  touch-action: none;
+}
+.win-titlebar > span {
+  flex: 1;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.win-titlebar button {
+  width: 19px;
+  height: 18px;
+  padding: 0;
+  font: bold 13px Tahoma;
+  line-height: 12px;
+}
+.win-menubar {
+  padding: 4px 6px;
+  border-bottom: 1px solid #aaa;
+  font-size: 0.9em;
+}
+.win-content {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  background: #fff;
+}
+.win-status {
+  padding: 3px;
+  border: 1px inset #eee;
+  font-size: 11px;
+}
+.app-toolbar {
+  background: #eee;
+  padding: 8px;
+  border-bottom: 1px solid #bbb;
+}
+.document-app article,
+article {
+  padding: 16px;
+  font-size: 1em;
+  line-height: 1.65;
+}
+article h2 {
+  font-size: 1.4em;
+}
+article p {
+  white-space: pre-line;
+}
+.file-row {
+  display: block;
+  width: 100%;
+  text-align: left !important;
+  border: 0 !important;
+  border-bottom: 1px solid #ddd !important;
+  background: white !important;
+  padding: 10px !important;
+}
+.file-row:hover {
+  background: #dbe7f2 !important;
+}
+.password-dialog {
+  padding: 22px;
+}
+.password-dialog label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.password-dialog input {
+  max-width: 240px;
+  padding: 5px;
+  border: 2px inset #ddd;
+  background: white;
+  color: #111;
+}
+.password-dialog button {
+  margin-top: 12px;
+}
+.password-dialog [role="status"] {
+  color: #8a2525;
+}
+.notes-app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.notes-app label {
+  padding: 8px;
+  background: #eee;
+}
+.notes-app textarea {
+  flex: 1;
+  resize: none;
+  border: 0;
+  padding: 15px;
+  min-height: 0;
+  background: #fffef2;
+  color: #111;
+  font: 14px/1.6 monospace;
+}
+.messenger {
+  height: 100%;
+  display: flex;
+  background: #e9eef1;
+}
+.messenger aside {
+  width: 29%;
+  min-width: 95px;
+  border-right: 1px solid #8999a6;
+  overflow: auto;
+  background: linear-gradient(#e4ecf3, #fff);
+}
+.messenger aside header {
+  padding: 12px 8px;
+  background: #cfdeea;
+  line-height: 1.7;
+}
+.messenger aside > small {
+  display: block;
+  padding: 10px 5px;
+  font-size: 0.7em;
+  color: #596571;
+}
+.messenger aside button {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  border: 0;
+  background: transparent;
+  padding: 10px 5px;
+}
+.messenger aside button.selected {
+  background: #c6d8e8;
+}
+.messenger aside button small {
+  display: block;
+  color: #657582;
+  font-size: 0.75em;
+  margin-top: 3px;
+}
+.status {
+  width: 9px;
+  height: 11px;
+  background: #888;
+  border: 1px solid #666;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.status.Online {
+  background: #4b9754;
+}
+.status.Ausente {
+  background: #d2b557;
+}
+.conversation {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  padding: 7px;
+  gap: 5px;
+}
+.messenger-toolbar {
+  padding: 7px;
+  background: #dce5ed;
+  border: 1px solid #a8b6c1;
+}
+.message-history {
+  background: #fff;
+  border: 2px inset #eee;
+  flex: 1;
+  overflow: auto;
+  padding: 8px;
+  min-height: 0;
+  user-select: text;
+}
+.message-history p {
+  line-height: 1.5;
+  margin: 0 0 12px;
+}
+.message-history b {
+  color: #245681;
+}
+.message-history b.sent {
+  color: #6e4279;
+}
+.message-history small {
+  font-size: 0.7em;
+  color: #888;
+}
+.message-compose {
+  background: #fff;
+  border: 1px solid #a4b1bd;
+  padding: 7px;
+  max-height: 40%;
+  overflow: auto;
+}
+.message-compose label {
+  display: block;
+  color: #666;
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+.message-compose button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin: 3px 0;
+  padding: 6px;
+  font-size: 0.95em;
+}
+.message-compose p {
+  color: #888;
+  font-size: 11px;
+}
+.typing-indicator {
+  font-size: 0.85em;
+  color: #607c8e;
+  font-style: italic;
+}
+.typing-dots {
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0.3;
+  }
+}
+.boot-screen {
+  position: absolute;
+  inset: 0;
+  background: #080b10;
+  color: #c1ccda;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font: 13px monospace;
+  gap: 8px;
+}
+.boot-screen h2 {
+  font: italic 42px Georgia;
+}
+.boot-screen sup {
+  font: 1.42px monospace;
+}
+.boot-bar-track {
+  width: 50%;
+  height: 14px;
+  border: 1px solid #789;
+  padding: 2px;
+}
+.boot-bar-track div {
+  height: 100%;
+  background: repeating-linear-gradient(
+    90deg,
+    #789abd 0 8px,
+    transparent 8px 11px
+  );
+}
+
+.session-status {
+  margin-left: auto;
+  padding: 3px 7px;
+  border: 2px inset #eee;
+  white-space: nowrap;
+}
+.script-documents {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+.script-documents h3 {
+  margin: 6px 8px;
+  font-size: 14px;
+}
+.document-tabs {
+  display: flex;
+  gap: 3px;
+  padding: 4px;
+  flex-wrap: wrap;
+}
+.document-tabs button {
+  font-size: 11px;
+}
+.document-tabs [aria-pressed="true"] {
+  border-style: inset;
+  background: #eee;
+}
+.script-text {
+  flex: 1;
+  min-height: 70px;
+  overflow: auto;
+  white-space: pre-wrap;
+  background: #fffefa;
+  color: #111;
+  padding: 20px clamp(18px, 3vw, 48px);
+  font:
+    16px/1.7 "Courier New",
+    monospace;
+  border: 2px inset #eee;
+}
+.document-reaction {
+  background: #e8e5de;
+  padding: 8px 12px;
+  border-top: 1px solid #999;
+  color: #111;
+}
+.document-reaction span {
+  font-size: 11px;
+  color: #444;
+}
+.document-reaction p {
+  margin: 6px 0;
+  font:
+    15px/1.4 "Courier New",
+    monospace;
+}
+.document-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+.password-dialog label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.password-dialog input {
+  width: 140px;
+}
+
+.message-compose form {
+  display: flex;
+  gap: 4px;
+  margin-top: 7px;
+}
+.message-compose form input {
+  width: 0;
+  flex: 1;
+  min-width: 0;
+  border: 2px inset #ddd;
+  padding: 4px;
+  background: #fff;
+  color: #111;
+}
+.message-compose form button {
+  width: auto;
+  margin: 0;
+}
+@media (max-height: 700px) {
+  .menu-copy {
+    padding-top: 92px;
+  }
+  .menu-copy h1 {
+    font-size: 85px;
+    margin: 12px 0 18px;
+  }
+  .menu-subtitle {
+    margin: 14px 0 18px;
+  }
+  .menu-actions button {
+    padding: 12px 8px;
+  }
+}
+@media (max-width: 750px) {
+  .menu-art {
+    left: 0;
+    opacity: 0.3;
+  }
+  .menu-copy {
+    margin-left: 8%;
+  }
+  .menu-footer {
+    flex-wrap: wrap;
+    position: relative;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    margin: 0 5% 16px;
+  }
+  .menu-copy {
+    padding-bottom: 32px;
+  }
+  .scene-caption {
+    top: 8px;
+    left: 8px;
+    padding: 8px 12px;
+  }
+  .scene-caption span {
+    font-size: 11px;
+  }
+  .scene-back,
+  .world-actions button {
+    font-size: 11px;
+    padding: 8px;
+  }
+  .scene-back {
+    left: 8px;
+  }
+  .world-actions {
+    right: 8px;
+  }
+  .npc-overlay {
+    padding: 16px;
+  }
+  .npc-overlay-box {
+    padding: 14px 18px;
+  }
+  .npc-overlay-box p {
+    font-size: 17px;
+  }
+  .notice-overlay section {
+    display: block;
+    padding: 20px;
+    font-size: 15px;
+  }
+  .notice-overlay section img {
+    width: 25%;
+    float: left;
+    margin-right: 16px;
+  }
+  .login-logo {
+    display: none;
+  }
+  .login-screen {
+    padding: 8px;
+  }
+  .login-screen form {
+    width: min(340px, 96%);
+    padding: 12px;
+  }
+  .login-screen header {
+    margin: -9px -9px 10px;
+  }
+  .login-screen p {
+    margin: 8px 0;
+  }
+  .login-screen [role="status"] {
+    min-height: 14px;
+  }
+  .desktop {
+    font-size: 11px;
+  }
+  .desktop-icon {
+    min-height: 55px;
+    width: 70px;
+  }
+  .desktop-icon-glyph {
+    width: 28px;
+    height: 26px;
+    font-size: 23px;
+  }
+  .desktop-icons {
+    gap: 0;
+    padding: 1%;
+  }
+  .script-text {
+    font-size: 14px;
+  }
+  .session-status {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+[hidden] {
+  display: none !important;
+}

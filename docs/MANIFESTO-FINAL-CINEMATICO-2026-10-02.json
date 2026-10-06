@@ -1,0 +1,632 @@
+[
+  {
+    "path": "audio/1.wav",
+    "bytes": 12942,
+    "sha256": "5088f323c93d87734ccde403d04ed977fed80a583a06600f44c3df8354f77ae5"
+  },
+  {
+    "path": "audio/10.wav",
+    "bytes": 57606,
+    "sha256": "b7e943ded2e6e2c2f9a1453758018f868186f8559251927b063299525c895f81"
+  },
+  {
+    "path": "audio/11.wav",
+    "bytes": 64102,
+    "sha256": "a578f025e35f71dab7a77ec8f86e3a2b6edfda665c6155e7fc5236c40390ff51"
+  },
+  {
+    "path": "audio/12.wav",
+    "bytes": 264714,
+    "sha256": "6e7971955cd4473356aa279b6ea476c8d6642fa9eafcdecc727b7eaf2f0a7d06"
+  },
+  {
+    "path": "audio/13.wav",
+    "bytes": 88314,
+    "sha256": "6242ee1fb85fa8c277b9630dfc0eafbd2555943a55c31451cd2a33e7128a6fdf"
+  },
+  {
+    "path": "audio/14.wav",
+    "bytes": 228198,
+    "sha256": "b8c0e44b213269410ed27722221fe1b35d77d5ec82ed9ea8d8aadfc89f991888"
+  },
+  {
+    "path": "audio/15.wav",
+    "bytes": 203346,
+    "sha256": "41d66c7a8c353a3345499e5362dff25f2a7cc05820a89636a94f01d274ea90d7"
+  },
+  {
+    "path": "audio/16.wav",
+    "bytes": 141002,
+    "sha256": "d11ff68f748b78110ac3018d69055fe83718d495cf1d616d2314cdae561ef4c2"
+  },
+  {
+    "path": "audio/18.wav",
+    "bytes": 48614,
+    "sha256": "46462217bd39001a6c3248829c9046d75ecbcbf03390cacf2ca53ed50d3da047"
+  },
+  {
+    "path": "audio/19.wav",
+    "bytes": 45078,
+    "sha256": "815c004003660d0df9d91e0a5979fa80639c3edc60304847499077907c1c9d54"
+  },
+  {
+    "path": "audio/2.wav",
+    "bytes": 26074,
+    "sha256": "686b1222401cabcc2a947101710a5b96fa5ac401aa0db3f016c979a121c50cf1"
+  },
+  {
+    "path": "audio/21.mp3",
+    "bytes": 6458902,
+    "sha256": "4e4fa71bf2357a9767bf6f07388ca32200ba7c5f0730f8243cdfcbc28361c60e"
+  },
+  {
+    "path": "audio/22.wav",
+    "bytes": 1411314,
+    "sha256": "97a9e4bed75e8760dc2a2816fda1f31a46631ae31a10ce2a668e7d0943308954"
+  },
+  {
+    "path": "audio/23.wav",
+    "bytes": 19756914,
+    "sha256": "1de3de28dc71b8260d3fdb6d58f6861f72b8c04bb95b122df57609c948813682"
+  },
+  {
+    "path": "audio/24.wav",
+    "bytes": 35897514,
+    "sha256": "83263bc99af6d2a622d90d5353d5710580b52d85b220f2d72e741237a763fb5f"
+  },
+  {
+    "path": "audio/25.wav",
+    "bytes": 29899914,
+    "sha256": "0b772db0151dee887197aa70a76a6447fe9f47ca989268797b5f112438355c5c"
+  },
+  {
+    "path": "audio/26.wav",
+    "bytes": 34398114,
+    "sha256": "f8eabbd558dc1e294db6d21be8d296f71de129fc228cfbe7c51b154096decf99"
+  },
+  {
+    "path": "audio/27.wav",
+    "bytes": 21168114,
+    "sha256": "1c4754d9ad40df274ea87890e589d5981b6e5ea92ef374137a5af456111c7d70"
+  },
+  {
+    "path": "audio/28.wav",
+    "bytes": 24166914,
+    "sha256": "14607acd041f9a57b3da24bcebaafa829e85e38da6cb822f88cd83f4d35bdcf0"
+  },
+  {
+    "path": "audio/28b.wav",
+    "bytes": 14036850,
+    "sha256": "ea8ad94df283410220b1206b2cbecd1886be6294709ee392be66fb1826eb07b9"
+  },
+  {
+    "path": "audio/29.wav",
+    "bytes": 149838,
+    "sha256": "91d166fb96522d606cd4396bd4770336ccead1cf2a1a95a51fee666e9f4d5f28"
+  },
+  {
+    "path": "audio/3.wav",
+    "bytes": 48722,
+    "sha256": "b9a99b8ac83ded78264ea00397fb968a5b05529a72ed0aecea1512890a73e1da"
+  },
+  {
+    "path": "audio/30.wav",
+    "bytes": 130258,
+    "sha256": "9666b50115973980b4c2f374253c86e0fe7887fbbdb6c00429fcf637486bc876"
+  },
+  {
+    "path": "audio/31.wav",
+    "bytes": 882114,
+    "sha256": "ed957c747c0f15a066c82e51d107f26b0d74557f7f7190f1f53fe743cc5ca755"
+  },
+  {
+    "path": "audio/4.wav",
+    "bytes": 801210,
+    "sha256": "3d4ca1e4f4c91922ecb136fc2fe15c1d8a6e83a23e198f5632ccace0b39dff9e"
+  },
+  {
+    "path": "audio/5.wav",
+    "bytes": 448306,
+    "sha256": "9293451022eda39973d048b12f5d0c9c659095e70b0aa27fe88bde8ef5ed5e76"
+  },
+  {
+    "path": "audio/6.wav",
+    "bytes": 408158,
+    "sha256": "7b1c2c311b0736620dffc4f0458691960bbcb10b683c1ac58de15654d9f8d8f6"
+  },
+  {
+    "path": "audio/7.wav",
+    "bytes": 704478,
+    "sha256": "2d28507a671b7dc2418a894567512e79a55cf2812c80a0ebea81cb77bf53e669"
+  },
+  {
+    "path": "audio/9.wav",
+    "bytes": 169242,
+    "sha256": "020941fe91baae0f2227a8adc83b2ecd7b9260faf728218db4512e9943f68569"
+  },
+  {
+    "path": "audio/glitch-1-2.wav",
+    "bytes": 486662,
+    "sha256": "85504ab66c44bc70d2f2372d874c378cd5c52f1e6e72028812fe5b0fcaeb598e"
+  },
+  {
+    "path": "audio/glitch-2-3.wav",
+    "bytes": 271734,
+    "sha256": "23a4fcf482107a6d743c0b234c1cf2466980e9f8abaf660dcd906afb4ea8f9e8"
+  },
+  {
+    "path": "audio/glitch-3-4.wav",
+    "bytes": 1291654,
+    "sha256": "4c9841ad3998584958d05cf806c61b94bc4b296e9056bbcf2f02a57da86c1f2a"
+  },
+  {
+    "path": "audio/glitch-4-5.wav",
+    "bytes": 128018,
+    "sha256": "4d63ad04709cefd7a7e67722d6f2c81c32e2ee46f476fb54adb89666dd0640f3"
+  },
+  {
+    "path": "audio/note-A1.wav",
+    "bytes": 970314,
+    "sha256": "67555aec8998c6cbb2cccc2b9d911ab1fc09650ec7c997c874dc27658ec4921f"
+  },
+  {
+    "path": "audio/note-A2.wav",
+    "bytes": 970314,
+    "sha256": "2872692ca39faa26022375d23561f2f71109e21d63cc50daaa04ef8ec72796da"
+  },
+  {
+    "path": "audio/note-A3.wav",
+    "bytes": 970314,
+    "sha256": "6bb1c445ef948d03d5016252a6ff11f742f035c2bc58ac1506c45e932756a774"
+  },
+  {
+    "path": "audio/note-A4.wav",
+    "bytes": 970314,
+    "sha256": "f7a076639044bf2675d8fea11fc57d50533a78e74d4180da407f538eba830128"
+  },
+  {
+    "path": "audio/note-A5.wav",
+    "bytes": 970314,
+    "sha256": "bd0e406cf0ef4cb1b702e6b5fbc0decb0516a3b921b18181d3906fc77e5e7254"
+  },
+  {
+    "path": "audio/note-A6.wav",
+    "bytes": 970314,
+    "sha256": "8abd3ef2b14f46e48cae1dfb3f7e9da5e800fad451adeb764b85b08b7a959050"
+  },
+  {
+    "path": "audio/note-A7.wav",
+    "bytes": 970314,
+    "sha256": "15103c6333de74cf1f866ba7376a29af726fc03d440af162d8dd2157b146f123"
+  },
+  {
+    "path": "audio/note-A8.wav",
+    "bytes": 970314,
+    "sha256": "c48dfd2ba540cb10429820dbcb0133cefb594c3ac1d28be152a7bec318be7a5c"
+  },
+  {
+    "path": "audio/note-B1.wav",
+    "bytes": 970314,
+    "sha256": "741575246517bc3afc383efebf1cd9c1ea4de7584fc4bfad09ba7dc377b07c72"
+  },
+  {
+    "path": "audio/note-B2.wav",
+    "bytes": 970314,
+    "sha256": "cf95b0e6e6c0183da3965c8680326df5a8734e2ee3839af02f5fd78c81a8f22c"
+  },
+  {
+    "path": "audio/note-B3.wav",
+    "bytes": 970314,
+    "sha256": "a8659fe998429312f04f0d941c9769227ed6cbfe90a052f041d2c08014c529e5"
+  },
+  {
+    "path": "audio/note-B4.wav",
+    "bytes": 970314,
+    "sha256": "e7d7f219003a8aa276393c9a91faa4349e88fb65a106e2b4cb17999802c527b3"
+  },
+  {
+    "path": "audio/note-B5.wav",
+    "bytes": 970314,
+    "sha256": "0932ddfe21c0f5055efc253f8fe61cd02c747abdb00cceef92aaa28e2270f46d"
+  },
+  {
+    "path": "audio/note-B6.wav",
+    "bytes": 970314,
+    "sha256": "00bdc9cb650399e1288c9dabd51cac0821cd3d56e5ed044152083ee2dc89ce9c"
+  },
+  {
+    "path": "audio/note-B7.wav",
+    "bytes": 970314,
+    "sha256": "191e5afbb223733e93d84a6f3b6389830fba31d7f98fadeed8ba06b20cc2f37e"
+  },
+  {
+    "path": "audio/npc-1.wav",
+    "bytes": 215326,
+    "sha256": "0fe53f57dfb9a0f68507be9eab1b2dd161c40e66a1621add6cd1c43208f5b127"
+  },
+  {
+    "path": "audio/npc-2.wav",
+    "bytes": 401130,
+    "sha256": "9c535cbcaf41c8f8c3b5b8cac03c0f8332f77807a63e611d9012b603c64b6c3f"
+  },
+  {
+    "path": "audio/npc-3.wav",
+    "bytes": 220190,
+    "sha256": "88d1bccf500a5c17b1558f0c1a2c975767dd9b6ced79799d7b7cb93a692f6810"
+  },
+  {
+    "path": "audio/typing-1.wav",
+    "bytes": 8954,
+    "sha256": "e1ee6b371d56fc5a22b55aae2c324fe32bb4b2a9310aa6c24327cb7527493f0a"
+  },
+  {
+    "path": "audio/typing-2.wav",
+    "bytes": 12966,
+    "sha256": "92a679a498cb8b84f64313b109688cabd472c630cdf78843b896f6af5319014f"
+  },
+  {
+    "path": "audio/typing-3.wav",
+    "bytes": 38210,
+    "sha256": "dc0c095f3f5eec2b2e8632c4481240381f3441dfbd281f5bf92427af8155fc7e"
+  },
+  {
+    "path": "media/cenários/relógio vagão três branco.jpg",
+    "bytes": 490075,
+    "sha256": "3c7be32200bf0e3461e3e3f65e60d9d24ca23174b7cf6475b0c8571b861c48a0"
+  },
+  {
+    "path": "media/cenários/relógio vagão três preto.jpg",
+    "bytes": 491922,
+    "sha256": "cb43af3705a8598c210556c99558f02cf70737ec156af7e98968bd4486c2a11a"
+  },
+  {
+    "path": "media/cenários/relógio vagão três vermelho.jpg",
+    "bytes": 551429,
+    "sha256": "540bb1b7e3159532480ea04932deb7553aa605f5a804168cc0d4eed4254ebf13"
+  },
+  {
+    "path": "media/cenários/relógio zoom branco.jpg",
+    "bytes": 458448,
+    "sha256": "a919e35a22b5f80581b7da373280ec8a2df61cbf26ffd33d2f49a6287572199b"
+  },
+  {
+    "path": "media/cenários/relógio zoom preto.jpg",
+    "bytes": 440945,
+    "sha256": "5f8f0735fcc0b023571dfe005d652d0e70848db9a050a590e06bc559cb998fa1"
+  },
+  {
+    "path": "media/cenários/relógio zoom vermelho.jpg",
+    "bytes": 535561,
+    "sha256": "b6afde2f27d89174eb369abac1d147f225cfd7e2a70e5a663b5dcd54348fe4e6"
+  },
+  {
+    "path": "media/cenários/tela branca vagão.jpg",
+    "bytes": 568013,
+    "sha256": "93a6c765e9b2eda3f285584ae502581602a20893d12dcc30f8089559bee0d2cd"
+  },
+  {
+    "path": "media/cenários/tela preta vagão.jpg",
+    "bytes": 545181,
+    "sha256": "30a5ecfe4580cd01eb425d3dc8cf15d734181b23eaa1592077c0f790b2e8678c"
+  },
+  {
+    "path": "media/cenários/tela vermelha vagão.jpg",
+    "bytes": 667112,
+    "sha256": "13d0f84a7ccb68bd1082a59198c1fe6dc73820914ce824371a32ecb76bc82ea9"
+  },
+  {
+    "path": "media/cenários/vagão dois branco.jpg",
+    "bytes": 1989143,
+    "sha256": "0919cb1e98123d9603fbfa4a9231ccb813c8b7980d1b2b400718a90144ba6ccd"
+  },
+  {
+    "path": "media/cenários/vagão dois preto.jpg",
+    "bytes": 1963038,
+    "sha256": "b2c8ffb03dd213a073fc2f940bd661f63e0c5ea52a336df22d821d64f5dc6ab7"
+  },
+  {
+    "path": "media/cenários/vagão dois vermelho.jpg",
+    "bytes": 2218701,
+    "sha256": "57a9bd9721ceb77980b21f5ab24caeca2318e62e0631e77b36c1a828a349be0c"
+  },
+  {
+    "path": "media/cenários/vagão quatro alucinação.jpg",
+    "bytes": 2135446,
+    "sha256": "5e6c766081879ea61a382377ee605f1f6bef21d8b032f052cc9fda5f4a28461c"
+  },
+  {
+    "path": "media/cenários/vagão três branco.jpg",
+    "bytes": 1795872,
+    "sha256": "676f4e7541dc858ded1d61044c8881c63af19f895aba9b73a50b4aeac93e5fa3"
+  },
+  {
+    "path": "media/cenários/vagão três preto.jpg",
+    "bytes": 1982565,
+    "sha256": "170ded14cc2b9a07b4e2911e118058c089a3d36b92ae8fb401af4e66d3e059d1"
+  },
+  {
+    "path": "media/cenários/vagão três vermelho.jpg",
+    "bytes": 2195429,
+    "sha256": "a5f658028bdb7f40ef859b27c3a59d7b07f3ebeb6809cfcf5ea5d4c5aec22084"
+  },
+  {
+    "path": "media/cenários/vagão um branco.jpg",
+    "bytes": 1726446,
+    "sha256": "5aa02eec74644377ca4d362fe103407bdb60f9b8c976732cfed2324e6fe6ac0c"
+  },
+  {
+    "path": "media/cenários/vagão um preto.jpg",
+    "bytes": 1935787,
+    "sha256": "adfd2d5840e34fe27508defd74e5e94158d9ccc8897516c87d66d2a911149e9b"
+  },
+  {
+    "path": "media/cenários/vagão um vermelho.jpg",
+    "bytes": 2145054,
+    "sha256": "d303a459ad7c2e12630e57c7368488ce3b6ab7127c588ced1bc2f0c55bc43c70"
+  },
+  {
+    "path": "media/cursor/cursor branco.png",
+    "bytes": 592800,
+    "sha256": "5e560ba001774fe1882225d045143d3537ca7a65789c5733210d3f2d157186a9"
+  },
+  {
+    "path": "media/cursor/cursor preto.png",
+    "bytes": 455003,
+    "sha256": "acedb9b2b2ddfae35086a8bd6bccfad0124342baf35c33fccb1312ac8a39ba79"
+  },
+  {
+    "path": "media/cursor/cursor vermelho.png",
+    "bytes": 456012,
+    "sha256": "8e00bfc0e60e3a93914e1b75b60b23d0bafaf0d16f2c1c6489e1148387e07fbe"
+  },
+  {
+    "path": "media/cursor/pegar branco.png",
+    "bytes": 609917,
+    "sha256": "1ca8ca9cec91cbe679319079203b2a1a0f0f386e9b5351858362736f1e6c44d7"
+  },
+  {
+    "path": "media/cursor/pegar preto.png",
+    "bytes": 454574,
+    "sha256": "27487592beec667aaba35e8ff7153ae18f144c1d5ce4cb06cca810616f9bc955"
+  },
+  {
+    "path": "media/cursor/pegar vermelho.png",
+    "bytes": 453583,
+    "sha256": "adb1129bd4e246d127410e55b2d38825c8c179fca290cc623972635af80c84b8"
+  },
+  {
+    "path": "media/mao-sangrenta-final.png",
+    "bytes": 1306779,
+    "sha256": "bb2d14047a9bbb5536205ff21a522082020497ff11ea0e3c5939abe49607b1fa"
+  },
+  {
+    "path": "media/mesa-sem-bloco.png",
+    "bytes": 1480543,
+    "sha256": "d5a09a128f5a5ccf562c45ee19decb86ac7cdd65967f0816f98b34dc56d7aad3"
+  },
+  {
+    "path": "media/objetos/bloco de notas branco.png",
+    "bytes": 1281082,
+    "sha256": "be5913fb3abac6406038d1d13f34112e1d3fac85fd795276fda2e5dadd29df27"
+  },
+  {
+    "path": "media/objetos/bloco de notas preto.png",
+    "bytes": 648191,
+    "sha256": "8c760bcf060d9bbb3553462b464c6f45f1f32ad2a491916c57883aef2786dfbc"
+  },
+  {
+    "path": "media/objetos/bloco de notas vermelho.png",
+    "bytes": 623161,
+    "sha256": "00d3ab20ed50a4ec14e76c7f3f054b34140b27669527492f17e9dbc92424aeec"
+  },
+  {
+    "path": "media/objetos/caneta branca.png",
+    "bytes": 519659,
+    "sha256": "4ff3df49f1c2f6c3b41765e4fa5be3004b532a831257941253c28d8784718451"
+  },
+  {
+    "path": "media/objetos/caneta preta.png",
+    "bytes": 416411,
+    "sha256": "e18990a31c8a3083d742e83c170b2381057d9fb2144f81d913b40a15094eaf42"
+  },
+  {
+    "path": "media/objetos/caneta vermelha.png",
+    "bytes": 389886,
+    "sha256": "4d2f3bd98af7e8d94e835593aef62e012fbe49ae840c465dd5ad609be94a583c"
+  },
+  {
+    "path": "media/objetos/jornal amassado branco.png",
+    "bytes": 1395483,
+    "sha256": "45eb7cb42e600888e3dd730c7b572549adbbd38bb76c05c9578de677791c1432"
+  },
+  {
+    "path": "media/objetos/jornal amassado preto.png",
+    "bytes": 740343,
+    "sha256": "9d4f5ff71214b9b5166bc9463c4a52229aed1dbad61b02fada4b7a9c4ee4af4d"
+  },
+  {
+    "path": "media/objetos/jornal amassado vermelho.png",
+    "bytes": 287691,
+    "sha256": "81ae0f322c7bf6dc2ba4d8bfa275b6d78a164598750f617a7fbb1e23ae6e8c6b"
+  },
+  {
+    "path": "media/objetos/notebook branco.png",
+    "bytes": 1094440,
+    "sha256": "a996a3b10af191a807ab4bdec23f714900cf432841ec33839417dedaf1c2b80d"
+  },
+  {
+    "path": "media/objetos/notebook preto.png",
+    "bytes": 499507,
+    "sha256": "e4b2113e8a8a30aed47f20024f98a757cedcdf2edd3f2a6533b6cea90b2a0f73"
+  },
+  {
+    "path": "media/objetos/notebook vermelho.png",
+    "bytes": 293704,
+    "sha256": "c083f28ee1bf70ec1567d7bb0dc760f01788c4dfde748602b9d891f31ae1b663"
+  },
+  {
+    "path": "media/objetos/piano branco.png",
+    "bytes": 725416,
+    "sha256": "a914fcec2ba091d3cad253f90374c6921c54e37523e67e84a93b702f67443c84"
+  },
+  {
+    "path": "media/objetos/piano preto.png",
+    "bytes": 415777,
+    "sha256": "b64b52c7b3fd82b3fdd4a82811aca72920881dc561f6efa91dc0c1a07c96806b"
+  },
+  {
+    "path": "media/objetos/piano vermelho.png",
+    "bytes": 400254,
+    "sha256": "aa87e28cf4c94362e04ff791efd04639fe01692ee05087c481fe8f46fdf77931"
+  },
+  {
+    "path": "media/objetos/ponteiro grande branco.png",
+    "bytes": 313363,
+    "sha256": "68b152ca2f6a742966e818357ef6c8d4d5459d7a85c4ee369f587285197509ba"
+  },
+  {
+    "path": "media/objetos/ponteiro grande preto.png",
+    "bytes": 322417,
+    "sha256": "d599f7d47c6a80b06341f52a0f995a7e7844d8833f2b1b9dd2398b0e0f09a5e8"
+  },
+  {
+    "path": "media/objetos/ponteiro grande vermelho.png",
+    "bytes": 310238,
+    "sha256": "056e01abad7dafe410bf71429d1b784722f544ee1c495567bf9ea1714a9fb108"
+  },
+  {
+    "path": "media/objetos/ponteiro pequeno branco.png",
+    "bytes": 320305,
+    "sha256": "3c7ce729e9ef78e33908f594105d45ff13885f1970b4e4aa90fee01d366c89db"
+  },
+  {
+    "path": "media/objetos/ponteiro pequeno preto.png",
+    "bytes": 326069,
+    "sha256": "59f3ffbb5efbad2d5fad3d2135ed20ac1743549c6fb459ee9461397d36ddf97b"
+  },
+  {
+    "path": "media/objetos/ponteiro pequeno vermelho.png",
+    "bytes": 321465,
+    "sha256": "25eb32d9fa8e4205d825eca8ace195fe0a74e91b51bf4aa71f807118d2a56a9c"
+  },
+  {
+    "path": "media/objetos/relógio branco.png",
+    "bytes": 751175,
+    "sha256": "3d125d1273b4a3cb1b736a8d1c93b82f5046b954b9970cd53c3a6dff440f4731"
+  },
+  {
+    "path": "media/objetos/relógio preto.png",
+    "bytes": 480566,
+    "sha256": "7474ee8e5eae4d91666f9c6a642eb04a91ef87b6903cc136492f2d739ada6f41"
+  },
+  {
+    "path": "media/objetos/relógio vermelho.png",
+    "bytes": 497654,
+    "sha256": "e3e73e0e1d203ba29ce944119da77ef335b52075edc38c66985fd8386c4b66d6"
+  },
+  {
+    "path": "media/objetos/tela branca.png",
+    "bytes": 286256,
+    "sha256": "0bd1a683b2a7792fb4ba9e66a7af19e84ac776747622f4f198db1230dd5c6eff"
+  },
+  {
+    "path": "media/objetos/tela preta.png",
+    "bytes": 190009,
+    "sha256": "ce9a7449d849f6c8a17fb832364c8ec17eb08a6ef942eae624f68e2a64b62435"
+  },
+  {
+    "path": "media/objetos/tela vermelha.png",
+    "bytes": 193002,
+    "sha256": "ec06294430923ae8293a94ce0284aacbe33faceeac3ba76e2b4633f2f08c7b2b"
+  },
+  {
+    "path": "media/piano/piano.png",
+    "bytes": 352214,
+    "sha256": "1c81190145d3bb2e6b6950fcd65881c12dffcbac10637ee7a53e463a28fc1672"
+  },
+  {
+    "path": "media/piano/tecla apertada cinco.png",
+    "bytes": 356570,
+    "sha256": "ed8eadec3b1250b6ac6b4e591f4e0467965dd7bf9a4f80d3a2937703586ef794"
+  },
+  {
+    "path": "media/piano/tecla apertada dois.png",
+    "bytes": 365357,
+    "sha256": "ae15cc2320ca53ae7bd15063b215c736e3379e621123798cf94ae30d5618289e"
+  },
+  {
+    "path": "media/piano/tecla apertada oito.png",
+    "bytes": 361265,
+    "sha256": "547f55299ad2c9c1e7868fde9b0f376262c58f67ac5c5a1be421945c533a81a7"
+  },
+  {
+    "path": "media/piano/tecla apertada quatro.png",
+    "bytes": 358627,
+    "sha256": "91a8d532f77ec48224ff44f907f9b4ec65996f9758fe75fcb0d8bf281d8d093b"
+  },
+  {
+    "path": "media/piano/tecla apertada seis.png",
+    "bytes": 361986,
+    "sha256": "58f2e8b48edd126f1c662a70d6d8a44563f4c381cd9523b2ac262b1061022def"
+  },
+  {
+    "path": "media/piano/tecla apertada sete.png",
+    "bytes": 359440,
+    "sha256": "e54da3ad3bbda71e556866bd9479925ef0c56156421f1dee6b4dc92856af9a50"
+  },
+  {
+    "path": "media/piano/tecla apertada três.png",
+    "bytes": 363331,
+    "sha256": "e414643d02ebd234c74d40399a9f17ead004a2d68f699e29ba48da3fa59705a9"
+  },
+  {
+    "path": "media/piano/tecla apertada um.png",
+    "bytes": 364207,
+    "sha256": "99ce17622d921987bfcb2704384aaecb41c0b28c06c3411e0798c3fa166375aa"
+  },
+  {
+    "path": "media/piano/tecla pressionada cinco.png",
+    "bytes": 360466,
+    "sha256": "5f60fba92936c042189687fceb3a5fbaa3ce45aae1ed75a59541736def3a9bd1"
+  },
+  {
+    "path": "media/piano/tecla pressionada dois.png",
+    "bytes": 363059,
+    "sha256": "89752bd6b7dcc2b8513fb279da19e2238b1451792c43e5c9fbbbd78a3b453daf"
+  },
+  {
+    "path": "media/piano/tecla pressionada quatro.png",
+    "bytes": 352982,
+    "sha256": "3405a729563f6733fd6eadd7fdb25efbac058df49648869d2a9386e88361ae32"
+  },
+  {
+    "path": "media/piano/tecla pressionada seis.png",
+    "bytes": 362622,
+    "sha256": "e90dc6a6d846b532aa495b40526de501acd1cfe9cf86b2c3ecb8fa8053eb44d8"
+  },
+  {
+    "path": "media/piano/tecla pressionada sete.png",
+    "bytes": 360165,
+    "sha256": "8346f436eb5891d387304ddeea492fb45b4bb6cbdd4187fddc076320fba7b026"
+  },
+  {
+    "path": "media/piano/tecla pressionada três.png",
+    "bytes": 360909,
+    "sha256": "8dc264770c92373c3222ddd54d590b734885b62544571549056c371d8624ab61"
+  },
+  {
+    "path": "media/piano/tecla pressionada um.png",
+    "bytes": 362095,
+    "sha256": "4a4644d75badf4e50c7c81a82b1efe9d5751bbcd4f6a1b2ce0ce3717139255f4"
+  },
+  {
+    "path": "app/web/index.html",
+    "bytes": 71863662,
+    "sha256": "38712568f925408ee2fbcb64b456150a1cbac93cf5a1b504e759fd03e3133359"
+  },
+  {
+    "path": "app/rastros.jar",
+    "bytes": 34150,
+    "sha256": "4e7f9fcf266775822fecd3279b4a3b2eaaaf7e0888745e65f2b075096a073f68"
+  }
+]

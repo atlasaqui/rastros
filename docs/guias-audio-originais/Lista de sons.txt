@@ -1,0 +1,51 @@
+INTERFACE
+1 - Hover mouse
+2 - Click
+3 - Voltar
+
+EFEITOS
+4 - Buzina trem início
+5 - Troca de vagão
+6 - Jumpscare vulto
+7 - Olhar mãos com sangue
+
+DIÁLOGO
+8 - Fala NPC 1 / 2 / 3
+9 - Pensamentos-falas do Murilo
+10 - Click diálogo
+11 - Fechar diálogo
+
+INTERAGIR COM ITENS
+12 - Inicialização computador
+13 - Bloco de notas
+14 - Anotar bloco de notas
+15 - Jornal
+16 - Partitura
+
+COMPUTADOR
+12 - Inicialização computador (INTERAGIR COM ITENS)
+1 - Hover mouse (INTERFACE)
+2 - Click (INTERFACE)
+3 - Voltar (INTERFACE)
+17 - Teclar estágio 1 / 2 / 3
+18 - Senha correta
+19 - Senha incorreta
+
+TRANSIÇÕES GLITCH
+20 - Transição 1-2 / 2-3 / 3-4 / 4-5
+
+MÚSICAS
+21 - Menu principal
+22 - Abertura
+23 - Estágio 1
+24 - Estágio 2
+25 - Estágio 3
+26 - Estágio 4
+27 - Estágio 5
+28 - Encerramento
+
+PUZZLES
+29 - Relógio mexer ponteiro hora
+30 - Relógio mexer ponteiro minuto
+31 - Hora certa relógio
+32 - Teclas piano (A1-A8 e B1-B7)

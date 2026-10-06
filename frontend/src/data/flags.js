@@ -1,0 +1,20 @@
+// Registro documental de flags narrativas. Não são condições escondidas para a senha.
+export const FLAGS = [
+  "inspectedPhysicalNotepad",
+  "readNewspaper",
+  "questioned_isolada1",
+  "questioned_isolada2",
+  "questioned_casal_v3",
+  "questioned_isolada3",
+  "questioned_isolada4",
+  "v2Exhausted",
+  "hallucinationPending",
+  "hallucinationStarted",
+  "attemptedClassFolder",
+  "folderExitThought",
+  "learnedClassCode",
+  "chapterComplete",
+  "shadowSeen","curtainExamined","bibleSeen","handsBibleSeen","explorerUnlocked",
+  "timeClueSeen","timeReturned","captchaSolved","scoreDiscovered","messageExitRequested",
+  "deserted","confrontationComplete","retryPending","escapeComplete","finalRoom","gameComplete",
+];

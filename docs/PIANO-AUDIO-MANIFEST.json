@@ -1,0 +1,107 @@
+[
+  {
+    "key": "A1",
+    "sourceSha256": "8884cbc35411e267e1778e0aad32df3d8e6a9ba2e4e76689bbe8dfd981040361",
+    "runtimeSha256": "1bcfbc2d5adce207bcbdf3cd6a39485d31f59e56e294ebb8d4feab738081c859",
+    "duration": 5.5,
+    "conversion": "PCM24 to PCM16; unchanged frames/rate/channels"
+  },
+  {
+    "key": "A2",
+    "sourceSha256": "82caa82455cc2a6af0d65943a7a0ad588366dbb7040fad00633b0348ecd84845",
+    "runtimeSha256": "a2367a03a07bd251b0196b1ece1fba782b3811a8876872913d6555fea78e1a38",
+    "duration": 5.5,
+    "conversion": "PCM24 to PCM16; unchanged frames/rate/channels"
+  },
+  {
+    "key": "A3",
+    "sourceSha256": "bf189782608212151b25d78f8078793ce0641a8395b452acff6ff00c51e21429",
+    "runtimeSha256": "3dd0136c7d15d13643db8910b1ae45db21b70195557a0f3ce09ba4e03f731dbc",
+    "duration": 5.5,
+    "conversion": "PCM24 to PCM16; unchanged frames/rate/channels"
+  },
+  {
+    "key": "A4",
+    "sourceSha256": "4ca06b88fdb260664d9e3809909d959615ed1bced79e1b44043064d4ed49c575",
+    "runtimeSha256": "3434f2f490353253387a9670c1e3b0bf2e87d7f59721bfeae9c164fb2bca7fab",
+    "duration": 5.5,
+    "conversion": "PCM24 to PCM16; unchanged frames/rate/channels"
+  },
+  {
+    "key": "A5",
+    "sourceSha256": "4bdbc83d48f262a59df5d1552fb2bf4114488103695a436f99be5a9d8da0c26e",
+    "runtimeSha256": "0bdadc64932b596e97fe0026797d7c28301a50c9e4c508bd2a30d2e96c75acb3",
+    "duration": 5.5,
+    "conversion": "PCM24 to PCM16; unchanged frames/rate/channels"
+  },
+  {
+    "key": "A6",
+    "sourceSha256": "63172d1f8a4d96576d9bd12f2544d55f1920683f054de72434105eabc09d04a1",
+    "runtimeSha256": "6b06b018d27ddc18c675209b10ff6c0223f648f150e9001887ff892490019383",
+    "duration": 5.5,
+    "conversion": "PCM24 to PCM16; unchanged frames/rate/channels"
+  },
+  {
+    "key": "A7",
+    "sourceSha256": "9235fafccc51223918e9b0610c824d5f3ece8e5e03dee67daa89e5cde88a117e",
+    "runtimeSha256": "7f67b7b40df4896efe7f7221d26cea4b158a128058b29a5e8bcb2b263df9f1bc",
+    "duration": 5.5,
+    "conversion": "PCM24 to PCM16; unchanged frames/rate/channels"
+  },
+  {
+    "key": "A8",
+    "sourceSha256": "01ae70e343d5f0c824e914830554b935fc58f5843b48cdd15a69d6da0498a0ee",
+    "runtimeSha256": "cff4197c23641b316fea22e8f07e04ae79b4af6af7091fd488dccbbb6eea053f",
+    "duration": 5.5,
+    "conversion": "PCM24 to PCM16; unchanged frames/rate/channels"
+  },
+  {
+    "key": "B1",
+    "sourceSha256": "55e58ea9857e312451afacbe5182cfb8e02ed12e4a1ed8e2f1abad3156a1accd",
+    "runtimeSha256": "623c47a229ecf1eb63ad23de61fa55a4b46dc19dec305a8692c69fe5647adfb7",
+    "duration": 5.5,
+    "conversion": "PCM24 to PCM16; unchanged frames/rate/channels"
+  },
+  {
+    "key": "B2",
+    "sourceSha256": "f028d9e03c135ae5c1a2bc792d473a3aeffff1b24d6229fb7b49986086ad7e51",
+    "runtimeSha256": "85f8624a16748f384ee318ad7e034f0129b3a33285ad2ef101f8dde91ceb9f53",
+    "duration": 5.5,
+    "conversion": "PCM24 to PCM16; unchanged frames/rate/channels"
+  },
+  {
+    "key": "B3",
+    "sourceSha256": "18496203fa23bd5f95d00e5959ed5c71a3bccc873a285335424c649f6420c65e",
+    "runtimeSha256": "ebdc7fd5402fd3b022ded9192529fe59c1ee140ba646fe2352c643e4ebcb561f",
+    "duration": 5.5,
+    "conversion": "PCM24 to PCM16; unchanged frames/rate/channels"
+  },
+  {
+    "key": "B4",
+    "sourceSha256": "e6e812b53e02404275bdcefb36bd3e10de7bdf1f5f83d8b5521bb1e9f62f64f0",
+    "runtimeSha256": "f0476a74f6cb453a147dad71ea976e1b605eb63605eede6a899e93c1c4262d74",
+    "duration": 5.5,
+    "conversion": "PCM24 to PCM16; unchanged frames/rate/channels"
+  },
+  {
+    "key": "B5",
+    "sourceSha256": "d211df9cfde72bf1327e5aba574c88902a3c48df14b566d8bbc908b480304afa",
+    "runtimeSha256": "dd2dcb8faead0ba36bc5d35b97fafa157b438c29fd3ebc087ab222a8e8fa5dac",
+    "duration": 5.5,
+    "conversion": "PCM24 to PCM16; unchanged frames/rate/channels"
+  },
+  {
+    "key": "B6",
+    "sourceSha256": "26366901176ba22d601d60c06c992521839d1e38d44887fb43a598502f7e5319",
+    "runtimeSha256": "806ad79b405a935f31aa198e72e45cbf6439e39d4df70a41f479dde45683217a",
+    "duration": 5.5,
+    "conversion": "PCM24 to PCM16; unchanged frames/rate/channels"
+  },
+  {
+    "key": "B7",
+    "sourceSha256": "1ad5bf84eb510aa414e2f7ae880bcee634c8c83bcc381deeca78b72e354a647f",
+    "runtimeSha256": "e571e409696f0631a4912bd7ae15700899c16825375a2225f50630031b687f18",
+    "duration": 5.5,
+    "conversion": "PCM24 to PCM16; unchanged frames/rate/channels"
+  }
+]

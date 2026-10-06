@@ -1,0 +1,1 @@
+JAVA_FX_SMOKE PASS: PASS: all 15 piano art states and real samples; white/black/red original clock hands and keyboard; four resolutions; menu volume/mute; interrupted clock, introduction and curtain resumed; isolated original final save restored.

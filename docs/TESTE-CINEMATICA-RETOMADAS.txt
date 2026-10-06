@@ -1,0 +1,3 @@
+JAVA_FX_SMOKE PASS: PASS: reopened process resumes hands from 5.1 seconds; no repeated piano, no early Continue, Escape blocked.
+JAVA_FX_SMOKE PASS: PASS: reopened process resumes canonical dialogue from 16.4 seconds; correct card, no repeated piano, no early Continue.
+JAVA_FX_SMOKE PASS: PASS: interrupted hands, dialogue and credits resumed from saved real audio offsets; piano not repeated; Escape blocked; no early Continue; muted playback clock advances; credits resumed at 50 seconds in a reopened process.

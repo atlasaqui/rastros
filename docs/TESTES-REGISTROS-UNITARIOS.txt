@@ -1,0 +1,372 @@
+npm notice run chatgame-frontend@0.0.1 test
+npm notice run node tests/all-tests.mjs
+TAP version 13
+# Subtest: máscara específica remove fundo cinza claro e preserva branco fechado
+ok 1 - máscara específica remove fundo cinza claro e preserva branco fechado
+  ---
+  duration_ms: 3.0852
+  type: 'test'
+  ...
+# Subtest: diário só pode ser recolhido após concluir a inspeção; coleta idempotente
+ok 2 - diário só pode ser recolhido após concluir a inspeção; coleta idempotente
+  ---
+  duration_ms: 3.4383
+  type: 'test'
+  ...
+# Subtest: objetivos seguem flags reais sem completar por visita ou abertura
+ok 3 - objetivos seguem flags reais sem completar por visita ou abertura
+  ---
+  duration_ms: 0.7021
+  type: 'test'
+  ...
+# Subtest: paginação estável e apresentação persistente sem reescrever histórico
+ok 4 - paginação estável e apresentação persistente sem reescrever histórico
+  ---
+  duration_ms: 1.4404
+  type: 'test'
+  ...
+# Subtest: save antigo migra diário só se inspeção foi concluída, sem animações antigas
+ok 5 - save antigo migra diário só se inspeção foi concluída, sem animações antigas
+  ---
+  duration_ms: 1.701
+  type: 'test'
+  ...
+# Subtest: save novo com inspeção mas sem coleta continua sem diário ao recarregar
+ok 6 - save novo com inspeção mas sem coleta continua sem diário ao recarregar
+  ---
+  duration_ms: 0.3914
+  type: 'test'
+  ...
+# Subtest: anotações não incluem códigos nem localização de pistas
+ok 7 - anotações não incluem códigos nem localização de pistas
+  ---
+  duration_ms: 0.2606
+  type: 'test'
+  ...
+# Subtest: transparência remove só fundo exterior e preserva branco interno
+ok 8 - transparência remove só fundo exterior e preserva branco interno
+  ---
+  duration_ms: 0.8905
+  type: 'test'
+  ...
+# Subtest: save nativo funciona mesmo sem acesso a localStorage
+ok 9 - save nativo funciona mesmo sem acesso a localStorage
+  ---
+  duration_ms: 0.7923
+  type: 'test'
+  ...
+# Subtest: demo legada não contamina Murilo e permanece intacta
+ok 10 - demo legada não contamina Murilo e permanece intacta
+  ---
+  duration_ms: 0.5007
+  type: 'test'
+  ...
+# Subtest: save inválido e falha de escrita são recuperáveis
+ok 11 - save inválido e falha de escrita são recuperáveis
+  ---
+  duration_ms: 0.8925
+  type: 'test'
+  ...
+# Subtest: diálogo retoma nó após serialização sem adiantar flag
+ok 12 - diálogo retoma nó após serialização sem adiantar flag
+  ---
+  duration_ms: 0.2731
+  type: 'test'
+  ...
+# Subtest: dois NPCs distintos necessários para pensamento de esgotamento
+ok 13 - dois NPCs distintos necessários para pensamento de esgotamento
+  ---
+  duration_ms: 0.2683
+  type: 'test'
+  ...
+# Subtest: 3 NPCs do terceiro vagão e nova fala após pasta
+ok 14 - 3 NPCs do terceiro vagão e nova fala após pasta
+  ---
+  duration_ms: 0.3744
+  type: 'test'
+  ...
+# Subtest: login aceita só data canônica, não FIXO nem 77E
+ok 15 - login aceita só data canônica, não FIXO nem 77E
+  ---
+  duration_ms: 0.6695
+  type: 'test'
+  ...
+# Subtest: boot não transforma: primeiro login transforma imediatamente uma vez
+ok 16 - boot não transforma: primeiro login transforma imediatamente uma vez
+  ---
+  duration_ms: 0.1718
+  type: 'test'
+  ...
+# Subtest: saída precoce permite retomar documentos e completar trecho
+ok 17 - saída precoce permite retomar documentos e completar trecho
+  ---
+  duration_ms: 0.3796
+  type: 'test'
+  ...
+# Subtest: explorador usa 415, rejeita senha legada e FIXO
+ok 18 - explorador usa 415, rejeita senha legada e FIXO
+  ---
+  duration_ms: 0.312
+  type: 'test'
+  ...
+# Subtest: FIXO multi-tap usa 333|444|99|666, não 3496
+ok 19 - FIXO multi-tap usa 333|444|99|666, não 3496
+  ---
+  duration_ms: 0.1812
+  type: 'test'
+  ...
+# Subtest: cinco documentos preservam repetição e ordem
+ok 20 - cinco documentos preservam repetição e ordem
+  ---
+  duration_ms: 0.1253
+  type: 'test'
+  ...
+# Subtest: janelas de saves antigos ficam dentro do LCD e acima da barra
+ok 21 - janelas de saves antigos ficam dentro do LCD e acima da barra
+  ---
+  duration_ms: 0.2313
+  type: 'test'
+  ...
+# Subtest: rebranding preserva save v3, autenticação, leituras e notas
+ok 22 - rebranding preserva save v3, autenticação, leituras e notas
+  ---
+  duration_ms: 0.2129
+  type: 'test'
+  ...
+# Subtest: pensamentos aguardam confirmação e sobrevivem reload sem duplicar
+ok 23 - pensamentos aguardam confirmação e sobrevivem reload sem duplicar
+  ---
+  duration_ms: 0.3793
+  type: 'test'
+  ...
+# Subtest: save anterior autenticado migra sem repetir leituras ou susto
+ok 24 - save anterior autenticado migra sem repetir leituras ou susto
+  ---
+  duration_ms: 0.2222
+  type: 'test'
+  ...
+# Subtest: vermelho não nasce da autenticação nem da troca de vagão
+ok 25 - vermelho não nasce da autenticação nem da troca de vagão
+  ---
+  duration_ms: 0.1332
+  type: 'test'
+  ...
+# Subtest: relógio valida somente 00:14, trava e sobrevive a recarga
+ok 26 - relógio valida somente 00:14, trava e sobrevive a recarga
+  ---
+  duration_ms: 0.2537
+  type: 'test'
+  ...
+# Subtest: memória bloqueada não aceita pares; acerto libera chats após todos pares
+ok 27 - memória bloqueada não aceita pares; acerto libera chats após todos pares
+  ---
+  duration_ms: 0.3521
+  type: 'test'
+  ...
+# Subtest: checkpoint só após três chats; captura preserva puzzles e leituras
+ok 28 - checkpoint só após três chats; captura preserva puzzles e leituras
+  ---
+  duration_ms: 0.284
+  type: 'test'
+  ...
+# Subtest: sucesso da fuga muda para vermelho; piano requer sequência inteira e exata
+ok 29 - sucesso da fuga muda para vermelho; piano requer sequência inteira e exata
+  ---
+  duration_ms: 0.1835
+  type: 'test'
+  ...
+# Subtest: save legado 77E não libera nova história e preserva diário, notas e documentos
+ok 30 - save legado 77E não libera nova história e preserva diário, notas e documentos
+  ---
+  duration_ms: 0.213
+  type: 'test'
+  ...
+# Subtest: conteúdo novo contém pista e identidade canônica sem números pessoais reais
+ok 31 - conteúdo novo contém pista e identidade canônica sem números pessoais reais
+  ---
+  duration_ms: 0.1433
+  type: 'test'
+  ...
+# Subtest: estados corrompidos do puzzle recebem valores seguros
+ok 32 - estados corrompidos do puzzle recebem valores seguros
+  ---
+  duration_ms: 0.2159
+  type: 'test'
+  ...
+# Subtest: silhueta religiosa muda para Bíblia após sombra, flag só ao concluir
+ok 33 - silhueta religiosa muda para Bíblia após sombra, flag só ao concluir
+  ---
+  duration_ms: 0.2257
+  type: 'test'
+  ...
+# Subtest: três leituras não forçam saída nem enfileiram pensamento; saída explícita exige tarefas
+ok 34 - três leituras não forçam saída nem enfileiram pensamento; saída explícita exige tarefas
+  ---
+  duration_ms: 0.1937
+  type: 'test'
+  ...
+# Subtest: leituras persistem e posição interativa antiga não impede consulta
+ok 35 - leituras persistem e posição interativa antiga não impede consulta
+  ---
+  duration_ms: 0.302
+  type: 'test'
+  ...
+# Subtest: pensamento legado não inicia confronto ao ser confirmado
+ok 36 - pensamento legado não inicia confronto ao ser confirmado
+  ---
+  duration_ms: 0.1103
+  type: 'test'
+  ...
+# Subtest: efeito de relógio respeita volume e silêncio na ponte nativa
+ok 37 - efeito de relógio respeita volume e silêncio na ponte nativa
+  ---
+  duration_ms: 0.3653
+  type: 'test'
+  ...
+# Subtest: objetivo de conversa conclui pela Bíblia e reconcilia save antigo avançado
+ok 38 - objetivo de conversa conclui pela Bíblia e reconcilia save antigo avançado
+  ---
+  duration_ms: 0.3411
+  type: 'test'
+  ...
+# Subtest: MSN mostra o arquivo completo sem depender de posições antigas
+ok 39 - MSN mostra o arquivo completo sem depender de posições antigas
+  ---
+  duration_ms: 0.1473
+  type: 'test'
+  ...
+# Subtest: sequência branco, login preto, arquivos branco com sombra, cortina preto, fuga vermelho
+ok 40 - sequência branco, login preto, arquivos branco com sombra, cortina preto, fuga vermelho
+  ---
+  duration_ms: 0.7929
+  type: 'test'
+  ...
+# Subtest: os tempos documentados cabem na duração real dos efeitos
+ok 41 - os tempos documentados cabem na duração real dos efeitos
+  ---
+  duration_ms: 0.2578
+  type: 'test'
+  ...
+# Subtest: cada tecla e cada áudio apontam para arquivos distribuídos
+ok 42 - cada tecla e cada áudio apontam para arquivos distribuídos
+  ---
+  duration_ms: 17.7054
+  type: 'test'
+  ...
+# Subtest: reabrir bloco recolhido conserva a anotação original e o progresso
+ok 43 - reabrir bloco recolhido conserva a anotação original e o progresso
+  ---
+  duration_ms: 0.3914
+  type: 'test'
+  ...
+# Subtest: migra a alucinação final e normaliza o ponto de retomada da introdução
+ok 44 - migra a alucinação final e normaliza o ponto de retomada da introdução
+  ---
+  duration_ms: 1.6918
+  type: 'test'
+  ...
+# Subtest: as mãos aparecem depois de Murilo e desaparecem em 1,5 s antes do diálogo
+ok 45 - as mãos aparecem depois de Murilo e desaparecem em 1,5 s antes do diálogo
+  ---
+  duration_ms: 0.8149
+  type: 'test'
+  ...
+# Subtest: cada uma das seis falas tem dois segundos totalmente legíveis
+ok 46 - cada uma das seis falas tem dois segundos totalmente legíveis
+  ---
+  duration_ms: 0.4919
+  type: 'test'
+  ...
+# Subtest: créditos corretos e continuar bloqueado durante toda a música completa
+ok 47 - créditos corretos e continuar bloqueado durante toda a música completa
+  ---
+  duration_ms: 0.3031
+  type: 'test'
+  ...
+# Subtest: retoma a cinemática sem repetir piano e encerra sem apagar o progresso
+ok 48 - retoma a cinemática sem repetir piano e encerra sem apagar o progresso
+  ---
+  duration_ms: 0.4941
+  type: 'test'
+  ...
+# Subtest: objetivo indireto atualizado coincide entre cenário e caderno
+ok 49 - objetivo indireto atualizado coincide entre cenário e caderno
+  ---
+  duration_ms: 0.2992
+  type: 'test'
+  ...
+# Subtest: save final antigo vira créditos prontos e valores corrompidos são normalizados
+ok 50 - save final antigo vira créditos prontos e valores corrompidos são normalizados
+  ---
+  duration_ms: 0.3578
+  type: 'test'
+  ...
+# Subtest: vulto espera dois segundos ativos e captura jogador parado
+ok 51 - vulto espera dois segundos ativos e captura jogador parado
+  ---
+  duration_ms: 1.6565
+  type: 'test'
+  ...
+# Subtest: diagonais normalizadas, paredes e transições seguras
+ok 52 - diagonais normalizadas, paredes e transições seguras
+  ---
+  duration_ms: 0.2329
+  type: 'test'
+  ...
+# Subtest: cinco vagões são vencíveis com desvio lateral e dificuldade crescente
+ok 53 - cinco vagões são vencíveis com desvio lateral e dificuldade crescente
+  ---
+  duration_ms: 3.8142
+  type: 'test'
+  ...
+# Subtest: mãos atingem a lateral ameaçada e deixam a oposta livre
+ok 54 - mãos atingem a lateral ameaçada e deixam a oposta livre
+  ---
+  duration_ms: 0.1319
+  type: 'test'
+  ...
+# Subtest: save preserva perseguição sem contar tempo fora do aplicativo
+ok 55 - save preserva perseguição sem contar tempo fora do aplicativo
+  ---
+  duration_ms: 0.41
+  type: 'test'
+  ...
+# Subtest: migração corrige apenas a pista original e preserva texto personalizado
+ok 56 - migração corrige apenas a pista original e preserva texto personalizado
+  ---
+  duration_ms: 0.273
+  type: 'test'
+  ...
+# Subtest: JavaFX key/code vazios reconhecem WASD, setas, Escape e E
+ok 57 - JavaFX key/code vazios reconhecem WASD, setas, Escape e E
+  ---
+  duration_ms: 0.2146
+  type: 'test'
+  ...
+# Subtest: magenta e borda JPEG somem sem apagar branco ou tinta do ícone
+ok 58 - magenta e borda JPEG somem sem apagar branco ou tinta do ícone
+  ---
+  duration_ms: 0.531
+  type: 'test'
+  ...
+# Subtest: ajuste local do relógio preserva progresso e solução após reabrir
+ok 59 - ajuste local do relógio preserva progresso e solução após reabrir
+  ---
+  duration_ms: 0.219
+  type: 'test'
+  ...
+# Subtest: ajuste inválido ou repetido não gera novo estado nem gravação
+ok 60 - ajuste inválido ou repetido não gera novo estado nem gravação
+  ---
+  duration_ms: 0.1298
+  type: 'test'
+  ...
+1..60
+# tests 60
+# suites 0
+# pass 60
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 91.3512

@@ -1,0 +1,1 @@
+JAVA_FX_SMOKE PASS: PASS: clock visible with both original hands in white/black/red, correct 00:14 and native save restored after QA.

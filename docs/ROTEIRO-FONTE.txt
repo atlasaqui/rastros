@@ -1,0 +1,155 @@
+=== PAGINA 1 ===
+IN BLACK:
+MURILOO que esperar de um recomeço?
+FADE IN:
+INT. VAGÃO DE TREM 1 - DAY.
+Um vagão de trem com janelas grandes, duas silhuetas escuras estão sentadas lado a lado em um dos assentos. De pé, próxima a porta que leva a outro vagão, está uma outra silhueta. Tudo é visto pela perspectiva de Murilo.
+MURILO(A viagem vai ser longa, é melhor eu me acomodar em algum lugar).
+OBJ: Encontre um local para sentar duante a viagem.
+O jogador pode agora iteragir com o ambiente; se iteragir com qualquer um dos assentos disponíveis:
+MURILO(CONT’D)(Eu não quero olhar para essa cidade mais uma vez sequer).
+Se insistir : 
+MURILO(CONT’D)Quantas chances levam até a segunda que muda tudo?
+se iteragir com o casal de silhuetas sentadas: 
+SILHUETA DE UM CASALTambém está se mudando?Compreensível,depois de tudo o que aconteceu na cidade... Não poderiamos criar nossa filha aqui.
+MURILO(Não há nada para mim neste lugar.)
+se iteragir com a shilueta próxima a porta:
+SILHUETA SUSPEITAViu alguém da pólicia por aqui?Não... está tudo bem. Há um computador só no outro vagão... 
+(MORE)
+
+=== PAGINA 2 ===
+Está lá a um tempo, com tudo que vem acontecendo quem se importaria se ele sumir não é?
+MURILO(O que determina quem merece ser punido?)
+se iteragir com a porta:
+A tela escurece e transiciona para próximo vagão.
+INT. VAGÃO DE TREM 2 - DAY.
+Um vagão identico ao anterior, porém com suas cortinas fechadas, algumas silhuetas isoladas estão sentadas nos cantos. Ao lado direito encima de uma mesa, um notebook ao lado de um bloco de notas.
+MURILO(Agora sim, um pouco de paz, não ter que ver este maldito lugar).
+Se interagir com (antes de interagir com o pc):
+SILHUETA ISOLADA1É terrivel todas essas mortes em tão pouco tempo... Imagina que vim passar as férias aqui e tudo isso acontece?
+MURILO(Pessoas morrem e o que te preocupa é com tuas férias...)
+Se interagir com (antes de interagir com o pc):
+SILHUETA ISOLADA2Eu conhecia algumas das vítimas, de ínicio achei que fosse um justiceiro, algumas mereceram....Isto foi meio errado, esquece.
+MURILO(...)
+Ao inteagir com o computador e bloco de notas:
+MURILO(CONT’D)(Quem deixaria algo tão caro exposto assim?...!)
+SILHUETA SUSPEITA (CONT’D)
+2.
+
+=== PAGINA 3 ===
+DESCRIÇÃOUm bloco de notas com um nome sublinhado ao lado de uma data.“M. Pedrosa04/06 - motivação?”.
+MURILO...
+DESCRIÇÃOUm notebook bloqueado por senha.“senha: __ /__ /____ Dica: Quando atravessou o limiar”.
+MURILO(Pedrosa?....Alguém aqui sabe quem eu sou?Essa é nossa única chance... Não posso deixar que estraguem) 
+OBJ: Desbloquei o computador e descubra quem te investiga.
+Se interagir com:
+SILHUETA ISOLADA1Não, cheguei aqui a pouco, não sei de quem são as coisas na mesa.
+Se interagir com:
+SILHUETA ISOLADA2Até tentei usar, mas tinha senha, não faço ideia a quem pertença.
+Após interagir com os dois:
+MURILO(Nada de útil por aqui) 
+se iteragir com a porta:
+A tela escurece e transiciona para próximo vagão.
+INT. VAGÃO DE TREM 3
+Um vagão identico ao primeiro, porém com diferentes silhuetas acomodadas nos assentos. no chão, ao lado de uma das mesas com silhuetas sentadas.
+Ao interagir com o jornal:
+3.
+
+=== PAGINA 4 ===
+DESCRIÇÃO“JORNAL VILA NOVA - 24/10/2000”“ATUALIZAÇÃO NAS SÉRIE DE MORTES NA  CIDADE, DOIS NOVOS CORPOS DESCOBERTOS” “ao que tudo indica, a indentificação ainda está em analise, mas fontes confirmam que estes corpos são os mais antigos, precedindo a dos 3 jovens. De acordo com especialistas a provavel data da morte foi no ínicio de junho deste ano...” 
+Ao interagir com o as silhuetas sentadas ao lado:
+DESCRIÇÃO(CONT’D)As silhuetas abafam o própio choro.
+SILHUETAS TRISTESForam tão cedo...Por que...? Meu filho não merecia isso.
+MURILO(o quão longe eles iriam para proteger ele?) 
+Ao intergarir com as outras silhuetas no vagão:
+SILHUETA ISOLADA3Te conheço? Não, não sei nada sobre isso.
+Ao interagir com outras silhuetas no vagão:
+SILHUETA ISOLADA4O homen o olha de cima a baixo.Não sei do que esta falando...Recomendo que pare de incomodar, quero viajar em paz.
+MURILO(talvez seja ele que esteja investigando...) 
+Se o jogador tentar interagir com qualquer silhueta depois:
+MURILO(CONT’D)(não tenho nada a perguntar) 
+Agora a unica ação que moverá o jogo adiante é se ele desbloquear o computador com a senha sendo 04/06/2000
+4.
+
+=== PAGINA 5 ===
+INT. VAGÃO DE TREM 2 - DAY.
+Ao interagir e desbloquear o computador:
+MURILO(Então era isto) 
+Assim que é desbloqueado o jogadoe encontra em aberto o bloco de notas (virtual, não confundir com o físico), com algumas entradas .
+Os titulos marcam datas e horarios, o deste primeiro arquivo: “24/10 - 6:40.txt” (conteúdo do arquivo):
+ “Não pode fugir
+.
+.
+.
+.
+.
+.
+.
+Não é puro
+Não é puro
+Não é puro
+Não é puro
+Não é puro
+Não é puro
+Não é puro”
+Ao chegar ao final do arquivo/ dar um scroll até o final:
+MURILO(CONT’D)(isto certamente pertence a alguém levado a loucura).
+Próximo arquivo: título:“ 22/09-00:15.txt”(conteúdo do arquivo):
+“não há recomeço
+5.
+
+=== PAGINA 6 ===
+não
+não
+não
+não
+não
+não”
+MURILO(CONT’D)( não, sem...)
+Próximo arquivo: Título: “16/08-13:33.txt”(conteúdo do arquivo):
+“quem persegue o verme que persegue o inocente, merece ser perseguido? 
+SUAS AÇÕES SÃO TÃO PURAS QUANTO AS DE QUEM É PERSEGUIDO
+Puras
+Suas ações são puras
+Não merece perseguição
+Não merece perseguição
+Não merece perseguição
+Não merece perseguição
+Não merece perseguição
+Não merece perseguição
+Não merece perseguição
+Há de perdoar, pois mereceram.”
+MURILO(CONT’D)(...merecer)
+Próximo arquivo Título: “13/07-16:24.txt”(conteúdo do arquivo):
+“ vermes e pragas precisão ser exterminados.adoeçem o corpo e a mente dos sãos. Corrompem a paz alheia, perseguindo os injustiçados.
+Há de perdoar, pois mereceram”
+6.
+
+=== PAGINA 7 ===
+MURILO(CONT’D)(...nada faz sentido)
+Próximo arquivo Título: “04/06-12:15.txt”(conteúdo do arquivo):
+“ Progenitorem que perseguem
+A eles nada vos pertence
+Hoje corto laços com a inocência
+E seus corpos corto com a pureza de suas palavras
+A quem não tem culpa por amar
+A quem não tem culpa por nascer
+A quem eu projeto de seus abandonos 
+Agora ela tera paz
+Há de me perdoar pois mereceram.“
+MURILO(CONT’D)(isso é doentil)
+Ao tentar explorar a pasta de arquivos, está bloqueada por senha. 
+DESCRIÇÃO“senha: _ _ _ Dica:  A turma do colégio dela”.
+MURILO(!!!Como...? Alguém aqui esta brincando comigo.Um louco me persegue, logo agora...)
+OBJ: Descubra a senha da pasta de arquivos.
+Ao sair do computador:
+MURILO(CONT’D)(Agora o que me resta é jogar o jogo de um louco que esta brincando comigo...talvez eles saibam de algo, afinal pareciam chorar pelas vitimas)
+7.
+
+=== PAGINA 8 ===
+Caso o jogador tente interagir com outros Npcs que não sejam o casal chorando:
+MURILO(CONT’D)(Não é ele /  não são esses ).
+INT. VAGÃO DE TREM 3 - DAY.
+Ao interagir com o casal chorando:
+SILHUETAS TRISTESComo? Sim... era o nosso menininho...Quem? Sua irmã?Meus pêsames.Por mais que queira que peguem esse monstro, não aguentamos mais essa cidade, as lembranças.A turma? 77E, Por que?Entendo, obrigada, mas agora nos deixe só... falar sobre é muito difícil.
+8.

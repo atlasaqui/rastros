@@ -1,0 +1,10 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {freshSave,loadSave,writeSave} from '../src/save/saveSystem.js';
+import {syncJournal} from '../src/systems/journalSystem.js';
+import {archivedConversation} from '../src/systems/messengerSystem.js';
+import {CHATS} from '../src/data/continuation.js';
+import {getSoundSettings,setSoundSettings,clockSound} from '../src/systems/audioSystem.js';
+test('efeito de relógio respeita volume e silêncio na ponte nativa',()=>{const oldWindow=globalThis.window,oldStorage=globalThis.localStorage;let value;const calls=[];try{globalThis.localStorage={getItem:()=>value,setItem:(k,v)=>value=v};globalThis.window={bridge:{playClock:v=>calls.push(v)}};setSoundSettings({volume:.4,muted:false});clockSound();assert.deepEqual(calls,[.4]);setSoundSettings({volume:.9,muted:true});clockSound();assert.deepEqual(calls,[.4]);setSoundSettings({volume:0,muted:false});clockSound();assert.deepEqual(calls,[.4]);setSoundSettings({volume:5,muted:false});assert.equal(getSoundSettings().volume,1);}finally{globalThis.window=oldWindow;globalThis.localStorage=oldStorage;}});
+test('objetivo de conversa conclui pela Bíblia e reconcilia save antigo avançado',()=>{let s=freshSave();s.journal.collected=true;assert.ok(!syncJournal(s).journal.completed.includes('voices'));s.flags.bibleSeen=true;assert.ok(syncJournal(s).journal.completed.includes('voices'));s.flags={explorerUnlocked:true};let value;const storage={getItem:()=>value,setItem:(k,v)=>value=v};writeSave(s,storage);assert.ok(loadSave(storage).journal.completed.includes('voices'));assert.equal(syncJournal(loadSave(storage)).journal.completed.filter(x=>x==='voices').length,1);});
+test('MSN mostra o arquivo completo sem depender de posições antigas',()=>{for(const c of CHATS)assert.deepEqual(archivedConversation(c.id).lines,c.lines);assert.equal(archivedConversation('invalid'),null);});

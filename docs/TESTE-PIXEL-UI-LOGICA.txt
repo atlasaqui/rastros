@@ -1,0 +1,340 @@
+TAP version 13
+# Subtest: máscara específica remove fundo cinza claro e preserva branco fechado
+ok 1 - máscara específica remove fundo cinza claro e preserva branco fechado
+  ---
+  duration_ms: 3.077
+  type: 'test'
+  ...
+# Subtest: diário só pode ser recolhido após concluir a inspeção; coleta idempotente
+ok 2 - diário só pode ser recolhido após concluir a inspeção; coleta idempotente
+  ---
+  duration_ms: 3.1499
+  type: 'test'
+  ...
+# Subtest: objetivos seguem flags reais sem completar por visita ou abertura
+ok 3 - objetivos seguem flags reais sem completar por visita ou abertura
+  ---
+  duration_ms: 0.678
+  type: 'test'
+  ...
+# Subtest: paginação estável e apresentação persistente sem reescrever histórico
+ok 4 - paginação estável e apresentação persistente sem reescrever histórico
+  ---
+  duration_ms: 1.6615
+  type: 'test'
+  ...
+# Subtest: save antigo migra diário só se inspeção foi concluída, sem animações antigas
+ok 5 - save antigo migra diário só se inspeção foi concluída, sem animações antigas
+  ---
+  duration_ms: 0.5196
+  type: 'test'
+  ...
+# Subtest: save novo com inspeção mas sem coleta continua sem diário ao recarregar
+ok 6 - save novo com inspeção mas sem coleta continua sem diário ao recarregar
+  ---
+  duration_ms: 0.2712
+  type: 'test'
+  ...
+# Subtest: anotações não incluem códigos nem localização de pistas
+ok 7 - anotações não incluem códigos nem localização de pistas
+  ---
+  duration_ms: 0.3046
+  type: 'test'
+  ...
+# Subtest: transparência remove só fundo exterior e preserva branco interno
+ok 8 - transparência remove só fundo exterior e preserva branco interno
+  ---
+  duration_ms: 0.3715
+  type: 'test'
+  ...
+# Subtest: save nativo funciona mesmo sem acesso a localStorage
+ok 9 - save nativo funciona mesmo sem acesso a localStorage
+  ---
+  duration_ms: 1.4299
+  type: 'test'
+  ...
+# Subtest: demo legada não contamina Murilo e permanece intacta
+ok 10 - demo legada não contamina Murilo e permanece intacta
+  ---
+  duration_ms: 0.8732
+  type: 'test'
+  ...
+# Subtest: save inválido e falha de escrita são recuperáveis
+ok 11 - save inválido e falha de escrita são recuperáveis
+  ---
+  duration_ms: 1.4692
+  type: 'test'
+  ...
+# Subtest: diálogo retoma nó após serialização sem adiantar flag
+ok 12 - diálogo retoma nó após serialização sem adiantar flag
+  ---
+  duration_ms: 0.4578
+  type: 'test'
+  ...
+# Subtest: dois NPCs distintos necessários para pensamento de esgotamento
+ok 13 - dois NPCs distintos necessários para pensamento de esgotamento
+  ---
+  duration_ms: 0.4302
+  type: 'test'
+  ...
+# Subtest: 3 NPCs do terceiro vagão e nova fala após pasta
+ok 14 - 3 NPCs do terceiro vagão e nova fala após pasta
+  ---
+  duration_ms: 0.6074
+  type: 'test'
+  ...
+# Subtest: login aceita só data canônica, não FIXO nem 77E
+ok 15 - login aceita só data canônica, não FIXO nem 77E
+  ---
+  duration_ms: 0.4571
+  type: 'test'
+  ...
+# Subtest: boot não transforma: primeiro login transforma imediatamente uma vez
+ok 16 - boot não transforma: primeiro login transforma imediatamente uma vez
+  ---
+  duration_ms: 0.251
+  type: 'test'
+  ...
+# Subtest: saída precoce permite retomar documentos e completar trecho
+ok 17 - saída precoce permite retomar documentos e completar trecho
+  ---
+  duration_ms: 0.5829
+  type: 'test'
+  ...
+# Subtest: explorador usa 415, rejeita senha legada e FIXO
+ok 18 - explorador usa 415, rejeita senha legada e FIXO
+  ---
+  duration_ms: 0.3613
+  type: 'test'
+  ...
+# Subtest: FIXO multi-tap usa 333|444|99|666, não 3496
+ok 19 - FIXO multi-tap usa 333|444|99|666, não 3496
+  ---
+  duration_ms: 0.186
+  type: 'test'
+  ...
+# Subtest: cinco documentos preservam repetição e ordem
+ok 20 - cinco documentos preservam repetição e ordem
+  ---
+  duration_ms: 0.1291
+  type: 'test'
+  ...
+# Subtest: janelas de saves antigos ficam dentro do LCD e acima da barra
+ok 21 - janelas de saves antigos ficam dentro do LCD e acima da barra
+  ---
+  duration_ms: 0.2309
+  type: 'test'
+  ...
+# Subtest: rebranding preserva save v3, autenticação, leituras e notas
+ok 22 - rebranding preserva save v3, autenticação, leituras e notas
+  ---
+  duration_ms: 0.2085
+  type: 'test'
+  ...
+# Subtest: pensamentos aguardam confirmação e sobrevivem reload sem duplicar
+ok 23 - pensamentos aguardam confirmação e sobrevivem reload sem duplicar
+  ---
+  duration_ms: 0.3877
+  type: 'test'
+  ...
+# Subtest: save anterior autenticado migra sem repetir leituras ou susto
+ok 24 - save anterior autenticado migra sem repetir leituras ou susto
+  ---
+  duration_ms: 0.2548
+  type: 'test'
+  ...
+# Subtest: vermelho não nasce da autenticação nem da troca de vagão
+ok 25 - vermelho não nasce da autenticação nem da troca de vagão
+  ---
+  duration_ms: 0.1361
+  type: 'test'
+  ...
+# Subtest: relógio valida somente 00:14, trava e sobrevive a recarga
+ok 26 - relógio valida somente 00:14, trava e sobrevive a recarga
+  ---
+  duration_ms: 0.2376
+  type: 'test'
+  ...
+# Subtest: memória bloqueada não aceita pares; acerto libera chats após todos pares
+ok 27 - memória bloqueada não aceita pares; acerto libera chats após todos pares
+  ---
+  duration_ms: 0.3233
+  type: 'test'
+  ...
+# Subtest: checkpoint só após três chats; captura preserva puzzles e leituras
+ok 28 - checkpoint só após três chats; captura preserva puzzles e leituras
+  ---
+  duration_ms: 0.2873
+  type: 'test'
+  ...
+# Subtest: sucesso da fuga muda para vermelho; piano requer sequência inteira e exata
+ok 29 - sucesso da fuga muda para vermelho; piano requer sequência inteira e exata
+  ---
+  duration_ms: 0.1824
+  type: 'test'
+  ...
+# Subtest: save legado 77E não libera nova história e preserva diário, notas e documentos
+ok 30 - save legado 77E não libera nova história e preserva diário, notas e documentos
+  ---
+  duration_ms: 0.2269
+  type: 'test'
+  ...
+# Subtest: conteúdo novo contém pista e identidade canônica sem números pessoais reais
+ok 31 - conteúdo novo contém pista e identidade canônica sem números pessoais reais
+  ---
+  duration_ms: 0.1367
+  type: 'test'
+  ...
+# Subtest: estados corrompidos do puzzle recebem valores seguros
+ok 32 - estados corrompidos do puzzle recebem valores seguros
+  ---
+  duration_ms: 0.2278
+  type: 'test'
+  ...
+# Subtest: silhueta religiosa muda para Bíblia após sombra, flag só ao concluir
+ok 33 - silhueta religiosa muda para Bíblia após sombra, flag só ao concluir
+  ---
+  duration_ms: 0.2236
+  type: 'test'
+  ...
+# Subtest: terceiro chat força saída somente após confirmar pensamento final
+ok 34 - terceiro chat força saída somente após confirmar pensamento final
+  ---
+  duration_ms: 0.1636
+  type: 'test'
+  ...
+# Subtest: efeito de relógio respeita volume e silêncio na ponte nativa
+ok 35 - efeito de relógio respeita volume e silêncio na ponte nativa
+  ---
+  duration_ms: 0.378
+  type: 'test'
+  ...
+# Subtest: objetivo de conversa conclui pela Bíblia e reconcilia save antigo avançado
+ok 36 - objetivo de conversa conclui pela Bíblia e reconcilia save antigo avançado
+  ---
+  duration_ms: 0.3533
+  type: 'test'
+  ...
+# Subtest: MSN aceita só a resposta prevista e preserva histórico até conclusão real
+ok 37 - MSN aceita só a resposta prevista e preserva histórico até conclusão real
+  ---
+  duration_ms: 0.464
+  type: 'test'
+  ...
+# Subtest: MSN retoma contato, posição e galeria sem pular respostas após recarga
+ok 38 - MSN retoma contato, posição e galeria sem pular respostas após recarga
+  ---
+  duration_ms: 0.2321
+  type: 'test'
+  ...
+# Subtest: sequência branco, login preto, arquivos branco com sombra, cortina preto, fuga vermelho
+ok 39 - sequência branco, login preto, arquivos branco com sombra, cortina preto, fuga vermelho
+  ---
+  duration_ms: 0.4542
+  type: 'test'
+  ...
+# Subtest: os tempos documentados cabem na duração real dos efeitos
+ok 40 - os tempos documentados cabem na duração real dos efeitos
+  ---
+  duration_ms: 0.1483
+  type: 'test'
+  ...
+# Subtest: cada tecla e cada áudio apontam para arquivos distribuídos
+ok 41 - cada tecla e cada áudio apontam para arquivos distribuídos
+  ---
+  duration_ms: 17.3044
+  type: 'test'
+  ...
+# Subtest: reabrir bloco recolhido conserva a anotação original e o progresso
+ok 42 - reabrir bloco recolhido conserva a anotação original e o progresso
+  ---
+  duration_ms: 0.3697
+  type: 'test'
+  ...
+# Subtest: migra a alucinação final e normaliza o ponto de retomada da introdução
+ok 43 - migra a alucinação final e normaliza o ponto de retomada da introdução
+  ---
+  duration_ms: 0.2462
+  type: 'test'
+  ...
+# Subtest: as mãos aparecem depois de Murilo e desaparecem em 1,5 s antes do diálogo
+ok 44 - as mãos aparecem depois de Murilo e desaparecem em 1,5 s antes do diálogo
+  ---
+  duration_ms: 0.3805
+  type: 'test'
+  ...
+# Subtest: cada uma das seis falas tem dois segundos totalmente legíveis
+ok 45 - cada uma das seis falas tem dois segundos totalmente legíveis
+  ---
+  duration_ms: 0.2366
+  type: 'test'
+  ...
+# Subtest: créditos corretos e continuar bloqueado durante toda a música completa
+ok 46 - créditos corretos e continuar bloqueado durante toda a música completa
+  ---
+  duration_ms: 0.1798
+  type: 'test'
+  ...
+# Subtest: retoma a cinemática sem repetir piano e encerra sem apagar o progresso
+ok 47 - retoma a cinemática sem repetir piano e encerra sem apagar o progresso
+  ---
+  duration_ms: 0.3846
+  type: 'test'
+  ...
+# Subtest: objetivo indireto atualizado coincide entre cenário e caderno
+ok 48 - objetivo indireto atualizado coincide entre cenário e caderno
+  ---
+  duration_ms: 0.9195
+  type: 'test'
+  ...
+# Subtest: save final antigo vira créditos prontos e valores corrompidos são normalizados
+ok 49 - save final antigo vira créditos prontos e valores corrompidos são normalizados
+  ---
+  duration_ms: 0.2335
+  type: 'test'
+  ...
+# Subtest: vulto espera dois segundos ativos e captura jogador parado
+ok 50 - vulto espera dois segundos ativos e captura jogador parado
+  ---
+  duration_ms: 0.9349
+  type: 'test'
+  ...
+# Subtest: diagonais normalizadas, paredes e transições seguras
+ok 51 - diagonais normalizadas, paredes e transições seguras
+  ---
+  duration_ms: 0.2777
+  type: 'test'
+  ...
+# Subtest: cinco vagões são vencíveis com desvio lateral e dificuldade crescente
+ok 52 - cinco vagões são vencíveis com desvio lateral e dificuldade crescente
+  ---
+  duration_ms: 3.4394
+  type: 'test'
+  ...
+# Subtest: mãos atingem a lateral ameaçada e deixam a oposta livre
+ok 53 - mãos atingem a lateral ameaçada e deixam a oposta livre
+  ---
+  duration_ms: 0.1413
+  type: 'test'
+  ...
+# Subtest: save preserva perseguição sem contar tempo fora do aplicativo
+ok 54 - save preserva perseguição sem contar tempo fora do aplicativo
+  ---
+  duration_ms: 0.42
+  type: 'test'
+  ...
+# Subtest: migração corrige apenas a pista original e preserva texto personalizado
+ok 55 - migração corrige apenas a pista original e preserva texto personalizado
+  ---
+  duration_ms: 0.2471
+  type: 'test'
+  ...
+1..55
+# tests 55
+# suites 0
+# pass 55
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 83.6341

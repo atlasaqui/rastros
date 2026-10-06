@@ -1,0 +1,41 @@
+/* Shared world language: the same noir panel and ochre marker as the objective HUD.
+   Scoped to world controls and Messenger; OS windows and paper artwork keep their identity. */
+.game[data-theme]{--ui-bg:#101110;--ui-text:#f7f5eb;--ui-secondary:#c8c6ba;--ui-border:#d4b65366;--ui-accent:#d4b653;--evidence-panel:linear-gradient(100deg,rgba(12,13,12,.97),rgba(12,13,12,.88) 72%,rgba(12,13,12,.65))}
+.game[data-theme] :is(.interaction-prompt,.scene-back,.world-actions button,.journal-access,.notebook-exit,.npc-overlay-box,.pause-card,.clock-panel,.piano-panel){background:var(--evidence-panel);color:var(--ui-text);border:0;border-left:3px solid var(--ui-accent);border-radius:0;box-shadow:0 1px 0 #ffffff18,0 5px 18px #0003;backdrop-filter:none}
+.game[data-theme] :is(.interaction-prompt,.scene-back,.world-actions button,.journal-access,.notebook-exit){font-family:var(--world-mono);transition:background-color .16s,color .16s}
+.game[data-theme] .interaction-prompt:before,.game[data-theme] .interaction-prompt:after{background:var(--ui-accent)}
+.game[data-theme] .npc-overlay-box{padding:24px 28px;outline:none}
+.game[data-theme] .npc-overlay-box header{border:0;color:var(--ui-accent);font-family:var(--world-mono)}
+.game[data-theme] .npc-overlay-box header span{color:var(--ui-accent)}
+.game[data-theme] .npc-overlay-box p{color:var(--ui-text);line-height:1.65}
+.game[data-theme] .npc-overlay-choices{border-color:#d4b65333}
+.game[data-theme] :is(.npc-overlay-box,.pause-card,.clock-panel,.piano-panel) button{background:#11130fe6;color:var(--ui-text);border:1px solid #d4b65366;border-radius:0;box-shadow:none;font-family:var(--world-mono)}
+.game[data-theme] :is(.npc-overlay-box,.pause-card,.clock-panel,.piano-panel) button:hover:not(:disabled),.game[data-theme] :is(.scene-back,.world-actions button,.journal-access,.notebook-exit):hover{background:#27271b;color:#fff3b6}
+.game[data-theme] :is(.npc-overlay-box,.pause-card,.clock-panel,.piano-panel) button:focus-visible,.game[data-theme] :is(.scene-back,.world-actions button,.journal-access,.notebook-exit):focus-visible{outline:2px solid var(--ui-accent);outline-offset:3px;background:#27271b;color:#fff3b6}
+.game[data-theme] .journal-access :is(span,svg){color:inherit}.game[data-theme] .journal-access small{color:var(--ui-accent)}
+.game[data-theme] .pause-card small,.game[data-theme] .clock-panel header small{color:var(--ui-accent)}
+.game[data-theme] .clock-controls{border-color:#d4b65366}.game[data-theme] .clock-controls input{color:var(--ui-text);border-color:#d4b65366;background:#101110}
+.escape-game canvas:focus{outline:none}
+/* Archived messages: yellow marks identify selection/read state, never new messages. */
+.lcd .msn-toolbar,.lcd .msn-contact-profile{background:linear-gradient(100deg,#101110,#25251e);color:#f7f5eb;border-left:3px solid #d4b653}
+.lcd .msn-contact-profile small{color:#d4b653}.lcd .msn-toolbar button.active{border-bottom:3px solid #d4b653!important}
+.lcd .msn-contacts>button.selected{background:linear-gradient(100deg,#101110,#25251e)!important;box-shadow:inset 3px 0 #d4b653!important}
+.lcd .msn-contacts>button.selected .msn-read{color:#d4b653}.lcd .msn-message.sent{border-left:3px solid #b39435}
+.lcd .msn-status{border-top:1px solid #b39435;background:#f7f5eb;color:#222;padding:8px 12px}
+.lcd .msn-empty{margin:auto;padding:24px;text-align:center;max-width:420px;font:12px/1.7 Tahoma,Arial,sans-serif}.lcd .msn-empty h3{font-size:16px}.lcd .msn-message p{overflow-wrap:anywhere}
+@media(max-width:700px){.game[data-theme] .npc-overlay-box{padding:18px}.lcd .msn-contacts{width:125px}.lcd .msn-account{flex-wrap:wrap}.lcd .msn-archive{display:none}}
+@media(prefers-reduced-motion:reduce){.game[data-theme] :is(.interaction-prompt,.scene-back,.world-actions button,.journal-access,.notebook-exit){transition:none;animation:none}}
+
+.game[data-theme] :is(.piano-compact-header,.piano-compact-footer){background:var(--evidence-panel);color:var(--ui-text);border-left:3px solid var(--ui-accent)}
+.game[data-theme] :is(.piano-compact-header,.piano-compact-footer) button{background:#11130fe6;color:var(--ui-text);border:1px solid #d4b65366;font-family:var(--world-mono)}
+.game[data-theme] :is(.piano-compact-header,.piano-compact-footer) button:focus-visible{outline:2px solid var(--ui-accent);outline-offset:3px}
+
+/* Dialogue and pause retain their panel design with a horizontal accent. */
+.game.game[data-theme] :is(.npc-overlay-box,.pause-card){border-left:0;border-top:3px solid var(--ui-accent)}
+
+.game[data-theme],.game[data-theme] *{cursor:var(--rastros-cursor,default)!important}.game[data-theme] :is(button,a,[data-cursor="grab"],.clock-hand-svg),.game[data-theme] :is(button,a,[data-cursor="grab"],.clock-hand-svg) *{cursor:var(--rastros-grab,pointer)!important}.game[data-theme] :is(input,textarea,select){cursor:auto!important}.game.cinematic-game[data-theme] *,.game[data-theme] .arrival-vision,.game[data-theme] .arrival-vision *{cursor:none!important}.game.cinematic-game[data-theme] button{cursor:pointer!important}
+
+/* Use the operating system cursor in every scene, including cinematics. */
+html body #root .game,html body #root .game *{cursor:default!important}
+
+.piano-score-scrap{position:relative;z-index:2;flex-shrink:0;align-self:center;width:max-content;max-width:90vw;margin:8px auto;padding:12px 24px 16px;background:#ede6d2;color:#29271f;box-shadow:2px 4px 12px #0008;clip-path:polygon(1% 2%,98% 0,100% 94%,96% 98%,90% 95%,83% 100%,76% 96%,68% 99%,60% 95%,51% 100%,43% 96%,35% 99%,26% 95%,17% 99%,8% 95%,0 98%);font:italic clamp(14px,1.7vw,21px) Georgia,serif}.piano-score-scrap small{font:9px var(--world-mono);letter-spacing:.12em}.piano-score-scrap p{margin:7px 0;white-space:normal}

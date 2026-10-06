@@ -1,0 +1,1 @@
+JAVA_FX_SMOKE PASS: PASS: actual jumpscare sound 6 occurs exactly once with the shadow after the archive glitch; passwords and initial clean window preserved.

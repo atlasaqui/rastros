@@ -1,0 +1,43 @@
+
+:root{--rastros-dot:#a71917}
+.main-menu h1 span,.ending-credits h1 span{color:var(--rastros-dot)}
+.game{--target-ink:#0b0b0b;--ui-bg:#0b0b0bf5;--ui-text:#f5f5f5;--ui-secondary:#dedede;--ui-border:#f5f5f5;--ui-accent:#f5f5f5}
+.game[data-theme=black]{--target-ink:#f2efe8;--ui-bg:#f2efe8fa;--ui-text:#0b0b0b;--ui-secondary:#36332e;--ui-border:#0b0b0b;--ui-accent:#0b0b0b}
+.game[data-theme=red]{--target-ink:#efe9de;--ui-bg:#efe9de;--ui-text:#140808;--ui-secondary:#4a2828;--ui-border:#140808;--ui-accent:#a81212}
+.game[data-theme] :is(.scene-caption,.scene-location,.scene-back,.interaction-prompt,.world-actions button,.journal-access){background:var(--ui-bg);color:var(--ui-text);border:1px solid var(--ui-border);border-radius:0;box-shadow:none;font-family:monospace}
+.scene-caption{top:20px;left:20px;padding:12px 16px;max-width:min(370px,45vw)}
+.scene-caption small{display:block;font:11px monospace;letter-spacing:.12em;color:var(--ui-secondary);border-bottom:1px solid var(--ui-border);padding-bottom:7px;margin-bottom:8px}
+.scene-caption span{display:block;color:var(--ui-text);font:15px/1.5 monospace}
+.scene-location{text-transform:uppercase;font:12px monospace;letter-spacing:.12em;padding:9px 14px;bottom:20px}
+.scene-back,.world-actions button{font:14px monospace;padding:11px 16px}.scene-back{left:20px;bottom:20px}.world-actions{right:20px;bottom:20px}
+.journal-access{top:20px;right:20px;padding:10px 14px;font:14px monospace}.journal-access span{color:var(--ui-text)}.journal-access small{color:var(--ui-secondary);font:11px monospace;margin-top:5px}.journal-access svg{color:var(--ui-text)}
+.game :is(.scene-back,.world-actions button,.journal-access):hover{background:var(--ui-text);color:var(--ui-bg)}.game .journal-access:hover span,.game .journal-access:hover small{color:inherit}
+.scene-hotspot,.scene-hotspot:hover,.scene-hotspot:focus-visible,.hotspot-npc:hover,.hotspot-npc:focus-visible{border:0;border-radius:0;box-shadow:none;outline:none}
+.hotspot-corners{position:absolute;inset:0;opacity:0;transition:opacity .14s;pointer-events:none;background:linear-gradient(var(--target-ink),var(--target-ink)) left top/10px 1px no-repeat,linear-gradient(var(--target-ink),var(--target-ink)) left top/1px 10px no-repeat,linear-gradient(var(--target-ink),var(--target-ink)) right top/10px 1px no-repeat,linear-gradient(var(--target-ink),var(--target-ink)) right top/1px 10px no-repeat,linear-gradient(var(--target-ink),var(--target-ink)) left bottom/10px 1px no-repeat,linear-gradient(var(--target-ink),var(--target-ink)) left bottom/1px 10px no-repeat,linear-gradient(var(--target-ink),var(--target-ink)) right bottom/10px 1px no-repeat,linear-gradient(var(--target-ink),var(--target-ink)) right bottom/1px 10px no-repeat}
+.scene-hotspot:not(:disabled):hover .hotspot-corners,.scene-hotspot:focus-visible .hotspot-corners{opacity:1}
+.interaction-prompt{font:13px monospace;max-width:min(320px,38vw);white-space:normal;padding:9px 13px;animation:evidence-in .14s both}.interaction-prompt:before{content:'';position:absolute;left:-10px;top:50%;width:9px;height:1px;background:var(--ui-accent)}.interaction-prompt:after{content:'';position:absolute;left:-13px;top:calc(50% - 2px);width:4px;height:4px;background:var(--ui-accent)}
+@keyframes evidence-in{from{opacity:0}to{opacity:1}}
+.game-cursor{width:46px;height:60px;filter:drop-shadow(0 0 .6px #777);transform:translate(-8px,-3px)}.game-cursor[data-variant=red]{filter:drop-shadow(0 0 1px #fff)}
+.timed-intro .intro-card{text-align:center;width:min(780px,84vw);opacity:0}.timed-intro .intro-card span{display:block;font:12px Georgia,serif;letter-spacing:.16em;margin-bottom:25px;color:#aaa99e}.timed-intro .intro-card p{font:clamp(23px,3vw,40px)/1.45 Georgia,serif;opacity:1;margin:0}
+.timed-intro.text .intro-card{animation:intro-card-in 1s both}.timed-intro.reveal .intro-card{opacity:0}.timed-intro.settle{background:#000}.timed-intro.settle .intro-card{animation:intro-settle 4s both}.timed-intro.resumed .intro-card{opacity:1;animation:none}
+@keyframes intro-card-in{from{opacity:0}to{opacity:1}}@keyframes intro-settle{0%{opacity:0}12.5%{opacity:1}87.5%{opacity:1}100%{opacity:0}}
+.pause-overlay{position:fixed;inset:0;z-index:1800;background:#000a;display:grid;place-items:center}.pause-card{background:var(--ui-bg);color:var(--ui-text);border:1px solid var(--ui-border);padding:28px;width:min(440px,88vw);display:flex;flex-direction:column;gap:20px;font:15px/1.5 monospace;outline:none}.pause-card small{font:11px monospace;letter-spacing:.12em;color:var(--ui-secondary)}.pause-card h2{font:22px/1.4 Georgia,serif;margin:0}.pause-card button{background:transparent;color:inherit;border:1px solid var(--ui-border);padding:12px;font:14px monospace}.pause-card button:hover{background:var(--ui-text);color:var(--ui-bg)}.pause-card label{display:block}.pause-card input[type=range]{display:block;width:100%;margin-top:14px;accent-color:var(--ui-accent)}.pause-card output{float:right}.pause-mute{display:flex!important;gap:10px}.pause-actions{display:flex;gap:15px}.pause-actions button{flex:1}.notebook-pause{position:fixed;bottom:20px;right:20px;z-index:1000;color:var(--ui-text);background:var(--ui-bg);border:1px solid var(--ui-border);padding:10px 15px}
+.escape-game{position:fixed;inset:0;z-index:1400;background:#000;padding:0;margin:0;display:flex;align-items:center;justify-content:center;overflow:hidden;color:#efe9de;cursor:none}.escape-game canvas{display:block;height:100vh;width:auto;max-width:100vw;max-height:177.77vw;aspect-ratio:360/640;border:0;image-rendering:pixelated}.escape-hud{position:absolute;left:24px;top:24px;font:12px monospace;letter-spacing:.12em;border-left:2px solid #a81212;padding:10px 14px;background:#000}.escape-menu{position:absolute;right:24px;bottom:24px;color:#140808;background:#efe9de;border:1px solid #140808;padding:11px 16px;font:14px monospace;cursor:pointer!important}.escape-controls{position:absolute;left:24px;bottom:24px;font:11px monospace;color:#efe9de;background:#000;padding:8px}.escape-opening{position:absolute;bottom:11%;left:5%;right:5%;text-align:center;font:clamp(20px,2.3vw,30px) Georgia,serif;color:#efe9de;background:#000d;padding:15px;animation:evidence-in .4s}.escape-death{position:absolute;inset:0;background:#000;display:flex;flex-direction:column;align-items:center;justify-content:center;animation:evidence-in .5s}.escape-death span{font:12px Georgia,serif;letter-spacing:.15em;color:#aaa99e}.escape-death p{font:clamp(25px,3.5vw,44px) Georgia,serif}.ending-hands-speaker{display:block;font:12px Georgia,serif;letter-spacing:.15em;margin-bottom:12px;color:#d4d0c6}
+@media(max-width:700px){.scene-caption{max-width:48vw;padding:9px 11px;left:12px;top:12px}.scene-caption span{font-size:13px}.journal-access{right:12px;top:12px;font-size:12px}.escape-hud{left:10px;top:10px}.escape-controls{left:8px;bottom:8px;font-size:9px}.escape-menu{right:10px;bottom:10px}}
+
+.game[data-theme] .journal-access{background:var(--ui-bg);color:var(--ui-text);border-color:var(--ui-border)}.game[data-theme] .journal-access :is(span,small){color:var(--ui-text)}
+
+.game .escape-menu{color:#140808;background:#efe9de;border:1px solid #140808}.game .pause-card button{color:var(--ui-text);background:transparent;border-color:var(--ui-border)}.game .pause-card button:hover{color:var(--ui-bg);background:var(--ui-text)}
+
+.interaction-prompt{max-width:min(300px,32vw)}.pause-overlay button,.pause-overlay input{cursor:pointer!important}.pause-overlay .pause-card input[type=range]{cursor:auto!important}
+
+.interaction-prompt:before,.interaction-prompt:after{background:var(--target-ink)}.game[data-theme] :is(.world-actions button,.scene-back,.journal-access):focus-visible{background:var(--ui-text);color:var(--ui-bg);outline:2px solid var(--target-ink);outline-offset:4px}.game[data-theme] .journal-access:focus-visible :is(span,small){color:inherit}
+
+.game .scene-hotspot:hover,.game .scene-hotspot:focus-visible{outline:none;box-shadow:none;border:0}
+
+/* Avoid repainting the OS beneath the full-screen rupture. Keep its state mounted. */
+.game[data-glitch=archivesGlitch] .notebook-overlay { visibility:hidden; }
+
+/* An opaque rupture avoids repeatedly blending the entire WebView desktop. */
+.glitch-transition { background:#050505; animation:none; }
+.glitch-scan { opacity:1; background:repeating-linear-gradient(0deg,#050505 0 3px,#121212 3px 4px); animation:none; }
