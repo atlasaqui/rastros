@@ -192,4 +192,4 @@ Os nomes e as funções acima correspondem aos créditos implementados no jogo.
 
 Este repositório documenta e apresenta o projeto da equipe. Nenhuma licença aberta foi atribuída automaticamente. A disponibilidade do código não concede, por si só, autorização de reutilização de músicas, imagens ou outros materiais. Consulte a equipe sobre permissões específicas.
 
-[Banner editável no Figma](https://www.figma.com/design/Wy7LbO80oPOOCSrPDYTBlD?node-id=1-2) · [Página do jogo no itch.io](https://atlasaqui.itch.io/rastros)
+· [Página do jogo no itch.io](https://atlasaqui.itch.io/rastros)
